@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-12",
+  "works": [
+    {
+      "author": "Mahid",
+      "categories": [
+        "AI",
+        "SaaS"
+      ],
+      "comment": "AI SaaS 落地页，hero 区产品截图的呈现方式和卖点排布，值得参考。",
+      "image": "https://cdn.dribbble.com/userupload/49243160/file/still-67e77ca2e651705aaa9adbca88c683bf.png?resize=3000x2250",
+      "title": "AI SaaS Landing Page Design",
+      "url": "https://dribbble.com/shots/27789929-AI-SaaS-Landing-Page-Design"
+    },
+    {
+      "author": "Korsa",
+      "categories": [
+        "SaaS"
+      ],
+      "comment": "fintech 企业卡落地页，深色商务质感，B2B 落地页的信任感营造可借鉴。",
+      "image": "https://cdn.dribbble.com/userupload/49295750/file/c43f97a2d1239e5aba7612617516d096.png?resize=1600x1200",
+      "title": "Cardova - Fintech Corporate Card Landing Page",
+      "url": "https://dribbble.com/shots/27803613-Cardova-Fintech-Corporate-Card-Landing-Page"
+    },
+    {
+      "author": "Ronas IT | UI/UX Team",
+      "categories": [
+        "AI",
+        "移动App"
+      ],
+      "comment": "AI 聊天助手移动端，对话流加快捷操作的布局，AI 产品界面可参考。",
+      "image": "https://cdn.dribbble.com/userupload/49201938/file/still-875f7dda3f1643fa720184fb25156ff1.png?resize=1600x1200",
+      "title": "AI Chatbot - Mobile Assistant",
+      "url": "https://dribbble.com/shots/27779223-AI-Chatbot-Mobile-Assistant"
+    },
+    {
+      "author": "Nixtio",
+      "categories": [
+        "移动App"
+      ],
+      "comment": "医疗健康 App，信息层级干净，数据展示类 App 的排版可借鉴。",
+      "image": "https://cdn.dribbble.com/userupload/49293392/file/5ede7f62e16f250f8d91a5686f870de9.png?resize=1600x1200",
+      "title": "Healthcare Mobile App UI Design",
+      "url": "https://dribbble.com/shots/27802914-Healthcare-Mobile-App-UI-Design"
+    },
+    {
+      "author": "Musemind",
+      "categories": [
+        "电商"
+      ],
+      "comment": "补剂 DTC 电商站，产品页的转化动线处理得顺，DTC 品牌站可参考。",
+      "image": "https://cdn.dribbble.com/userupload/49293066/file/0fe449ca697e66bd9ceb8bf7f0319781.png?resize=1600x1200",
+      "title": "Supplement Ecommerce Website Design | DTC product store UI UX",
+      "url": "https://dribbble.com/shots/27802827-Supplement-Ecommerce-Website-Design-DTC-product-store-UI-UX"
+    },
+    {
+      "author": "Taras Migulko",
+      "categories": [
+        "dashboard"
+      ],
+      "comment": "金融 App 的数据看板，指标卡和图表的密度处理干净，你重构 dashboard 时可以直接抄作业。",
+      "image": "https://cdn.dribbble.com/userupload/49295621/file/still-fde294e69a7dbe95e8e1c58234d1e326.png?resize=3200x2400",
+      "title": "Fintech app",
+      "url": "https://dribbble.com/shots/27803580-Fintech-app"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-25",
+  "works": [
+    {
+      "author": "RahMan for ASCII STUDIO",
+      "categories": [
+        "AI"
+      ],
+      "comment": "AI 助手工作台：自然语言指令 + 应用控制入口，机器人形象配悬浮指令条，组合很完整。",
+      "image": "https://cdn.dribbble.com/userupload/49421073/file/4d6e88a0eaa707f2a48f515f67621d76.jpg",
+      "title": "AI Agent Workspace Task Automation Platform UI/UX",
+      "url": "https://dribbble.com/shots/27836645-AI-Agent-Workspace-Task-Automation-Platform-UI-UX"
+    },
+    {
+      "author": "Perevoz Design",
+      "categories": [
+        "AI",
+        "SaaS"
+      ],
+      "comment": "AI 陪伴机器人落地页：3D 圆头机器人 + 情绪值，把“可爱”做成卖点。",
+      "image": "https://cdn.dribbble.com/userupload/49417786/file/still-6d7adfd3739615475a6d2eb0f157a474.png",
+      "title": "AI SaaS Website Design 3D Animation",
+      "url": "https://dribbble.com/shots/27835842-AI-SaaS-Website-Design-3D-Animation"
+    },
+    {
+      "author": "Topnotch UI/UX for Topnotch Studio",
+      "categories": [
+        "电商"
+      ],
+      "comment": "时尚电商：大字手写体 Logo + 编辑式大片排版，克制的高级感。",
+      "image": "https://cdn.dribbble.com/userupload/49421963/file/b093a3b9dd73406a2aac716e0a16bce2.png",
+      "title": "Fashion E-commerce Website Design",
+      "url": "https://dribbble.com/shots/27836873-Fashion-E-commerce-Website-Design"
+    },
+    {
+      "author": "Ilias Miah for Confidency",
+      "categories": [
+        "AI",
+        "dashboard"
+      ],
+      "comment": "工程量核验 dashboard：AI 测算 vs 人工核验的偏差散点 + 图纸覆盖率热力格，硬核 B 端数据的标杆。",
+      "image": "https://cdn.dribbble.com/userupload/49422178/file/still-68d4da26b82e2ee867e5f580ee680b.png",
+      "title": "Quoin AI Quantity Verification Dashboard",
+      "url": "https://dribbble.com/shots/27836914-Quoin-AI-Quantity-Verification-Dashboard-Design-Animation"
+    },
+    {
+      "author": "Nixtio",
+      "categories": [
+        "移动App"
+      ],
+      "comment": "工程招聘移动端：斜切卡片 + 风电大图 + 88% 客户留存，硬核行业的招聘产品也能做得有张力。",
+      "image": "https://cdn.dribbble.com/userupload/49422711/file/5ba1098873f7b47e0bd25c73922bc7e7.png",
+      "title": "Engineering Recruitment Mobile Design",
+      "url": "https://dribbble.com/shots/27837051-Engineering-Recruitment-Mobile-Design"
+    },
+    {
+      "author": "Halo Product for HALO LAB",
+      "categories": [
+        "SaaS"
+      ],
+      "comment": "制药公司产品页：深色数据面板 + 药品 3D 渲染，医疗科技感拉满。",
+      "image": "https://cdn.dribbble.com/userupload/49423351/file/4cc6deb90155cc2100d72bd6befbabee.png",
+      "title": "Product for a Pharma Company Axon",
+      "url": "https://dribbble.com/shots/27837212-Product-for-a-Pharma-Company-Axon"
+    }
+  ]
+}

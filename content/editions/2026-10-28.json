@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-28",
+  "works": [
+    {
+      "author": "Nixtio",
+      "categories": [
+        "电商",
+        "移动App"
+      ],
+      "comment": "柔和中性色配沉浸式美妆摄影，三屏并置把社交电商从浏览到购买的路径讲得很完整。",
+      "image": "https://cdn.dribbble.com/userupload/49454321/file/1c0722f5096f44f766a64c1a0e729042.jpg",
+      "title": "Beauty E-Commerce Mobile App",
+      "url": "https://dribbble.com/shots/27845461-Beauty-E-Commerce-Mobile-App"
+    },
+    {
+      "author": "Imran Hossen",
+      "categories": [
+        "AI",
+        "移动App"
+      ],
+      "comment": "暖米色底加橙色点缀，AI 助手、扫码与热量仪表盘集中在一个清晰层级。",
+      "image": "https://cdn.dribbble.com/userupload/49450950/file/still-291ad6c4c67806b3eaf0502e2bf49833.png",
+      "title": "AI Food Tracker App — Smart Nutrition & Calorie Tracking",
+      "url": "https://dribbble.com/shots/27844383-AI-Food-Tracker-App-Smart-Nutrition-Calorie-Tracking"
+    },
+    {
+      "author": "Ibrahim Khalil",
+      "categories": [
+        "dashboard"
+      ],
+      "comment": "以“最需要关注什么”为核心的优先级队列，把事件、失败部署、安全发现与预算风险同屏呈现。",
+      "image": "https://cdn.dribbble.com/userupload/49452147/file/still-08a38155c7eb31381e8ca31d389d193c.png",
+      "title": "CloudNexus: Cloud Operations Dashboard",
+      "url": "https://dribbble.com/shots/27844788-CloudNexus-Cloud-Operations-Dashboard"
+    },
+    {
+      "author": "NexUX Product",
+      "categories": [
+        "SaaS",
+        "dashboard"
+      ],
+      "comment": "深色着陆页配 MRR/ARR/订阅数/流失率卡片，着陆页讲价值、仪表盘讲指标的转化结构清晰。",
+      "image": "https://cdn.dribbble.com/userupload/49450753/file/still-86eca4ad4a197cda0ab9c7cf12caac56.png",
+      "title": "SaaS Subscription & Revenue Analytics Website",
+      "url": "https://dribbble.com/shots/27844325-SaaS-Subscription-Revenue-Analytics-Website"
+    },
+    {
+      "author": "Ronas IT | UI/UX Team",
+      "categories": [
+        "dashboard",
+        "移动App"
+      ],
+      "comment": "深色移动仪表盘用双色柱状图拆分理论/实践时长，进度卡与总时长一目了然。",
+      "image": "https://cdn.dribbble.com/userupload/49407103/file/still-8d84a8a44903f606bf4854cea6fedd32.png",
+      "title": "Learning Dashboard - Student Mobile Progress",
+      "url": "https://dribbble.com/shots/27832862-Learning-Dashboard-Student-Mobile-Progress"
+    },
+    {
+      "author": "Samuel Oktavianus",
+      "categories": [
+        "SaaS"
+      ],
+      "comment": "强蓝色 Hero 配网格与圆环蓝图线条，把硬科技讲得乐观、精密且易懂。",
+      "image": "https://cdn.dribbble.com/userupload/49354731/file/478dfbab4951ee8c16ad4b65ce05c494.png",
+      "title": "ordivalabs: Precision Biotech Laboratory Automation - Hero UIUX",
+      "url": "https://dribbble.com/shots/27819614-ordivalabs-Precision-Biotech-Laboratory-Automation-Hero-UIUX"
+    }
+  ]
+}

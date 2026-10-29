@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-19",
+  "works": [
+    {
+      "author": "Nizam",
+      "categories": [
+        "AI",
+        "dashboard"
+      ],
+      "comment": "深色高密度数据界面配 AI 洞察卡片，收入智能类产品的版式密度与信息层级值得抄。",
+      "image": "https://cdn.dribbble.com/userupload/48927149/file/ad4bd890691b3a068b97edbcc8aeac3a.png?resize=752x&vertical=center",
+      "title": "Vero — AI-Powered Revenue Intelligence Product",
+      "url": "https://dribbble.com/shots/27705456-Vero-AI-Powered-Revenue-Intelligence-Product"
+    },
+    {
+      "author": "AmazingUI",
+      "categories": [
+        "AI"
+      ],
+      "comment": "动效驱动的 agent 交互概念，球形可视化表达适合 AI 产品概念包装。",
+      "image": "https://cdn.dribbble.com/userupload/48964825/file/still-50ae597ba53066a757b9d9541fd49e22.png?format=webp&resize=400x300&vertical=center",
+      "title": "Orb - Agentic OS by AmazingUI",
+      "url": "https://dribbble.com/shots/27715830-Orb-Agentic-OS-by-AmazingUI"
+    },
+    {
+      "author": "Purrweb Web Design",
+      "categories": [
+        "dashboard"
+      ],
+      "comment": "产品数据管理后台，表格/筛选/批量操作的信息架构干净，B2B 后台可借鉴。",
+      "image": "https://cdn.dribbble.com/userupload/48932146/file/still-9664238def12f54787e4f84ae37dad73.png?format=webp&resize=400x300&vertical=center",
+      "title": "PIM Software Dashboard UI Design",
+      "url": "https://dribbble.com/shots/27706828-PIM-Software-Dashboard-UI-Design"
+    },
+    {
+      "author": "Nixtio",
+      "categories": [
+        "电商",
+        "移动App"
+      ],
+      "comment": "生鲜电商 App，商品卡片与分类浏览的移动端动线流畅，品类电商可参考。",
+      "image": "https://cdn.dribbble.com/userupload/48926438/file/2fd3791be862b3101ad05e21e7f8543d.jpg?format=webp&resize=400x300&vertical=center",
+      "title": "Online Meat Market Mobile App UI Design",
+      "url": "https://dribbble.com/shots/27705256-Online-Meat-Market-Mobile-App-UI-Design"
+    },
+    {
+      "author": "RonDesignLab",
+      "categories": [
+        "移动App"
+      ],
+      "comment": "血糖监测健康 App，数据可视化配柔和配色，图表与空状态处理细腻。",
+      "image": "https://cdn.dribbble.com/userupload/48932206/file/1c13b36b1d917c1058dc5cb9c40ae120.jpg?resize=752x&vertical=center",
+      "title": "Soma - Glucose Monitoring Mobile App",
+      "url": "https://dribbble.com/shots/27706847-Soma-Glucose-Monitoring-Mobile-App"
+    }
+  ]
+}

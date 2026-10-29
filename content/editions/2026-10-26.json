@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-26",
+  "works": [
+    {
+      "author": "Bato UI/UX",
+      "categories": [
+        "AI"
+      ],
+      "comment": "AI 生图产品的 refine 流程很直观，4 张候选一字排开、点一张继续细化，值得抄这个交互。",
+      "image": "https://cdn.dribbble.com/userupload/49429685/file/still-6f4ca6819ff15572607f40b79de1d540.png",
+      "title": "Loopie – AI Creative Platform UI",
+      "url": "https://dribbble.com/shots/27838898-Loopie-AI-Creative-Platform-UI"
+    },
+    {
+      "author": "Olya Marchak",
+      "categories": [
+        "dashboard"
+      ],
+      "comment": "深色毛玻璃配星空底的财务仪表盘，最高/最低余额双标记的曲线处理很干净。",
+      "image": "https://cdn.dribbble.com/userupload/49432958/file/c18d7ccb14c636a2740b8310bcd3674c.png",
+      "title": "Financial Dashboard UI Design",
+      "url": "https://dribbble.com/shots/27839815-Financial-Dashboard-UI-Design"
+    },
+    {
+      "author": "SM Rubel",
+      "categories": [
+        "移动App"
+      ],
+      "comment": "黄绿黑三屏撞色很抢眼，点单链路从首页推荐到加购一气呵成，还带了个 AI Mode 搜索入口。",
+      "image": "https://cdn.dribbble.com/userupload/49414464/file/fa780f1ff387d69c4713f7bb9b0e912c.png?crop=0x0-3200x2400",
+      "title": "Coffee Shop App UI/UX Design – Modern Coffee Ordering App",
+      "url": "https://dribbble.com/shots/27834855-Coffee-Shop-App-UI-UX-Design-Modern-Coffee-Ordering-App"
+    },
+    {
+      "author": "Sheikh Raihan UI",
+      "categories": [
+        "AI",
+        "移动App"
+      ],
+      "comment": "新手引导用高饱和撞色加插画吉祥物，一屏一句卖点，适合抄 onboarding 的节奏。",
+      "image": "https://cdn.dribbble.com/userupload/49376389/file/25703d4fce56b2b11e7f36b675d13f42.png",
+      "title": "AI Language Learning Onboarding — Mobile UI",
+      "url": "https://dribbble.com/shots/27824853-AI-Language-Learning-Onboarding-Mobile-UI"
+    },
+    {
+      "author": "Pixcut Studio UI/UX",
+      "categories": [
+        "AI",
+        "SaaS"
+      ],
+      "comment": "落地页文案很反骨头，荧光撞色加首屏直接贴产品仪表盘，说服力拉满。",
+      "image": "https://cdn.dribbble.com/userupload/49336628/file/4d53afee4a289119d51b8553a87ecda5.webp",
+      "title": "AI-Powered Fintech SaaS Website Design",
+      "url": "https://dribbble.com/shots/27814661-AI-Powered-Fintech-SaaS-Website-Design"
+    },
+    {
+      "author": "Nixtio",
+      "categories": [
+        "移动App"
+      ],
+      "comment": "资产页把余额、周曲线、币种列表压进一屏，留白和字阶都很克制。",
+      "image": "https://cdn.dribbble.com/userupload/49430543/file/bc1b5aacced435e20d2dec65ed9071c8.jpg",
+      "title": "Crypto Portfolio Tracker Mobile App Design",
+      "url": "https://dribbble.com/shots/27839109-Crypto-Portfolio-Tracker-Mobile-App-Design"
+    }
+  ]
+}

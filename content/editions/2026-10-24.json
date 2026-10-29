@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-24",
+  "works": [
+    {
+      "author": "Nixtio",
+      "categories": [
+        "dashboard"
+      ],
+      "comment": "卫星地图 + 附近站点卡 + 骑行记录，地图类产品的三段式布局很干净。",
+      "image": "https://cdn.dribbble.com/userupload/49416639/file/e79b70e448176ed1e9225cd04779f040.jpg",
+      "title": "Bike Rental Web App Dashboard Design",
+      "url": "https://dribbble.com/shots/27835520-Bike-Rental-Web-App-Dashboard-Design"
+    },
+    {
+      "author": "Phenomenon Labs for Phenomenon Studio",
+      "categories": [
+        "SaaS"
+      ],
+      "comment": "紫色双色调统一图片与图标，硬核基建题材也能做得克制干净。",
+      "image": "https://cdn.dribbble.com/userupload/49417410/file/87e46323a8ca748695b486e145d153c8.png",
+      "title": "Website Design for Infrastructure Company – Krios",
+      "url": "https://dribbble.com/shots/27835756-Website-Design-for-Infrastructure-Company-Krios"
+    },
+    {
+      "author": "AmazingUI",
+      "categories": [
+        "AI",
+        "移动App"
+      ],
+      "comment": "生鲜按斤称重的步进器设计很细，底部悬浮购物车收尾干净。",
+      "image": "https://cdn.dribbble.com/userupload/49412141/file/2b3610676f39670e9760a98e41d2d5be.png",
+      "title": "Agentic AI App - Ordering Groceries",
+      "url": "https://dribbble.com/shots/27834262-Agentic-AI-App-Ordering-Groceries-by-AmazingUI"
+    },
+    {
+      "author": "Visumind Creative",
+      "categories": [
+        "电商"
+      ],
+      "comment": "植物护肤 DTC：大字衬线标题 + 功效数据卡，优雅又带转化。",
+      "image": "https://cdn.dribbble.com/userupload/49416503/file/8135e7816dc6d57f7cd2ae7c9e70d9d0.jpg",
+      "title": "Skincare E-commerce Website",
+      "url": "https://dribbble.com/shots/27835463-Skincare-E-commerce-Website-UI-UX-Responsive-Design"
+    },
+    {
+      "author": "Alamin Hossen",
+      "categories": [
+        "AI",
+        "SaaS"
+      ],
+      "comment": "雾林视觉 + 柔和绿调的 Tiimo 规划工具落地页，氛围感做法值得抄。",
+      "image": "https://cdn.dribbble.com/userupload/49414356/file/3b286de802defeea94814a7b1cb12ba5.png",
+      "title": "AI Planner Website UI/UX Design",
+      "url": "https://dribbble.com/shots/27834815-AI-Planner-Website-UI-UX-Design"
+    },
+    {
+      "author": "Purrweb UI/UX Agency",
+      "categories": [
+        "移动App"
+      ],
+      "comment": "暗黑钓鱼预报 App：峰值时段仪表盘 + 钓点评分，小众垂直类 App 的数据可视化参考。",
+      "image": "https://cdn.dribbble.com/userupload/49414607/file/still-79e2e4a9772b625917b47d4d789d07b1.png",
+      "title": "Fishing Forecast Mobile iOS App Design",
+      "url": "https://dribbble.com/shots/27834898-Fishing-Forecast-Mobile-iOS-App-Design"
+    }
+  ]
+}

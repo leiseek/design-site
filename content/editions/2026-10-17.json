@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-17",
+  "works": [
+    {
+      "author": "Ronas IT | UI/UX Team",
+      "categories": [
+        "电商",
+        "移动App"
+      ],
+      "comment": "美妆电商 App 全流程设计，购物流程和视觉可借鉴。",
+      "image": "https://cdn.dribbble.com/userupload/49269630/file/still-a9906732d5445d217ee8f9384378ad0a.png",
+      "title": "Beauty Ecommerce - Retail Mobile Store App",
+      "url": "https://dribbble.com/shots/27796930-Beauty-Ecommerce-Retail-Mobile-Store-App"
+    },
+    {
+      "author": "Ilias Miah",
+      "categories": [
+        "AI",
+        "dashboard"
+      ],
+      "comment": "AI 采购 dashboard，带动画演示，AI 落地场景的界面表达值得看。",
+      "image": "https://cdn.dribbble.com/userupload/49349676/file/still-d5bca01d2b5468926f7cbdfe85634391.png",
+      "title": "Plenum | AI Procurement Dashboard Animation",
+      "url": "https://dribbble.com/shots/27818371-Plenum-AI-Procurement-Dashboard-Animation"
+    },
+    {
+      "author": "Purrweb UI/UX Agency",
+      "categories": [
+        "dashboard"
+      ],
+      "comment": "数据隐私合规 dashboard，合规类数据的展示思路可参考。",
+      "image": "https://cdn.dribbble.com/userupload/49351006/file/still-d5bca01d2b5468926f7cbdfe85634391.png",
+      "title": "Data Privacy Software Dashboard UI Design",
+      "url": "https://dribbble.com/shots/27818713-Data-Privacy-Software-Dashboard-UI-Design"
+    },
+    {
+      "author": "Awe Design Studio",
+      "categories": [
+        "SaaS"
+      ],
+      "comment": "新能源企业官网，版式和配色可参考。",
+      "image": "https://cdn.dribbble.com/userupload/49349824/file/a05d416f038012659afb97aa5e44e143.png",
+      "title": "Renewable Energy Corporate Website",
+      "url": "https://dribbble.com/shots/27818401-Renewable-Energy-Corporate-Website"
+    },
+    {
+      "author": "Phenomenon Product",
+      "categories": [
+        "移动App"
+      ],
+      "comment": "AI 儿童故事 App，讲故事平台的移动端设计。",
+      "image": "https://cdn.dribbble.com/userupload/49350557/file/82068912dc949368c4c75dd2bb9f9120.png",
+      "title": "Taleo - Mobile App Design for Storytelling Platform",
+      "url": "https://dribbble.com/shots/27818577-Taleo-Mobile-App-Design-for-Storytelling-Platform"
+    },
+    {
+      "author": "Nixtio",
+      "categories": [
+        "移动App"
+      ],
+      "comment": "工业招聘 App，蓝领招聘场景的移动端设计。",
+      "image": "https://cdn.dribbble.com/userupload/49348573/file/ed13a3692180eec967656735e018a460.png",
+      "title": "Industrial Recruitment & Hiring Mobile App",
+      "url": "https://dribbble.com/shots/27818071-Industrial-Recruitment-Hiring-Mobile-App"
+    }
+  ]
+}

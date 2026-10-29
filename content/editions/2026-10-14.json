@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-14",
+  "works": [
+    {
+      "author": "Techwitpro UI/UX",
+      "categories": [
+        "SaaS"
+      ],
+      "comment": "SaaS 招聘落地页：信息密度和 CTA 层级处理干净，hero+信任背书的排版值得参考。",
+      "image": "https://cdn.dribbble.com/userupload/49192363/file/9d3279a782624b2da5129b2a73b63e88.jpg",
+      "title": "A Smarter Way to Hire Top Talent",
+      "url": "https://dribbble.com/shots/27776750-A-Smarter-Way-to-Hire-Top-Talent"
+    },
+    {
+      "author": "Jack R. for RonDesignLab ⭐️",
+      "categories": [
+        "AI",
+        "SaaS"
+      ],
+      "comment": "AI 货运管理平台：地图+状态时间线的组合布局，复杂数据也塞得有条理。",
+      "image": "https://cdn.dribbble.com/userupload/46905941/file/e468834904624a6cf650c1c1c1e1ec0a.png",
+      "title": "ShipLens SaaS – AI Shipment Management Platform",
+      "url": "https://dribbble.com/shots/27136565-ShipLens-SaaS-AI-Shipment-Management-Platform"
+    },
+    {
+      "author": "Roohi Web",
+      "categories": [
+        "电商"
+      ],
+      "comment": "时尚电商落地页：大图留白+细线排版，品牌感拉得很满，DTC 站点可借鉴。",
+      "image": "https://cdn.dribbble.com/userupload/49165690/file/3fa41b16bc051df7b9e2e439e426810a.png",
+      "title": "Stylvane – Fashion E-commerce Landing Page",
+      "url": "https://dribbble.com/shots/27769483-Stylvane-Fashion-E-commerce-Landing-Page"
+    },
+    {
+      "author": "BayFi UI/UX®",
+      "categories": [
+        "dashboard"
+      ],
+      "comment": "房地产投资组合看板：KPI 卡+多图表组合的密度控制做得好，深色方案干净。",
+      "image": "https://cdn.dribbble.com/userupload/49286498/file/6580b8f4116320baede89f3e411b8b9c.png",
+      "title": "DOMEXA - Real Estate Portfolio Analytics Dashboard",
+      "url": "https://dribbble.com/shots/27801144-DOMEXA-Real-Estate-Portfolio-Analytics-Dashboard"
+    },
+    {
+      "author": "George Railean",
+      "categories": [
+        "AI",
+        "dashboard"
+      ],
+      "comment": "AI 策略管控平台看板：1165 赞的硬核作品，规则引擎+监控的交互信息架构很值得学。",
+      "image": "https://cdn.dribbble.com/userupload/47771394/file/517bb440ff05a4f5e8fdc5201ddeec62.png",
+      "title": "AI Dashboard Design for Control AI Policy Platform",
+      "url": "https://dribbble.com/shots/27388009-AI-Dashboard-Design-for-Control-AI-Policy-Platform"
+    },
+    {
+      "author": "BayFi UI/UX®",
+      "categories": [
+        "移动App"
+      ],
+      "comment": "现代外卖 App UI：菜品卡片的图+价+加购三层布局顺手，移动端商品流的优秀模板。",
+      "image": "https://cdn.dribbble.com/userupload/49236569/file/06ccf5eb29abe71a60e6d7d55855f8721.png",
+      "title": "Mealio – Modern Food Delivery App UI/UX",
+      "url": "https://dribbble.com/shots/27788267-Mealio-Modern-Food-Delivery-App-UI-UX"
+    }
+  ]
+}

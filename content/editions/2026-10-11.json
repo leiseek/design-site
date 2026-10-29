@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-11",
+  "works": [
+    {
+      "author": "Yasir Noori",
+      "categories": [
+        "移动App"
+      ],
+      "comment": "深色金融质感，数据卡片层级干净，投资类 App 的信息密度和配色可直接参考。",
+      "image": "https://cdn.dribbble.com/userupload/49254459/file/7419535ba183c1303ffa17910d024d99.png?resize=1600x1200",
+      "title": "Mobile App for an Investment Product ✦ Univest",
+      "url": "https://dribbble.com/shots/27792880-Mobile-App-for-an-Investment-Product-Univest"
+    },
+    {
+      "author": "SM Rubel ✦",
+      "categories": [
+        "AI",
+        "移动App"
+      ],
+      "comment": "训练计划卡片配进度环，AI 个性化推荐落到界面的方式值得借鉴。",
+      "image": "https://cdn.dribbble.com/userupload/49249572/file/ea5871db30ad16ef65a8218740c06095.png?crop=0x0-3200x2400&resize=1600x1200",
+      "title": "AI Fitness App UI – Personalized Workout & Fitness Tracking",
+      "url": "https://dribbble.com/shots/27791781-AI-Fitness-App-UI-Personalized-Workout-Fitness-Tracking"
+    },
+    {
+      "author": "Ilias Miah",
+      "categories": [
+        "AI",
+        "dashboard"
+      ],
+      "comment": "AI Agent 指挥中心概念稿，风险/合规状态的可视化排布，agent 类产品后台可参考。",
+      "image": "https://cdn.dribbble.com/userupload/49263632/file/still-11b42aff932837c62d5c6976f0fe09c4.png?resize=3200x2400",
+      "title": "Mandate — AI Agent Command Center | Risk & Compliance",
+      "url": "https://dribbble.com/shots/27795465-Mandate-AI-Agent-Command-Center-Risk-Compliance"
+    },
+    {
+      "author": "Korsa",
+      "categories": [
+        "SaaS"
+      ],
+      "comment": "fintech 落地页，hero 区信息架构紧凑不乱，SaaS 落地页排版可借鉴。",
+      "image": "https://cdn.dribbble.com/userupload/49265555/file/e65127da26b20ec29fcd9f050.png?resize=1600x1200",
+      "title": "Kova - Fintech SaaS Landing Page",
+      "url": "https://dribbble.com/shots/27795844-Kova-Fintech-SaaS-Landing-Page"
+    },
+    {
+      "author": "Bato UI/UX",
+      "categories": [
+        "电商"
+      ],
+      "comment": "服装电商首页概念，大图与商品流的节奏感好，DTC 品牌站首页可参考。",
+      "image": "https://cdn.dribbble.com/userupload/49256690/file/still-2c4a79d6aadda299a791abc8dd49cb8f.png?resize=3200x2400",
+      "title": "E-Commerce Fashion Website Home Page Concept",
+      "url": "https://dribbble.com/shots/27793503-E-Commerce-Fashion-Website-Home-Page-Concept"
+    },
+    {
+      "author": "NexUX Product",
+      "categories": [
+        "SaaS",
+        "dashboard"
+      ],
+      "comment": "收入分析看板，图表密度和筛选器布局处理得干净，你最近重构 dashboard，这个可以直接抄作业。",
+      "image": "https://cdn.dribbble.com/userupload/49255322/file/9e7b45a1b083b10f956e406f9ef2a93b.png?resize=1600x1200",
+      "title": "SaaS Revenue Analytics Dashboard",
+      "url": "https://dribbble.com/shots/27793102-SaaS-Revenue-Analytics-Dashboard"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-22",
+  "works": [
+    {
+      "author": "Zajno",
+      "categories": [
+        "AI",
+        "移动App"
+      ],
+      "comment": "会议总结到行动项的单手操作流，可抄信息层级和深色渐变的焦点设计。",
+      "image": "https://cdn.dribbble.com/userupload/49399335/file/still-c64f6fcb0f97083e5335865e315b6607.png?format=webp&resize=400x300&vertical=center",
+      "title": "AI Meeting Assistant Mobile App",
+      "url": "https://dribbble.com/shots/27830837-AI-Meeting-Assistant-Mobile-App"
+    },
+    {
+      "author": "theosm™",
+      "categories": [
+        "AI",
+        "SaaS"
+      ],
+      "comment": "AI-native 协作工具的落地页，hero 区的产品动态演示比静态截图更能讲清\"快\"。",
+      "image": "https://cdn.dribbble.com/userupload/49395687/file/1df0c0b2fc792d8ae2da156f991ea8dd.jpg?format=webp&resize=400x300&vertical=center",
+      "title": "Lumi Web Design",
+      "url": "https://dribbble.com/shots/27829753-Lumi-Web-Design"
+    },
+    {
+      "author": "Roobinium",
+      "categories": [
+        "SaaS"
+      ],
+      "comment": "3D 动效衔接医疗数据仪表盘，氛围感与数据可信度兼得的范例。",
+      "image": "https://cdn.dribbble.com/userupload/49370777/file/still-9201210357292f4cdaaad41ca1da69f7.png?format=webp&resize=400x300&vertical=center",
+      "title": "MedTech & Biotech Website Design | 3D Motion",
+      "url": "https://dribbble.com/shots/27823396-MedTech-Biotech-Website-Design-3D-Motion"
+    },
+    {
+      "author": "Conceptzilla",
+      "categories": [
+        "电商"
+      ],
+      "comment": "城市电动自行车品牌官网，大图叙事 + 规格卡片的 DTC 版式值得抄。",
+      "image": "https://cdn.dribbble.com/userload/49375934/file/e5635a2746f493f9a6063c50576ea4aa.png?format=webp&resize=400x300&vertical=center",
+      "title": "E-commerce Website Design",
+      "url": "https://dribbble.com/shots/27824722-E-commerce-Website-Design"
+    },
+    {
+      "author": "Flair",
+      "categories": [
+        "dashboard"
+      ],
+      "comment": "消费 pattern 的可视化，把时间流和分类占比压进一张图，dashboard 灵感。",
+      "image": "https://cdn.dribbble.com/userupload/49385908/file/still-d4700d0697c60565f4423f2e5a0f9b7c.png?format=webp&resize=400x300&vertical=center",
+      "title": "Halden: Spending Pattern",
+      "url": "https://dribbble.com/shots/27827345-Halden-Spending-Pattern"
+    },
+    {
+      "author": "Dose of Culture",
+      "categories": [
+        "dashboard"
+      ],
+      "comment": "金融交易表格的批量操作交互，多选态和工具栏联动做得细。",
+      "image": "https://cdn.dribbble.com/userupload/49398644/file/473232372fd23b82db9895844009ff2d.png?format=webp&resize=400x300&vertical=center",
+      "title": "Nomi Fintech ERP. Transactions Table & Bulk Actions",
+      "url": "https://dribbble.com/shots/27830623-Nomi-Fintech-ERP-Transactions-Table-Bulk-Actions"
+    }
+  ]
+}

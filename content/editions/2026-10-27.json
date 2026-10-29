@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-27",
+  "works": [
+    {
+      "author": "Artspire",
+      "categories": [
+        "电商"
+      ],
+      "comment": "深色高级感加皮沙发上的拉花大图，只留一个 Check Menu 主按钮，靠生活场景卖品牌调性而不是堆商品格。",
+      "image": "https://cdn.dribbble.com/userupload/49443022/file/33e52558ae2483fe7397bb2010d8ac11.jpg",
+      "title": "Premium Coffee Shop Website & E-commerce Design",
+      "url": "https://dribbble.com/shots/27842423-Premium-Coffee-Shop-Website-E-commerce-Design"
+    },
+    {
+      "author": "Wegrow",
+      "categories": [
+        "SaaS"
+      ],
+      "comment": "主视觉就是一块米色斑点折叠 3D 造型，靠材质和留白撑高级感，适合 SaaS 落地页用一个造型代替一堆截图。",
+      "image": "https://cdn.dribbble.com/userupload/49437877/file/still-b7e9c274bafee7e2e3d510504bd32dfb.png",
+      "title": "Mark OS Landing Page",
+      "url": "https://dribbble.com/shots/27840972-Mark-OS-Landing-Page"
+    },
+    {
+      "author": "Ilias Miah",
+      "categories": [
+        "dashboard"
+      ],
+      "comment": "一屏分层放车队状态、逾期动作和 AI 建议，顶部 206/240、61% 这种大数字加红色 Review 按钮做行动入口，信息密度很能打的 dashboard 范本。",
+      "image": "https://cdn.dribbble.com/userupload/49442096/file/still-ede97c0f7a14015e66a5614de77004be.png",
+      "title": "From Fleet Data to Actionable Decisions | EquipFlow Dashboard",
+      "url": "https://dribbble.com/shots/27842148-From-Fleet-Data-to-Actionable-Decisions-EquipFlow-Dashboard"
+    },
+    {
+      "author": "George Railean",
+      "categories": [
+        "dashboard"
+      ],
+      "comment": "用 WebGL 地球晨昏线做氛围，先给“全球实时感”的情绪再给数字，适合需要开场气势的数据产品。",
+      "image": "https://cdn.dribbble.com/userupload/49435303/file/still-e762a1de75843dbd7f841be5c1f599bc.png",
+      "title": "Product Animation: Live Dashboard & 3D Globe in WebGL",
+      "url": "https://dribbble.com/shots/27840400-Product-Animation-Live-Dashboard-3D-Globe-in-WebGL"
+    },
+    {
+      "author": "Samuel Oktavianus",
+      "categories": [
+        "移动App"
+      ],
+      "comment": "宝蓝加亮粉撞色配大字标语，把硬核生物科技讲成人话，移动端多屏排版值得抄。",
+      "image": "https://cdn.dribbble.com/userupload/49355407/file/605e1d046efacffaf7d6596f1fb9cfa8.png",
+      "title": "ordivalabs: Biotech Automated Drug Discovery - Mobile UI",
+      "url": "https://dribbble.com/shots/27819693-ordivalabs-Biotech-Automated-Drug-Discovery-Mobile-UI"
+    },
+    {
+      "author": "Conceptzilla",
+      "categories": [
+        "AI",
+        "SaaS"
+      ],
+      "comment": "首屏不放产品截图，直接放一句 prompt 输入框让人马上能试，底下用 10x、65% 这种数字背书，AI 产品落地页的现成套路。",
+      "image": "https://cdn.dribbble.com/userupload/49433304/file/35330d2286322634c3ce6bf00024f003.png",
+      "title": "AI Agent Website Design",
+      "url": "https://dribbble.com/shots/27839909-AI-Agent-Website-Design"
+    }
+  ]
+}

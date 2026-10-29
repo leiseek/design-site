@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-13",
+  "works": [
+    {
+      "author": "George Railean",
+      "categories": [
+        "dashboard"
+      ],
+      "comment": "电信级告警根因链路的可视化排布，复杂运维信息的分层呈现值得借鉴。",
+      "image": "https://cdn.dribbble.com/userupload/49298750/file/still-1770f4012214322cfba028c32e960c4c.png?resize=1600x1200",
+      "title": "Telecom Network Root Cause Analysis Dashboard",
+      "url": "https://dribbble.com/shots/27804383-Telecom-Network-Root-Cause-Analysis-Dashboard"
+    },
+    {
+      "author": "Zajno",
+      "categories": [
+        "AI"
+      ],
+      "comment": "AI 能源科技公司官网，大气科技风的数据叙事，首屏节奏可参考。",
+      "image": "https://cdn.dribbble.com/userupload/49305196/file/still-b56276f041bc610ed476eb92d1f9d48b.png?resize=3200x2400",
+      "title": "AI Energy Technology Website",
+      "url": "https://dribbble.com/shots/27806238-AI-Energy-Technology-Website"
+    },
+    {
+      "author": "Nixtio",
+      "categories": [
+        "电商"
+      ],
+      "comment": "咖啡店电商站，温暖产品摄影加大留白，DTC 品牌\"氛围感卖货\"的版式参考。",
+      "image": "https://cdn.dribbble.com/userupload/49303658/file/8484deca519e2d29a51b75e0dbedf543.jpg?resize=1600x1200",
+      "title": "Coffee Shop E-commerce Website Design",
+      "url": "https://dribbble.com/shots/27805801-Coffee-Shop-E-commerce-Website-Design"
+    },
+    {
+      "author": "Awe Design Studio",
+      "categories": [
+        "SaaS"
+      ],
+      "comment": "本期热度最高（232 赞 / 21.4k 浏览），房源列表的信息密度和排版干净利落。",
+      "image": "https://cdn.dribbble.com/userupload/49303632/file/1b81cb55c4f5bce1cb8ba0a435b3aed2.png?resize=1600x1200",
+      "title": "Real Estate Website",
+      "url": "https://dribbble.com/shots/27805792-Real-Estate-Website"
+    },
+    {
+      "author": "Phenomenon Product",
+      "categories": [
+        "移动App"
+      ],
+      "comment": "旅行 App 个人主页，行程回顾与成就卡片的分层编排值得参考。",
+      "image": "https://cdn.dribbble.com/userupload/49298930/file/0f8bcab5467a6679b218b78269c2fe31.jpg?resize=1600x1200",
+      "title": "Profile Page Travel Mobile App - TravelMate",
+      "url": "https://dribbble.com/shots/27804436-Profile-Page-Travel-Mobile-App-TravelMate"
+    }
+  ]
+}

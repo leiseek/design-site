@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-15",
+  "works": [
+    {
+      "author": "Ilias Miah",
+      "categories": [
+        "AI",
+        "dashboard"
+      ],
+      "comment": "AI 审批流看板，信息密度高但层级清楚，审批卡片的状态设计值得借鉴。",
+      "image": "https://cdn.dribbble.com/userupload/49329226/file/still-1a02802b5f82ecbf35d354cef5eee141.png?resize=3200x2400",
+      "title": "Atrium | AI-Powered Property Management & Approval Dashboard",
+      "url": "https://dribbble.com/shots/27812716-Atrium-AI-Powered-Property-Management-Approval-Dashboard"
+    },
+    {
+      "author": "Geex Arts",
+      "categories": [
+        "AI",
+        "dashboard"
+      ],
+      "comment": "深色 AI 数据看板，图表配色克制，信息层级可以抄。",
+      "image": "https://cdn.dribbble.com/userupload/47027409/file/still-85b8b13dfbe85696e4d46b66240a1aad.png?resize=1920x1440",
+      "title": "AI Dashboard",
+      "url": "https://dribbble.com/shots/27173126-AI-Dashboard"
+    },
+    {
+      "author": "Erik Padamans",
+      "categories": [
+        "SaaS"
+      ],
+      "comment": "产品分析平台落地页，首屏版式和留白干净。",
+      "image": "https://cdn.dribbble.com/userupload/47244780/file/dbb6758fba322d388b906995b87c3ea2.png?resize=1600x1200",
+      "title": "SaaS Landing Page Design | Product Analytics Platform",
+      "url": "https://dribbble.com/shots/27237804-SaaS-Landing-Page-Design-Product-Analytics-Platform-UI-UX"
+    },
+    {
+      "author": "Awe Design Studio",
+      "categories": [
+        "电商"
+      ],
+      "comment": "电商首页，商品陈列的节奏感好。",
+      "image": "https://cdn.dribbble.com/userupload/49330679/file/1912f6b6392d046ed11edcd41f8519a7.png?resize=1600x1200",
+      "title": "Ecommerce Website Homepage",
+      "url": "https://dribbble.com/shots/27813151-Ecommerce-Website-Homepage"
+    },
+    {
+      "author": "Nixtio",
+      "categories": [
+        "移动App"
+      ],
+      "comment": "地图导航 App，地图加底部卡片的交互组合顺滑。",
+      "image": "https://cdn.dribbble.com/userupload/49316683/file/d82fd2dba77d1cc777a5fb240f7ebc14.jpg?resize=1600x1200",
+      "title": "Bike Rental App - Map Navigation",
+      "url": "https://dribbble.com/shots/27809413-Bike-Rental-App-Map-Navigation"
+    }
+  ]
+}

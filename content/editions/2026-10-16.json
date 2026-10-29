@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-16",
+  "works": [
+    {
+      "author": "Awe UIUX",
+      "categories": [
+        "dashboard"
+      ],
+      "comment": "招聘场景的数据卡片布局值得借鉴。",
+      "image": "https://cdn.dribbble.com/userupload/49342387/file/2d359f7db1879cb8d38e02f1def6c60d.png?resize=1600x1200",
+      "title": "Recruitment dashboard design",
+      "url": "https://dribbble.com/shots/27816332-Recruitment-dashboard-design"
+    },
+    {
+      "author": "Phenomenon Product",
+      "categories": [
+        "dashboard"
+      ],
+      "comment": "航天 ERP 数据看板，复杂信息分层展示的思路可参考。",
+      "image": "https://cdn.dribbble.com/userupload/49341016/file/bdfc6e40a7e6ae4d6c1a32683e3d09f3.png?resize=1600x1200",
+      "title": "TraceRocket — ERP Web Dashboard for Aerospace",
+      "url": "https://dribbble.com/shots/27815966-TraceRocket-ERP-Web-Dashboard-for-Aerospace"
+    },
+    {
+      "author": "Ilias Miah",
+      "categories": [
+        "AI",
+        "dashboard"
+      ],
+      "comment": "AI 加建筑施工的智能看板，还带动画演示。",
+      "image": "https://cdn.dribbble.com/userupload/49342135/file/still-52739df32cb8f51b3642d034f6750073.png?resize=1600x1200",
+      "title": "Plenum AI | Intelligent Construction Dashbaord Design Animation",
+      "url": "https://dribbble.com/shots/27816269-Plenum-AI-Intelligent-Construction-Dashbaord-Design-Animation"
+    },
+    {
+      "author": "Olya Marchak",
+      "categories": [
+        "移动App"
+      ],
+      "comment": "深色主题播客 App，深色配色和内容层级可借鉴。",
+      "image": "https://cdn.dribbble.com/userupload/49338831/file/03715ab0a59b97867ac50f6fa00a77d4.png?resize=1600x1200",
+      "title": "Mobile App UI Design",
+      "url": "https://dribbble.com/shots/27815369-Mobile-App-UI-Design"
+    },
+    {
+      "author": "Faiz Abdillah",
+      "categories": [
+        "电商"
+      ],
+      "comment": "户外服饰 DTC 电商站，产品视觉陈列和硬朗风格可参考。",
+      "image": "https://cdn.dribbble.com/userupload/49320315/file/3590f0c68c596c8ea96d54b90cc3bc9a.png?crop=0x0-4800x3600&resize=1600x1200",
+      "title": "Technical Outerwear E-commerce Website Design - MADEFACT®️",
+      "url": "https://dribbble.com/shots/27810392-Technical-Outerwear-E-commerce-Website-Design-MADEFACT"
+    },
+    {
+      "author": "Halo UI/UX",
+      "categories": [
+        "SaaS"
+      ],
+      "comment": "健康科技公司官网，科技感落地页的版式与配色可参考。",
+      "image": "https://cdn.dribbble.com/userupload/49340271/file/c88ec45920fdff730a1bfa0291bc320f.png?resize=1600x1200",
+      "title": "Website for a Health Tech Company ✦ Tiger Biosciences",
+      "url": "https://dribbble.com/shots/27815744-Website-for-a-Health-Tech-Company-Tiger-Biosciences"
+    }
+  ]
+}

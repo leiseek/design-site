@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Build design-site from content/editions.json.
+"""Build design-site from one JSON file per edition.
 
 Usage: python3 build.py
-Reads:  content/editions.json  (list of editions, newest first or not)
+Reads:  content/editions/<date>.json  (one file per edition, ~2 KB each;
+        deliberately NOT one ever-growing editions.json)
 Writes: index.html, archive.html, editions/<date>.html
-Daily update flow: append a new edition object to content/editions.json,
+Daily update flow: write content/editions/<new-date>.json,
 run this script, commit and push. GitHub Pages rebuilds from main.
 """
 import html
@@ -77,9 +78,26 @@ def masthead(total_editions, total_works, first_date, last_date):
 </header>"""
 
 
+def load_editions():
+    """One file per edition. Legacy single-file editions.json, if present,
+    is merged in (dedup by date, per-edition files win) so an old daily
+    run cannot silently drop history."""
+    by_date = {}
+    legacy = ROOT / "content" / "editions.json"
+    if legacy.is_file():
+        try:
+            for e in json.loads(legacy.read_text(encoding="utf-8")):
+                by_date[e["date"]] = e
+        except Exception:
+            pass
+    for p in sorted((ROOT / "content" / "editions").glob("*.json")):
+        e = json.loads(p.read_text(encoding="utf-8"))
+        by_date[e["date"]] = e
+    return sorted(by_date.values(), key=lambda e: e["date"], reverse=True)
+
+
 def main():
-    editions = json.loads((ROOT / "content" / "editions.json").read_text(encoding="utf-8"))
-    editions = sorted(editions, key=lambda e: e["date"], reverse=True)
+    editions = load_editions()
     total_works = sum(len(e["works"]) for e in editions)
     first_date = editions[-1]["date"] if editions else ""
     last_date = editions[0]["date"] if editions else ""
@@ -109,8 +127,9 @@ def main():
 <h2>全部归档</h2>
 <p class="section-note">按推送日期倒序，每期 5–10 个作品。</p>
 <table class="archive">
-<tr><th>日期</th><th>数量</th><th>本期作品</th></tr>
-{''.join(f'<tr><td class="date">{esc(e["date"])}</td><td>{len(e["works"])} 个</td><td><a href="editions/{esc(e["date"])}.html">' + "、".join(esc(w["title"]) for w in e["works"]) + "</a></td></tr>\n" for e in editions)}</table>"""
+<tr><th>日期</th><th>数量</th><th>本期首作</th></tr>
+{''.join(f'<tr><td class="date">{esc(e["date"])}</td><td>{len(e["works"])} 个</td><td><a href="editions/{esc(e["date"])}.html">' + esc(e["works"][0]["title"]) + " 等</a></td></tr>\n" for e in editions)}</table>
+<p class="section-note">归档页只列首作，完整作品在当期页里；这样归档页每期只长约 100 字节，不会随作品数膨胀。</p>"""
     (ROOT / "archive.html").write_text(page("全部归档", "", arch_body, depth=0), encoding="utf-8")
 
     # edition pages
