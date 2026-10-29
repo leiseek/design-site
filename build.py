@@ -12,6 +12,7 @@ ink #0d0c22, nav #060318 64px, Mona Sans stack, 4-col white grid,
 import html
 import json
 import pathlib
+import hashlib
 
 ROOT = pathlib.Path(__file__).resolve().parent
 SITE_NAME = "设计拾集"
@@ -23,6 +24,23 @@ CATS = ["全部", "SaaS", "AI", "电商", "dashboard", "移动App"]
 
 def esc(s):
     return html.escape(str(s), quote=True)
+
+
+def asset_ver(rel):
+    """Append a content-hash query (?v=xxxx) to a static asset path.
+
+    CSS/JS changed twice in one evening behind a caching CDN proxy on
+    2026-10-28, and a visitor saw broken styles minutes after a deploy —
+    most likely old HTML mixed with new CSS from cache. A content hash
+    makes every asset change a new URL, so clients can never mix
+    versions. Rebuilds without asset changes keep the same URL.
+    """
+    p = ROOT / rel
+    try:
+        h = hashlib.md5(p.read_bytes()).hexdigest()[:8]
+    except OSError:
+        return rel
+    return f"{rel}?v={h}"
 
 
 def load_editions():
@@ -90,8 +108,10 @@ def toolbar(with_search=True):
 
 
 def page(title, body, depth=0, active="home", scripts=True):
-    css = "assets/style.css" if depth == 0 else "../assets/style.css"
-    js = "assets/app.js" if depth == 0 else "../assets/app.js"
+    prefix = "../" if depth == 1 else ""
+    # versioned URLs so cached HTML can never load a stale CSS/JS after deploy
+    css = prefix + asset_ver("assets/style.css")
+    js = prefix + asset_ver("assets/app.js")
     script = f'\n<script src="{js}"></script>' if scripts else ""
     return f"""<!doctype html>
 <html lang="zh-CN">
