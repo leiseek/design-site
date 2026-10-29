@@ -4,46 +4,1169 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>全部归档 — 设计拾集</title>
-<meta name="description" content="每天从 Dribbble 挑 5–10 个值得看的设计，附一句为什么值得借鉴。图片与原作归原作者所有，点击卡片看原作品。">
+<meta name="description" content="每天从 Dribbble 挑 5–10 个值得看的设计，附一句为什么值得借鉴。图片与原作归原作者所有，点击看原作品。">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<div class="wrap">
-  <div class="topbar"><span>design.znio.io</span><span><a href="index.html">最新一期</a> &nbsp;·&nbsp; <a href="archive.html">全部归档</a></span></div>
-<header class="masthead">
-  <h1>设计拾集</h1>
-  <div class="en">Design Picks — Daily selections from Dribbble</div>
-  <p>每天从 Dribbble 挑 5–10 个值得看的设计，附一句为什么值得借鉴。图片与原作归原作者所有，点击卡片看原作品。</p>
-  <p class="meta">18 期 · 104 个作品 · 2026-10-11 — 2026-10-28</p>
+<header class="nav">
+  <a class="logo" href="index.html"><span class="dot"></span>设计拾集</a>
+  <nav class="links">
+    <a href="index.html">首页</a>
+    <a href="archive.html" class="active">归档</a>
+  </nav>
+  <span class="spacer"></span>
+  <a class="btn" href="https://dribbble.com/shots/popular" target="_blank" rel="noopener">Dribbble 热门</a>
 </header>
-<h2>全部归档</h2>
-<p class="section-note">按推送日期倒序，每期 5–10 个作品。</p>
-<table class="archive">
-<tr><th>日期</th><th>数量</th><th>本期首作</th></tr>
-<tr><td class="date">2026-10-28</td><td>6 个</td><td><a href="editions/2026-10-28.html">Beauty E-Commerce Mobile App 等</a></td></tr>
-<tr><td class="date">2026-10-27</td><td>6 个</td><td><a href="editions/2026-10-27.html">Premium Coffee Shop Website &amp; E-commerce Design 等</a></td></tr>
-<tr><td class="date">2026-10-26</td><td>6 个</td><td><a href="editions/2026-10-26.html">Loopie – AI Creative Platform UI 等</a></td></tr>
-<tr><td class="date">2026-10-25</td><td>6 个</td><td><a href="editions/2026-10-25.html">AI Agent Workspace Task Automation Platform UI/UX 等</a></td></tr>
-<tr><td class="date">2026-10-24</td><td>6 个</td><td><a href="editions/2026-10-24.html">Bike Rental Web App Dashboard Design 等</a></td></tr>
-<tr><td class="date">2026-10-23</td><td>6 个</td><td><a href="editions/2026-10-23.html">Bank App - Account Balance Overview 等</a></td></tr>
-<tr><td class="date">2026-10-22</td><td>6 个</td><td><a href="editions/2026-10-22.html">AI Meeting Assistant Mobile App 等</a></td></tr>
-<tr><td class="date">2026-10-21</td><td>6 个</td><td><a href="editions/2026-10-21.html">AI Health Assistant Mobile App Design 等</a></td></tr>
-<tr><td class="date">2026-10-20</td><td>5 个</td><td><a href="editions/2026-10-20.html">Crypto Trading &amp; Token Swap Mobile App 等</a></td></tr>
-<tr><td class="date">2026-10-19</td><td>5 个</td><td><a href="editions/2026-10-19.html">Vero — AI-Powered Revenue Intelligence Product 等</a></td></tr>
-<tr><td class="date">2026-10-18</td><td>6 个</td><td><a href="editions/2026-10-18.html">Fintech SaaS Landing Page Design 等</a></td></tr>
-<tr><td class="date">2026-10-17</td><td>6 个</td><td><a href="editions/2026-10-17.html">Beauty Ecommerce - Retail Mobile Store App 等</a></td></tr>
-<tr><td class="date">2026-10-16</td><td>6 个</td><td><a href="editions/2026-10-16.html">Recruitment dashboard design 等</a></td></tr>
-<tr><td class="date">2026-10-15</td><td>5 个</td><td><a href="editions/2026-10-15.html">Atrium | AI-Powered Property Management &amp; Approval Dashboard 等</a></td></tr>
-<tr><td class="date">2026-10-14</td><td>6 个</td><td><a href="editions/2026-10-14.html">A Smarter Way to Hire Top Talent 等</a></td></tr>
-<tr><td class="date">2026-10-13</td><td>5 个</td><td><a href="editions/2026-10-13.html">Telecom Network Root Cause Analysis Dashboard 等</a></td></tr>
-<tr><td class="date">2026-10-12</td><td>6 个</td><td><a href="editions/2026-10-12.html">AI SaaS Landing Page Design 等</a></td></tr>
-<tr><td class="date">2026-10-11</td><td>6 个</td><td><a href="editions/2026-10-11.html">Mobile App for an Investment Product ✦ Univest 等</a></td></tr>
-</table>
-<p class="section-note">归档页只列首作，完整作品在当期页里；这样归档页每期只长约 100 字节，不会随作品数膨胀。</p>
+<div class="wrap">
+<section class="hero">
+  <span class="badge">全部归档</span>
+  <h1>按日期展开，全部作品</h1>
+  <p>每一期都在下面直接展开，不用点详情。筛分类、搜关键词可以跨期过滤。</p>
+  <p class="meta">18 期 · 104 个作品</p>
+</section>
+<div class="toolbar">
+  <div class="pills"><button class="pill active" data-filter="全部">全部</button><button class="pill" data-filter="SaaS">SaaS</button><button class="pill" data-filter="AI">AI</button><button class="pill" data-filter="电商">电商</button><button class="pill" data-filter="dashboard">dashboard</button><button class="pill" data-filter="移动App">移动App</button></div>
+  <input class="search" id="q" type="search" placeholder="搜标题、作者、点评…">
+  <span class="count" id="result-count"></span>
+</div>
+<div class="empty" id="empty">没有符合筛选的作品，换个分类或关键词试试。</div>
+<div class="jump"><a href="#2026-10-28">2026-10-28</a><a href="#2026-10-27">2026-10-27</a><a href="#2026-10-26">2026-10-26</a><a href="#2026-10-25">2026-10-25</a><a href="#2026-10-24">2026-10-24</a><a href="#2026-10-23">2026-10-23</a><a href="#2026-10-22">2026-10-22</a><a href="#2026-10-21">2026-10-21</a><a href="#2026-10-20">2026-10-20</a><a href="#2026-10-19">2026-10-19</a><a href="#2026-10-18">2026-10-18</a><a href="#2026-10-17">2026-10-17</a><a href="#2026-10-16">2026-10-16</a><a href="#2026-10-15">2026-10-15</a><a href="#2026-10-14">2026-10-14</a><a href="#2026-10-13">2026-10-13</a><a href="#2026-10-12">2026-10-12</a><a href="#2026-10-11">2026-10-11</a></div>
+<section class="section" id="2026-10-28" data-edition="2026-10-28">
+  <div class="section-head"><h2>2026-10-28</h2><span class="sub">6 个作品 · <a href="editions/2026-10-28.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="电商 移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27845461-Beauty-E-Commerce-Mobile-App" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49454321/file/1c0722f5096f44f766a64c1a0e729042.jpg" alt="Beauty E-Commerce Mobile App" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27845461-Beauty-E-Commerce-Mobile-App" target="_blank" rel="noopener">Beauty E-Commerce Mobile App</a></h3>
+    <div class="author">by Nixtio</div>
+    <div class="cats">电商 · 移动App</div>
+    <p class="comment">柔和中性色配沉浸式美妆摄影，三屏并置把社交电商从浏览到购买的路径讲得很完整。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27845461-Beauty-E-Commerce-Mobile-App" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI 移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27844383-AI-Food-Tracker-App-Smart-Nutrition-Calorie-Tracking" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49450950/file/still-291ad6c4c67806b3eaf0502e2bf49833.png" alt="AI Food Tracker App — Smart Nutrition &amp; Calorie Tracking" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27844383-AI-Food-Tracker-App-Smart-Nutrition-Calorie-Tracking" target="_blank" rel="noopener">AI Food Tracker App — Smart Nutrition &amp; Calorie Tracking</a></h3>
+    <div class="author">by Imran Hossen</div>
+    <div class="cats">AI · 移动App</div>
+    <p class="comment">暖米色底加橙色点缀，AI 助手、扫码与热量仪表盘集中在一个清晰层级。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27844383-AI-Food-Tracker-App-Smart-Nutrition-Calorie-Tracking" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27844788-CloudNexus-Cloud-Operations-Dashboard" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49452147/file/still-08a38155c7eb31381e8ca31d389d193c.png" alt="CloudNexus: Cloud Operations Dashboard" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27844788-CloudNexus-Cloud-Operations-Dashboard" target="_blank" rel="noopener">CloudNexus: Cloud Operations Dashboard</a></h3>
+    <div class="author">by Ibrahim Khalil</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">以“最需要关注什么”为核心的优先级队列，把事件、失败部署、安全发现与预算风险同屏呈现。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27844788-CloudNexus-Cloud-Operations-Dashboard" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27844325-SaaS-Subscription-Revenue-Analytics-Website" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49450753/file/still-86eca4ad4a197cda0ab9c7cf12caac56.png" alt="SaaS Subscription &amp; Revenue Analytics Website" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27844325-SaaS-Subscription-Revenue-Analytics-Website" target="_blank" rel="noopener">SaaS Subscription &amp; Revenue Analytics Website</a></h3>
+    <div class="author">by NexUX Product</div>
+    <div class="cats">SaaS · dashboard</div>
+    <p class="comment">深色着陆页配 MRR/ARR/订阅数/流失率卡片，着陆页讲价值、仪表盘讲指标的转化结构清晰。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27844325-SaaS-Subscription-Revenue-Analytics-Website" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard 移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27832862-Learning-Dashboard-Student-Mobile-Progress" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49407103/file/still-8d84a8a44903f606bf4854cea6fedd32.png" alt="Learning Dashboard - Student Mobile Progress" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27832862-Learning-Dashboard-Student-Mobile-Progress" target="_blank" rel="noopener">Learning Dashboard - Student Mobile Progress</a></h3>
+    <div class="author">by Ronas IT | UI/UX Team</div>
+    <div class="cats">dashboard · 移动App</div>
+    <p class="comment">深色移动仪表盘用双色柱状图拆分理论/实践时长，进度卡与总时长一目了然。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27832862-Learning-Dashboard-Student-Mobile-Progress" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27819614-ordivalabs-Precision-Biotech-Laboratory-Automation-Hero-UIUX" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49354731/file/478dfbab4951ee8c16ad4b65ce05c494.png" alt="ordivalabs: Precision Biotech Laboratory Automation - Hero UIUX" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27819614-ordivalabs-Precision-Biotech-Laboratory-Automation-Hero-UIUX" target="_blank" rel="noopener">ordivalabs: Precision Biotech Laboratory Automation - Hero UIUX</a></h3>
+    <div class="author">by Samuel Oktavianus</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">强蓝色 Hero 配网格与圆环蓝图线条，把硬科技讲得乐观、精密且易懂。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27819614-ordivalabs-Precision-Biotech-Laboratory-Automation-Hero-UIUX" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-27" data-edition="2026-10-27">
+  <div class="section-head"><h2>2026-10-27</h2><span class="sub">6 个作品 · <a href="editions/2026-10-27.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="电商">
+  <a class="thumb" href="https://dribbble.com/shots/27842423-Premium-Coffee-Shop-Website-E-commerce-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49443022/file/33e52558ae2483fe7397bb2010d8ac11.jpg" alt="Premium Coffee Shop Website &amp; E-commerce Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27842423-Premium-Coffee-Shop-Website-E-commerce-Design" target="_blank" rel="noopener">Premium Coffee Shop Website &amp; E-commerce Design</a></h3>
+    <div class="author">by Artspire</div>
+    <div class="cats">电商</div>
+    <p class="comment">深色高级感加皮沙发上的拉花大图，只留一个 Check Menu 主按钮，靠生活场景卖品牌调性而不是堆商品格。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27842423-Premium-Coffee-Shop-Website-E-commerce-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27840972-Mark-OS-Landing-Page" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49437877/file/still-b7e9c274bafee7e2e3d510504bd32dfb.png" alt="Mark OS Landing Page" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27840972-Mark-OS-Landing-Page" target="_blank" rel="noopener">Mark OS Landing Page</a></h3>
+    <div class="author">by Wegrow</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">主视觉就是一块米色斑点折叠 3D 造型，靠材质和留白撑高级感，适合 SaaS 落地页用一个造型代替一堆截图。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27840972-Mark-OS-Landing-Page" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27842148-From-Fleet-Data-to-Actionable-Decisions-EquipFlow-Dashboard" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49442096/file/still-ede97c0f7a14015e66a5614de77004be.png" alt="From Fleet Data to Actionable Decisions | EquipFlow Dashboard" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27842148-From-Fleet-Data-to-Actionable-Decisions-EquipFlow-Dashboard" target="_blank" rel="noopener">From Fleet Data to Actionable Decisions | EquipFlow Dashboard</a></h3>
+    <div class="author">by Ilias Miah</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">一屏分层放车队状态、逾期动作和 AI 建议，顶部 206/240、61% 这种大数字加红色 Review 按钮做行动入口，信息密度很能打的 dashboard 范本。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27842148-From-Fleet-Data-to-Actionable-Decisions-EquipFlow-Dashboard" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27840400-Product-Animation-Live-Dashboard-3D-Globe-in-WebGL" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49435303/file/still-e762a1de75843dbd7f841be5c1f599bc.png" alt="Product Animation: Live Dashboard &amp; 3D Globe in WebGL" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27840400-Product-Animation-Live-Dashboard-3D-Globe-in-WebGL" target="_blank" rel="noopener">Product Animation: Live Dashboard &amp; 3D Globe in WebGL</a></h3>
+    <div class="author">by George Railean</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">用 WebGL 地球晨昏线做氛围，先给“全球实时感”的情绪再给数字，适合需要开场气势的数据产品。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27840400-Product-Animation-Live-Dashboard-3D-Globe-in-WebGL" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27819693-ordivalabs-Biotech-Automated-Drug-Discovery-Mobile-UI" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49355407/file/605e1d046efacffaf7d6596f1fb9cfa8.png" alt="ordivalabs: Biotech Automated Drug Discovery - Mobile UI" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27819693-ordivalabs-Biotech-Automated-Drug-Discovery-Mobile-UI" target="_blank" rel="noopener">ordivalabs: Biotech Automated Drug Discovery - Mobile UI</a></h3>
+    <div class="author">by Samuel Oktavianus</div>
+    <div class="cats">移动App</div>
+    <p class="comment">宝蓝加亮粉撞色配大字标语，把硬核生物科技讲成人话，移动端多屏排版值得抄。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27819693-ordivalabs-Biotech-Automated-Drug-Discovery-Mobile-UI" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27839909-AI-Agent-Website-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49433304/file/35330d2286322634c3ce6bf00024f003.png" alt="AI Agent Website Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27839909-AI-Agent-Website-Design" target="_blank" rel="noopener">AI Agent Website Design</a></h3>
+    <div class="author">by Conceptzilla</div>
+    <div class="cats">AI · SaaS</div>
+    <p class="comment">首屏不放产品截图，直接放一句 prompt 输入框让人马上能试，底下用 10x、65% 这种数字背书，AI 产品落地页的现成套路。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27839909-AI-Agent-Website-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-26" data-edition="2026-10-26">
+  <div class="section-head"><h2>2026-10-26</h2><span class="sub">6 个作品 · <a href="editions/2026-10-26.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="AI">
+  <a class="thumb" href="https://dribbble.com/shots/27838898-Loopie-AI-Creative-Platform-UI" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49429685/file/still-6f4ca6819ff15572607f40b79de1d540.png" alt="Loopie – AI Creative Platform UI" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27838898-Loopie-AI-Creative-Platform-UI" target="_blank" rel="noopener">Loopie – AI Creative Platform UI</a></h3>
+    <div class="author">by Bato UI/UX</div>
+    <div class="cats">AI</div>
+    <p class="comment">AI 生图产品的 refine 流程很直观，4 张候选一字排开、点一张继续细化，值得抄这个交互。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27838898-Loopie-AI-Creative-Platform-UI" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27839815-Financial-Dashboard-UI-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49432958/file/c18d7ccb14c636a2740b8310bcd3674c.png" alt="Financial Dashboard UI Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27839815-Financial-Dashboard-UI-Design" target="_blank" rel="noopener">Financial Dashboard UI Design</a></h3>
+    <div class="author">by Olya Marchak</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">深色毛玻璃配星空底的财务仪表盘，最高/最低余额双标记的曲线处理很干净。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27839815-Financial-Dashboard-UI-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27834855-Coffee-Shop-App-UI-UX-Design-Modern-Coffee-Ordering-App" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49414464/file/fa780f1ff387d69c4713f7bb9b0e912c.png?crop=0x0-3200x2400" alt="Coffee Shop App UI/UX Design – Modern Coffee Ordering App" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27834855-Coffee-Shop-App-UI-UX-Design-Modern-Coffee-Ordering-App" target="_blank" rel="noopener">Coffee Shop App UI/UX Design – Modern Coffee Ordering App</a></h3>
+    <div class="author">by SM Rubel</div>
+    <div class="cats">移动App</div>
+    <p class="comment">黄绿黑三屏撞色很抢眼，点单链路从首页推荐到加购一气呵成，还带了个 AI Mode 搜索入口。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27834855-Coffee-Shop-App-UI-UX-Design-Modern-Coffee-Ordering-App" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI 移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27824853-AI-Language-Learning-Onboarding-Mobile-UI" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49376389/file/25703d4fce56b2b11e7f36b675d13f42.png" alt="AI Language Learning Onboarding — Mobile UI" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27824853-AI-Language-Learning-Onboarding-Mobile-UI" target="_blank" rel="noopener">AI Language Learning Onboarding — Mobile UI</a></h3>
+    <div class="author">by Sheikh Raihan UI</div>
+    <div class="cats">AI · 移动App</div>
+    <p class="comment">新手引导用高饱和撞色加插画吉祥物，一屏一句卖点，适合抄 onboarding 的节奏。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27824853-AI-Language-Learning-Onboarding-Mobile-UI" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27814661-AI-Powered-Fintech-SaaS-Website-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49336628/file/4d53afee4a289119d51b8553a87ecda5.webp" alt="AI-Powered Fintech SaaS Website Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27814661-AI-Powered-Fintech-SaaS-Website-Design" target="_blank" rel="noopener">AI-Powered Fintech SaaS Website Design</a></h3>
+    <div class="author">by Pixcut Studio UI/UX</div>
+    <div class="cats">AI · SaaS</div>
+    <p class="comment">落地页文案很反骨头，荧光撞色加首屏直接贴产品仪表盘，说服力拉满。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27814661-AI-Powered-Fintech-SaaS-Website-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27839109-Crypto-Portfolio-Tracker-Mobile-App-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49430543/file/bc1b5aacced435e20d2dec65ed9071c8.jpg" alt="Crypto Portfolio Tracker Mobile App Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27839109-Crypto-Portfolio-Tracker-Mobile-App-Design" target="_blank" rel="noopener">Crypto Portfolio Tracker Mobile App Design</a></h3>
+    <div class="author">by Nixtio</div>
+    <div class="cats">移动App</div>
+    <p class="comment">资产页把余额、周曲线、币种列表压进一屏，留白和字阶都很克制。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27839109-Crypto-Portfolio-Tracker-Mobile-App-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-25" data-edition="2026-10-25">
+  <div class="section-head"><h2>2026-10-25</h2><span class="sub">6 个作品 · <a href="editions/2026-10-25.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="AI">
+  <a class="thumb" href="https://dribbble.com/shots/27836645-AI-Agent-Workspace-Task-Automation-Platform-UI-UX" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49421073/file/4d6e88a0eaa707f2a48f515f67621d76.jpg" alt="AI Agent Workspace Task Automation Platform UI/UX" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27836645-AI-Agent-Workspace-Task-Automation-Platform-UI-UX" target="_blank" rel="noopener">AI Agent Workspace Task Automation Platform UI/UX</a></h3>
+    <div class="author">by RahMan for ASCII STUDIO</div>
+    <div class="cats">AI</div>
+    <p class="comment">AI 助手工作台：自然语言指令 + 应用控制入口，机器人形象配悬浮指令条，组合很完整。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27836645-AI-Agent-Workspace-Task-Automation-Platform-UI-UX" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27835842-AI-SaaS-Website-Design-3D-Animation" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49417786/file/still-6d7adfd3739615475a6d2eb0f157a474.png" alt="AI SaaS Website Design 3D Animation" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27835842-AI-SaaS-Website-Design-3D-Animation" target="_blank" rel="noopener">AI SaaS Website Design 3D Animation</a></h3>
+    <div class="author">by Perevoz Design</div>
+    <div class="cats">AI · SaaS</div>
+    <p class="comment">AI 陪伴机器人落地页：3D 圆头机器人 + 情绪值，把“可爱”做成卖点。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27835842-AI-SaaS-Website-Design-3D-Animation" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="电商">
+  <a class="thumb" href="https://dribbble.com/shots/27836873-Fashion-E-commerce-Website-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49421963/file/b093a3b9dd73406a2aac716e0a16bce2.png" alt="Fashion E-commerce Website Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27836873-Fashion-E-commerce-Website-Design" target="_blank" rel="noopener">Fashion E-commerce Website Design</a></h3>
+    <div class="author">by Topnotch UI/UX for Topnotch Studio</div>
+    <div class="cats">电商</div>
+    <p class="comment">时尚电商：大字手写体 Logo + 编辑式大片排版，克制的高级感。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27836873-Fashion-E-commerce-Website-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27836914-Quoin-AI-Quantity-Verification-Dashboard-Design-Animation" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49422178/file/still-68d4da26b82e2ee867e5f580ee680b.png" alt="Quoin AI Quantity Verification Dashboard" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27836914-Quoin-AI-Quantity-Verification-Dashboard-Design-Animation" target="_blank" rel="noopener">Quoin AI Quantity Verification Dashboard</a></h3>
+    <div class="author">by Ilias Miah for Confidency</div>
+    <div class="cats">AI · dashboard</div>
+    <p class="comment">工程量核验 dashboard：AI 测算 vs 人工核验的偏差散点 + 图纸覆盖率热力格，硬核 B 端数据的标杆。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27836914-Quoin-AI-Quantity-Verification-Dashboard-Design-Animation" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27837051-Engineering-Recruitment-Mobile-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49422711/file/5ba1098873f7b47e0bd25c73922bc7e7.png" alt="Engineering Recruitment Mobile Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27837051-Engineering-Recruitment-Mobile-Design" target="_blank" rel="noopener">Engineering Recruitment Mobile Design</a></h3>
+    <div class="author">by Nixtio</div>
+    <div class="cats">移动App</div>
+    <p class="comment">工程招聘移动端：斜切卡片 + 风电大图 + 88% 客户留存，硬核行业的招聘产品也能做得有张力。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27837051-Engineering-Recruitment-Mobile-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27837212-Product-for-a-Pharma-Company-Axon" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49423351/file/4cc6deb90155cc2100d72bd6befbabee.png" alt="Product for a Pharma Company Axon" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27837212-Product-for-a-Pharma-Company-Axon" target="_blank" rel="noopener">Product for a Pharma Company Axon</a></h3>
+    <div class="author">by Halo Product for HALO LAB</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">制药公司产品页：深色数据面板 + 药品 3D 渲染，医疗科技感拉满。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27837212-Product-for-a-Pharma-Company-Axon" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-24" data-edition="2026-10-24">
+  <div class="section-head"><h2>2026-10-24</h2><span class="sub">6 个作品 · <a href="editions/2026-10-24.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27835520-Bike-Rental-Web-App-Dashboard-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49416639/file/e79b70e448176ed1e9225cd04779f040.jpg" alt="Bike Rental Web App Dashboard Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27835520-Bike-Rental-Web-App-Dashboard-Design" target="_blank" rel="noopener">Bike Rental Web App Dashboard Design</a></h3>
+    <div class="author">by Nixtio</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">卫星地图 + 附近站点卡 + 骑行记录，地图类产品的三段式布局很干净。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27835520-Bike-Rental-Web-App-Dashboard-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27835756-Website-Design-for-Infrastructure-Company-Krios" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49417410/file/87e46323a8ca748695b486e145d153c8.png" alt="Website Design for Infrastructure Company – Krios" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27835756-Website-Design-for-Infrastructure-Company-Krios" target="_blank" rel="noopener">Website Design for Infrastructure Company – Krios</a></h3>
+    <div class="author">by Phenomenon Labs for Phenomenon Studio</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">紫色双色调统一图片与图标，硬核基建题材也能做得克制干净。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27835756-Website-Design-for-Infrastructure-Company-Krios" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI 移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27834262-Agentic-AI-App-Ordering-Groceries-by-AmazingUI" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49412141/file/2b3610676f39670e9760a98e41d2d5be.png" alt="Agentic AI App - Ordering Groceries" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27834262-Agentic-AI-App-Ordering-Groceries-by-AmazingUI" target="_blank" rel="noopener">Agentic AI App - Ordering Groceries</a></h3>
+    <div class="author">by AmazingUI</div>
+    <div class="cats">AI · 移动App</div>
+    <p class="comment">生鲜按斤称重的步进器设计很细，底部悬浮购物车收尾干净。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27834262-Agentic-AI-App-Ordering-Groceries-by-AmazingUI" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="电商">
+  <a class="thumb" href="https://dribbble.com/shots/27835463-Skincare-E-commerce-Website-UI-UX-Responsive-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49416503/file/8135e7816dc6d57f7cd2ae7c9e70d9d0.jpg" alt="Skincare E-commerce Website" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27835463-Skincare-E-commerce-Website-UI-UX-Responsive-Design" target="_blank" rel="noopener">Skincare E-commerce Website</a></h3>
+    <div class="author">by Visumind Creative</div>
+    <div class="cats">电商</div>
+    <p class="comment">植物护肤 DTC：大字衬线标题 + 功效数据卡，优雅又带转化。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27835463-Skincare-E-commerce-Website-UI-UX-Responsive-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27834815-AI-Planner-Website-UI-UX-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49414356/file/3b286de802defeea94814a7b1cb12ba5.png" alt="AI Planner Website UI/UX Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27834815-AI-Planner-Website-UI-UX-Design" target="_blank" rel="noopener">AI Planner Website UI/UX Design</a></h3>
+    <div class="author">by Alamin Hossen</div>
+    <div class="cats">AI · SaaS</div>
+    <p class="comment">雾林视觉 + 柔和绿调的 Tiimo 规划工具落地页，氛围感做法值得抄。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27834815-AI-Planner-Website-UI-UX-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27834898-Fishing-Forecast-Mobile-iOS-App-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49414607/file/still-79e2e4a9772b625917b47d4d789d07b1.png" alt="Fishing Forecast Mobile iOS App Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27834898-Fishing-Forecast-Mobile-iOS-App-Design" target="_blank" rel="noopener">Fishing Forecast Mobile iOS App Design</a></h3>
+    <div class="author">by Purrweb UI/UX Agency</div>
+    <div class="cats">移动App</div>
+    <p class="comment">暗黑钓鱼预报 App：峰值时段仪表盘 + 钓点评分，小众垂直类 App 的数据可视化参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27834898-Fishing-Forecast-Mobile-iOS-App-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-23" data-edition="2026-10-23">
+  <div class="section-head"><h2>2026-10-23</h2><span class="sub">6 个作品 · <a href="editions/2026-10-23.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27813919-Bank-App-Account-Balance-Overview" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49333550/file/still-300f456268abd4d2a7d3c1189e82bcae.png" alt="Bank App - Account Balance Overview" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27813919-Bank-App-Account-Balance-Overview" target="_blank" rel="noopener">Bank App - Account Balance Overview</a></h3>
+    <div class="author">by Ronas IT | UI/UX Team</div>
+    <div class="cats">移动App</div>
+    <p class="comment">neobrutalism 银行 App：粗黑字 + 贴纸元素 + 彩虹开支环，转账兑换的大卡片布局可抄。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27813919-Bank-App-Account-Balance-Overview" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27832916-Web3-Agency-Website-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49407252/file/c669252268ee70c8f57ee29adeb9c777.jpg" alt="Web3 Agency Website Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27832916-Web3-Agency-Website-Design" target="_blank" rel="noopener">Web3 Agency Website Design</a></h3>
+    <div class="author">by Artspire</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">深色 hero 配流体 3D 背景，首屏挂媒体背书条，Agency 落地页的经典打法。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27832916-Web3-Agency-Website-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27819575-ordivalabs-Biotech-Autonomous-Laboratory-Website-Hero-UI" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49354481/file/313261411a92096d34e01239678a8a24.png" alt="ordivalabs: Biotech Autonomous Laboratory Website - Hero UI" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27819575-ordivalabs-Biotech-Autonomous-Laboratory-Website-Hero-UI" target="_blank" rel="noopener">ordivalabs: Biotech Autonomous Laboratory Website - Hero UI</a></h3>
+    <div class="author">by Samuel Oktavianus</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">爆炸图蓝图风画实验设备，硬核产品落地页的讲法很值钱。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27819575-ordivalabs-Biotech-Autonomous-Laboratory-Website-Hero-UI" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="电商 移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27832737-Health-Supplements-Shopping-Mobile-App-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49406580/file/565c55813f24fe88e37ef566ddcb611b.jpg" alt="Health Supplements Shopping Mobile App Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27832737-Health-Supplements-Shopping-Mobile-App-Design" target="_blank" rel="noopener">Health Supplements Shopping Mobile App Design</a></h3>
+    <div class="author">by Nixtio</div>
+    <div class="cats">电商 · 移动App</div>
+    <p class="comment">青色系保健品 DTC：产品 3D 渲染 + 功效文案 + 价格条，&quot;Shop Now&quot; 一屏闭环。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27832737-Health-Supplements-Shopping-Mobile-App-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI">
+  <a class="thumb" href="https://dribbble.com/shots/27832976-InnoHealth-AI-Powered-Healthcare-Kiosk-Website-UI-UX-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49407447/file/20060cd728f4f573d366fc49cab59736.jpg" alt="InnoHealth – AI-Powered Healthcare Kiosk &amp; Website UI/UX Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27832976-InnoHealth-AI-Powered-Healthcare-Kiosk-Website-UI-UX-Design" target="_blank" rel="noopener">InnoHealth – AI-Powered Healthcare Kiosk &amp; Website UI/UX Design</a></h3>
+    <div class="author">by Linkup ST</div>
+    <div class="cats">AI</div>
+    <p class="comment">诊所自助签到 Kiosk：大字欢迎 + 单一主按钮，公共终端的减法设计。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27832976-InnoHealth-AI-Powered-Healthcare-Kiosk-Website-UI-UX-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27834302-Tax-Compliance-Software-Web-App-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49412314/file/still-5e37e6f789e673873fec3d4d3e06878c.png" alt="Tax Compliance Software Web App Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27834302-Tax-Compliance-Software-Web-App-Design" target="_blank" rel="noopener">Tax Compliance Software Web App Design</a></h3>
+    <div class="author">by Purrweb UI/UX Agency</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">暗黑税务合规驾驶舱：&quot;有效税率桥&quot;图表把复杂调账讲清了，财报类 dashboard 的信息密度排布值得看。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27834302-Tax-Compliance-Software-Web-App-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-22" data-edition="2026-10-22">
+  <div class="section-head"><h2>2026-10-22</h2><span class="sub">6 个作品 · <a href="editions/2026-10-22.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="AI 移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27830837-AI-Meeting-Assistant-Mobile-App" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49399335/file/still-c64f6fcb0f97083e5335865e315b6607.png?format=webp&amp;resize=400x300&amp;vertical=center" alt="AI Meeting Assistant Mobile App" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27830837-AI-Meeting-Assistant-Mobile-App" target="_blank" rel="noopener">AI Meeting Assistant Mobile App</a></h3>
+    <div class="author">by Zajno</div>
+    <div class="cats">AI · 移动App</div>
+    <p class="comment">会议总结到行动项的单手操作流，可抄信息层级和深色渐变的焦点设计。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27830837-AI-Meeting-Assistant-Mobile-App" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27829753-Lumi-Web-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49395687/file/1df0c0b2fc792d8ae2da156f991ea8dd.jpg?format=webp&amp;resize=400x300&amp;vertical=center" alt="Lumi Web Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27829753-Lumi-Web-Design" target="_blank" rel="noopener">Lumi Web Design</a></h3>
+    <div class="author">by theosm™</div>
+    <div class="cats">AI · SaaS</div>
+    <p class="comment">AI-native 协作工具的落地页，hero 区的产品动态演示比静态截图更能讲清&quot;快&quot;。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27829753-Lumi-Web-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27823396-MedTech-Biotech-Website-Design-3D-Motion" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49370777/file/still-9201210357292f4cdaaad41ca1da69f7.png?format=webp&amp;resize=400x300&amp;vertical=center" alt="MedTech &amp; Biotech Website Design | 3D Motion" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27823396-MedTech-Biotech-Website-Design-3D-Motion" target="_blank" rel="noopener">MedTech &amp; Biotech Website Design | 3D Motion</a></h3>
+    <div class="author">by Roobinium</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">3D 动效衔接医疗数据仪表盘，氛围感与数据可信度兼得的范例。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27823396-MedTech-Biotech-Website-Design-3D-Motion" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="电商">
+  <a class="thumb" href="https://dribbble.com/shots/27824722-E-commerce-Website-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userload/49375934/file/e5635a2746f493f9a6063c50576ea4aa.png?format=webp&amp;resize=400x300&amp;vertical=center" alt="E-commerce Website Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27824722-E-commerce-Website-Design" target="_blank" rel="noopener">E-commerce Website Design</a></h3>
+    <div class="author">by Conceptzilla</div>
+    <div class="cats">电商</div>
+    <p class="comment">城市电动自行车品牌官网，大图叙事 + 规格卡片的 DTC 版式值得抄。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27824722-E-commerce-Website-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27827345-Halden-Spending-Pattern" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49385908/file/still-d4700d0697c60565f4423f2e5a0f9b7c.png?format=webp&amp;resize=400x300&amp;vertical=center" alt="Halden: Spending Pattern" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27827345-Halden-Spending-Pattern" target="_blank" rel="noopener">Halden: Spending Pattern</a></h3>
+    <div class="author">by Flair</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">消费 pattern 的可视化，把时间流和分类占比压进一张图，dashboard 灵感。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27827345-Halden-Spending-Pattern" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27830623-Nomi-Fintech-ERP-Transactions-Table-Bulk-Actions" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49398644/file/473232372fd23b82db9895844009ff2d.png?format=webp&amp;resize=400x300&amp;vertical=center" alt="Nomi Fintech ERP. Transactions Table &amp; Bulk Actions" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27830623-Nomi-Fintech-ERP-Transactions-Table-Bulk-Actions" target="_blank" rel="noopener">Nomi Fintech ERP. Transactions Table &amp; Bulk Actions</a></h3>
+    <div class="author">by Dose of Culture</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">金融交易表格的批量操作交互，多选态和工具栏联动做得细。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27830623-Nomi-Fintech-ERP-Transactions-Table-Bulk-Actions" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-21" data-edition="2026-10-21">
+  <div class="section-head"><h2>2026-10-21</h2><span class="sub">6 个作品 · <a href="editions/2026-10-21.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="AI 移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27827186-AI-Health-Assistant-Mobile-App-Design" target="_blank" rel="noopener"><div class="noimg">视频作品，无静态图<br>细节请看原作品页</div></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27827186-AI-Health-Assistant-Mobile-App-Design" target="_blank" rel="noopener">AI Health Assistant Mobile App Design</a></h3>
+    <div class="author">by Artspire</div>
+    <div class="cats">AI · 移动App</div>
+    <p class="comment">AI 健康助手的产品形态和信息架构值得参考。顺手提一句，这个是视频作品，没有静态图，细节看原站。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27827186-AI-Health-Assistant-Mobile-App-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="电商">
+  <a class="thumb" href="https://dribbble.com/shots/27828372-E-commerce-Website" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49390150/file/fb7ee2c8580175c0e3c3fc3f6ae9fc37.png?resize=752x&amp;vertical=center" alt="E-commerce Website" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27828372-E-commerce-Website" target="_blank" rel="noopener">E-commerce Website</a></h3>
+    <div class="author">by Awe Design Studio</div>
+    <div class="cats">电商</div>
+    <p class="comment">电商站的整体版式和商品陈列节奏。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27828372-E-commerce-Website" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27826935-Eilo-Finance-managment-Dashboard-UI" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49384431/file/f34b99f885fd1b76fe1c4e83dfb8868f.jpg?resize=752x&amp;vertical=center" alt="Eilo - Finance managment Dashboard UI" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27826935-Eilo-Finance-managment-Dashboard-UI" target="_blank" rel="noopener">Eilo - Finance managment Dashboard UI</a></h3>
+    <div class="author">by Jack R. for RonDesignLab</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">财务类 dashboard 的图表组合和信息层级。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27826935-Eilo-Finance-managment-Dashboard-UI" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27819536-ordivalabs-Automated-Biotech-Laboratory-Systems-Tablet-UI" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49354301/file/483e853bfbcd4379f2be4e0ff7e462a3.png?resize=752x&amp;vertical=center" alt="ordivalabs: Automated Biotech Laboratory Systems - Tablet UI" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27819536-ordivalabs-Automated-Biotech-Laboratory-Systems-Tablet-UI" target="_blank" rel="noopener">ordivalabs: Automated Biotech Laboratory Systems - Tablet UI</a></h3>
+    <div class="author">by Samuel Oktavianus</div>
+    <div class="cats">移动App</div>
+    <p class="comment">平板端科研系统这类功能型 UI 的骨架。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27819536-ordivalabs-Automated-Biotech-Laboratory-Systems-Tablet-UI" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27828553-Website-Design-B2B-Data-Engineering-Consultancy" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49390941/file/a3a7fe075eea9b81ffc2ce1c240685ec.png?resize=752x&amp;vertical=center" alt="Website Design — B2B Data Engineering Consultancy" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27828553-Website-Design-B2B-Data-Engineering-Consultancy" target="_blank" rel="noopener">Website Design — B2B Data Engineering Consultancy</a></h3>
+    <div class="author">by Kris Anfalova</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">B2B SaaS 落地页的叙事结构。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27828553-Website-Design-B2B-Data-Engineering-Consultancy" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27827227-Gold-Trading-Mobile-iOS-App-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49385498/file/68d541ca8a552e81315c49c96d1270bd.png?resize=752x&amp;vertical=center" alt="Gold Trading Mobile iOS App Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27827227-Gold-Trading-Mobile-iOS-App-Design" target="_blank" rel="noopener">Gold Trading Mobile iOS App Design</a></h3>
+    <div class="author">by Purrweb UI/UX Agency</div>
+    <div class="cats">移动App</div>
+    <p class="comment">金融类 App 的视觉体系和组件密度。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27827227-Gold-Trading-Mobile-iOS-App-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-20" data-edition="2026-10-20">
+  <div class="section-head"><h2>2026-10-20</h2><span class="sub">5 个作品 · <a href="editions/2026-10-20.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27709443-Crypto-Trading-Token-Swap-Mobile-App" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/48941532/file/b49433483d83ae28c12f63f186bc2200.png" alt="Crypto Trading &amp; Token Swap Mobile App" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27709443-Crypto-Trading-Token-Swap-Mobile-App" target="_blank" rel="noopener">Crypto Trading &amp; Token Swap Mobile App</a></h3>
+    <div class="author">by Bogdan Nikitin for Nixtio</div>
+    <div class="cats">移动App</div>
+    <p class="comment">换币流程的视觉层级做得非常利落，深色系的动线引导值得抄。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27709443-Crypto-Trading-Token-Swap-Mobile-App" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI">
+  <a class="thumb" href="https://dribbble.com/shots/27821075-Mental-Health-Website-AI-Mental-Wellness-Platform" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49361231/file/still-0649b68e8e3d9ade7c507dcf577f1f1c.png" alt="Mental Health Website | AI Mental Wellness Platform" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27821075-Mental-Health-Website-AI-Mental-Wellness-Platform" target="_blank" rel="noopener">Mental Health Website | AI Mental Wellness Platform</a></h3>
+    <div class="author">by Imran Hossen</div>
+    <div class="cats">AI</div>
+    <p class="comment">柔和插画+大呼吸感留白，把&quot;治愈感&quot;做进版式节奏里。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27821075-Mental-Health-Website-AI-Mental-Wellness-Platform" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27825085-Fintech-Landing-Page-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49377371/file/still-6566515e08f2df848ffbd2bca31156f0.png" alt="Fintech Landing Page Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27825085-Fintech-Landing-Page-Design" target="_blank" rel="noopener">Fintech Landing Page Design</a></h3>
+    <div class="author">by Mahid</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">数据仪表盘直接做进落地页首屏，信任感拉满的 SaaS 范式。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27825085-Fintech-Landing-Page-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27824008-AI-Powered-Launch-Predictor-Platform" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49373156/file/still-0626dd7c22ddf0b9e0cbd0bffbd0d6.png" alt="AI-Powered Launch Predictor Platform" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27824008-AI-Powered-Launch-Predictor-Platform" target="_blank" rel="noopener">AI-Powered Launch Predictor Platform</a></h3>
+    <div class="author">by Eloqwnt</div>
+    <div class="cats">AI · dashboard</div>
+    <p class="comment">预测类产品的仪表盘信息密度和配色对比处理得很克制。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27824008-AI-Powered-Launch-Predictor-Platform" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="电商">
+  <a class="thumb" href="https://dribbble.com/shots/27823864-Keyboard-E-commerce-Website-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49372693/file/still-305dc5ccfad3.png" alt="Keyboard E-commerce Website Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27823864-Keyboard-E-commerce-Website-Design" target="_blank" rel="noopener">Keyboard E-commerce Website Design</a></h3>
+    <div class="author">by Topnotch UI/UX for Topnotch Studio</div>
+    <div class="cats">电商</div>
+    <p class="comment">键盘产品页的特写镜头+参数排版，DTC 产品叙事感很强。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27823864-Keyboard-E-commerce-Website-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-19" data-edition="2026-10-19">
+  <div class="section-head"><h2>2026-10-19</h2><span class="sub">5 个作品 · <a href="editions/2026-10-19.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="AI dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27705456-Vero-AI-Powered-Revenue-Intelligence-Product" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/48927149/file/ad4bd890691b3a068b97edbcc8aeac3a.png?resize=752x&amp;vertical=center" alt="Vero — AI-Powered Revenue Intelligence Product" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27705456-Vero-AI-Powered-Revenue-Intelligence-Product" target="_blank" rel="noopener">Vero — AI-Powered Revenue Intelligence Product</a></h3>
+    <div class="author">by Nizam</div>
+    <div class="cats">AI · dashboard</div>
+    <p class="comment">深色高密度数据界面配 AI 洞察卡片，收入智能类产品的版式密度与信息层级值得抄。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27705456-Vero-AI-Powered-Revenue-Intelligence-Product" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI">
+  <a class="thumb" href="https://dribbble.com/shots/27715830-Orb-Agentic-OS-by-AmazingUI" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/48964825/file/still-50ae597ba53066a757b9d9541fd49e22.png?format=webp&amp;resize=400x300&amp;vertical=center" alt="Orb - Agentic OS by AmazingUI" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27715830-Orb-Agentic-OS-by-AmazingUI" target="_blank" rel="noopener">Orb - Agentic OS by AmazingUI</a></h3>
+    <div class="author">by AmazingUI</div>
+    <div class="cats">AI</div>
+    <p class="comment">动效驱动的 agent 交互概念，球形可视化表达适合 AI 产品概念包装。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27715830-Orb-Agentic-OS-by-AmazingUI" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27706828-PIM-Software-Dashboard-UI-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/48932146/file/still-9664238def12f54787e4f84ae37dad73.png?format=webp&amp;resize=400x300&amp;vertical=center" alt="PIM Software Dashboard UI Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27706828-PIM-Software-Dashboard-UI-Design" target="_blank" rel="noopener">PIM Software Dashboard UI Design</a></h3>
+    <div class="author">by Purrweb Web Design</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">产品数据管理后台，表格/筛选/批量操作的信息架构干净，B2B 后台可借鉴。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27706828-PIM-Software-Dashboard-UI-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="电商 移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27705256-Online-Meat-Market-Mobile-App-UI-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/48926438/file/2fd3791be862b3101ad05e21e7f8543d.jpg?format=webp&amp;resize=400x300&amp;vertical=center" alt="Online Meat Market Mobile App UI Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27705256-Online-Meat-Market-Mobile-App-UI-Design" target="_blank" rel="noopener">Online Meat Market Mobile App UI Design</a></h3>
+    <div class="author">by Nixtio</div>
+    <div class="cats">电商 · 移动App</div>
+    <p class="comment">生鲜电商 App，商品卡片与分类浏览的移动端动线流畅，品类电商可参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27705256-Online-Meat-Market-Mobile-App-UI-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27706847-Soma-Glucose-Monitoring-Mobile-App" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/48932206/file/1c13b36b1d917c1058dc5cb9c40ae120.jpg?resize=752x&amp;vertical=center" alt="Soma - Glucose Monitoring Mobile App" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27706847-Soma-Glucose-Monitoring-Mobile-App" target="_blank" rel="noopener">Soma - Glucose Monitoring Mobile App</a></h3>
+    <div class="author">by RonDesignLab</div>
+    <div class="cats">移动App</div>
+    <p class="comment">血糖监测健康 App，数据可视化配柔和配色，图表与空状态处理细腻。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27706847-Soma-Glucose-Monitoring-Mobile-App" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-18" data-edition="2026-10-18">
+  <div class="section-head"><h2>2026-10-18</h2><span class="sub">6 个作品 · <a href="editions/2026-10-18.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27808452-Fintech-SaaS-Landing-Page-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49313656/file/60ca6339d31bafa7ded674d2afa13c70.jpg" alt="Fintech SaaS Landing Page Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27808452-Fintech-SaaS-Landing-Page-Design" target="_blank" rel="noopener">Fintech SaaS Landing Page Design</a></h3>
+    <div class="author">by Al Razi Siam</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">Flowify 金融 SaaS 完整落地页，天蓝渐变视觉加仪表盘产品预览，定价/FAQ/CTA 区块齐全，落地页骨架可直接套。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27808452-Fintech-SaaS-Landing-Page-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI">
+  <a class="thumb" href="https://dribbble.com/shots/27805668-Aurelle-AI-Avatar-Content-Engine" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49303308/file/still-29c6247de9176fb1d1137ed8a4a4e502.png" alt="Aurelle - AI Avatar Content Engine" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27805668-Aurelle-AI-Avatar-Content-Engine" target="_blank" rel="noopener">Aurelle - AI Avatar Content Engine</a></h3>
+    <div class="author">by Eloqwnt</div>
+    <div class="cats">AI</div>
+    <p class="comment">AI 头像内容引擎的产品界面与落地页，干净的设计语言配 AI 创作流程展示，AI 产品信息层级值得借鉴。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27805668-Aurelle-AI-Avatar-Content-Engine" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="电商">
+  <a class="thumb" href="https://dribbble.com/shots/27813077-Ecommerce-Website" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49330406/file/80b5a6306d1e7bf409c616dd62287277.png" alt="Ecommerce Website" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27813077-Ecommerce-Website" target="_blank" rel="noopener">Ecommerce Website</a></h3>
+    <div class="author">by Awe Design Studio</div>
+    <div class="cats">电商</div>
+    <p class="comment">相机品牌 LUMENLEN 的奢华风 DTC 落地页，巨型排印加产品摄影，品牌故事讲述的标杆。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27813077-Ecommerce-Website" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27814390-Dashboard-UI-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49335743/file/7b44f8b3732fd905693cba5caeb93e28.png" alt="Dashboard UI Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27814390-Dashboard-UI-Design" target="_blank" rel="noopener">Dashboard UI Design</a></h3>
+    <div class="author">by Mahid</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">Tern 财资管理仪表盘，深浅绿财务视觉系统加动效展示，数据可视化配色的高质量参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27814390-Dashboard-UI-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27820001-Health-Monitoring-App-Personal-Health-Wellness-Platform" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49356599/file/5f9c4080ff92486946575ba2cb17b3ac.png" alt="Health Monitoring App — Personal Health &amp; Wellness Platform" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27820001-Health-Monitoring-App-Personal-Health-Wellness-Platform" target="_blank" rel="noopener">Health Monitoring App — Personal Health &amp; Wellness Platform</a></h3>
+    <div class="author">by Fahema Yesmin</div>
+    <div class="cats">移动App</div>
+    <p class="comment">深色健康监测 App，心率波形、指标卡片、3D 心脏视觉，移动端信息层级和配色参考价值高。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27820001-Health-Monitoring-App-Personal-Health-Wellness-Platform" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27814294-Carae-AI-SaaS-Personal-Assistant-Landing-Page-UI-UX" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49335165/file/e87546995dd8b96fc15318894e585b4f.png" alt="Carae AI SaaS | Personal Assistant Landing Page UI/UX" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27814294-Carae-AI-SaaS-Personal-Assistant-Landing-Page-UI-UX" target="_blank" rel="noopener">Carae AI SaaS | Personal Assistant Landing Page UI/UX</a></h3>
+    <div class="author">by vino_costa for Roobinium</div>
+    <div class="cats">AI · SaaS</div>
+    <p class="comment">深色 AI 对话助手落地页（Telegram/WhatsApp 风格），AI 助手聊天 UI 的表达范本。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27814294-Carae-AI-SaaS-Personal-Assistant-Landing-Page-UI-UX" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-17" data-edition="2026-10-17">
+  <div class="section-head"><h2>2026-10-17</h2><span class="sub">6 个作品 · <a href="editions/2026-10-17.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="电商 移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27796930-Beauty-Ecommerce-Retail-Mobile-Store-App" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49269630/file/still-a9906732d5445d217ee8f9384378ad0a.png" alt="Beauty Ecommerce - Retail Mobile Store App" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27796930-Beauty-Ecommerce-Retail-Mobile-Store-App" target="_blank" rel="noopener">Beauty Ecommerce - Retail Mobile Store App</a></h3>
+    <div class="author">by Ronas IT | UI/UX Team</div>
+    <div class="cats">电商 · 移动App</div>
+    <p class="comment">美妆电商 App 全流程设计，购物流程和视觉可借鉴。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27796930-Beauty-Ecommerce-Retail-Mobile-Store-App" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27818371-Plenum-AI-Procurement-Dashboard-Animation" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49349676/file/still-d5bca01d2b5468926f7cbdfe85634391.png" alt="Plenum | AI Procurement Dashboard Animation" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27818371-Plenum-AI-Procurement-Dashboard-Animation" target="_blank" rel="noopener">Plenum | AI Procurement Dashboard Animation</a></h3>
+    <div class="author">by Ilias Miah</div>
+    <div class="cats">AI · dashboard</div>
+    <p class="comment">AI 采购 dashboard，带动画演示，AI 落地场景的界面表达值得看。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27818371-Plenum-AI-Procurement-Dashboard-Animation" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27818713-Data-Privacy-Software-Dashboard-UI-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49351006/file/still-d5bca01d2b5468926f7cbdfe85634391.png" alt="Data Privacy Software Dashboard UI Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27818713-Data-Privacy-Software-Dashboard-UI-Design" target="_blank" rel="noopener">Data Privacy Software Dashboard UI Design</a></h3>
+    <div class="author">by Purrweb UI/UX Agency</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">数据隐私合规 dashboard，合规类数据的展示思路可参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27818713-Data-Privacy-Software-Dashboard-UI-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27818401-Renewable-Energy-Corporate-Website" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49349824/file/a05d416f038012659afb97aa5e44e143.png" alt="Renewable Energy Corporate Website" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27818401-Renewable-Energy-Corporate-Website" target="_blank" rel="noopener">Renewable Energy Corporate Website</a></h3>
+    <div class="author">by Awe Design Studio</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">新能源企业官网，版式和配色可参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27818401-Renewable-Energy-Corporate-Website" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27818577-Taleo-Mobile-App-Design-for-Storytelling-Platform" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49350557/file/82068912dc949368c4c75dd2bb9f9120.png" alt="Taleo - Mobile App Design for Storytelling Platform" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27818577-Taleo-Mobile-App-Design-for-Storytelling-Platform" target="_blank" rel="noopener">Taleo - Mobile App Design for Storytelling Platform</a></h3>
+    <div class="author">by Phenomenon Product</div>
+    <div class="cats">移动App</div>
+    <p class="comment">AI 儿童故事 App，讲故事平台的移动端设计。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27818577-Taleo-Mobile-App-Design-for-Storytelling-Platform" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27818071-Industrial-Recruitment-Hiring-Mobile-App" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49348573/file/ed13a3692180eec967656735e018a460.png" alt="Industrial Recruitment &amp; Hiring Mobile App" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27818071-Industrial-Recruitment-Hiring-Mobile-App" target="_blank" rel="noopener">Industrial Recruitment &amp; Hiring Mobile App</a></h3>
+    <div class="author">by Nixtio</div>
+    <div class="cats">移动App</div>
+    <p class="comment">工业招聘 App，蓝领招聘场景的移动端设计。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27818071-Industrial-Recruitment-Hiring-Mobile-App" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-16" data-edition="2026-10-16">
+  <div class="section-head"><h2>2026-10-16</h2><span class="sub">6 个作品 · <a href="editions/2026-10-16.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27816332-Recruitment-dashboard-design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49342387/file/2d359f7db1879cb8d38e02f1def6c60d.png?resize=1600x1200" alt="Recruitment dashboard design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27816332-Recruitment-dashboard-design" target="_blank" rel="noopener">Recruitment dashboard design</a></h3>
+    <div class="author">by Awe UIUX</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">招聘场景的数据卡片布局值得借鉴。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27816332-Recruitment-dashboard-design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27815966-TraceRocket-ERP-Web-Dashboard-for-Aerospace" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49341016/file/bdfc6e40a7e6ae4d6c1a32683e3d09f3.png?resize=1600x1200" alt="TraceRocket — ERP Web Dashboard for Aerospace" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27815966-TraceRocket-ERP-Web-Dashboard-for-Aerospace" target="_blank" rel="noopener">TraceRocket — ERP Web Dashboard for Aerospace</a></h3>
+    <div class="author">by Phenomenon Product</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">航天 ERP 数据看板，复杂信息分层展示的思路可参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27815966-TraceRocket-ERP-Web-Dashboard-for-Aerospace" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27816269-Plenum-AI-Intelligent-Construction-Dashbaord-Design-Animation" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49342135/file/still-52739df32cb8f51b3642d034f6750073.png?resize=1600x1200" alt="Plenum AI | Intelligent Construction Dashbaord Design Animation" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27816269-Plenum-AI-Intelligent-Construction-Dashbaord-Design-Animation" target="_blank" rel="noopener">Plenum AI | Intelligent Construction Dashbaord Design Animation</a></h3>
+    <div class="author">by Ilias Miah</div>
+    <div class="cats">AI · dashboard</div>
+    <p class="comment">AI 加建筑施工的智能看板，还带动画演示。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27816269-Plenum-AI-Intelligent-Construction-Dashbaord-Design-Animation" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27815369-Mobile-App-UI-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49338831/file/03715ab0a59b97867ac50f6fa00a77d4.png?resize=1600x1200" alt="Mobile App UI Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27815369-Mobile-App-UI-Design" target="_blank" rel="noopener">Mobile App UI Design</a></h3>
+    <div class="author">by Olya Marchak</div>
+    <div class="cats">移动App</div>
+    <p class="comment">深色主题播客 App，深色配色和内容层级可借鉴。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27815369-Mobile-App-UI-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="电商">
+  <a class="thumb" href="https://dribbble.com/shots/27810392-Technical-Outerwear-E-commerce-Website-Design-MADEFACT" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49320315/file/3590f0c68c596c8ea96d54b90cc3bc9a.png?crop=0x0-4800x3600&amp;resize=1600x1200" alt="Technical Outerwear E-commerce Website Design - MADEFACT®️" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27810392-Technical-Outerwear-E-commerce-Website-Design-MADEFACT" target="_blank" rel="noopener">Technical Outerwear E-commerce Website Design - MADEFACT®️</a></h3>
+    <div class="author">by Faiz Abdillah</div>
+    <div class="cats">电商</div>
+    <p class="comment">户外服饰 DTC 电商站，产品视觉陈列和硬朗风格可参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27810392-Technical-Outerwear-E-commerce-Website-Design-MADEFACT" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27815744-Website-for-a-Health-Tech-Company-Tiger-Biosciences" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49340271/file/c88ec45920fdff730a1bfa0291bc320f.png?resize=1600x1200" alt="Website for a Health Tech Company ✦ Tiger Biosciences" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27815744-Website-for-a-Health-Tech-Company-Tiger-Biosciences" target="_blank" rel="noopener">Website for a Health Tech Company ✦ Tiger Biosciences</a></h3>
+    <div class="author">by Halo UI/UX</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">健康科技公司官网，科技感落地页的版式与配色可参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27815744-Website-for-a-Health-Tech-Company-Tiger-Biosciences" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-15" data-edition="2026-10-15">
+  <div class="section-head"><h2>2026-10-15</h2><span class="sub">5 个作品 · <a href="editions/2026-10-15.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="AI dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27812716-Atrium-AI-Powered-Property-Management-Approval-Dashboard" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49329226/file/still-1a02802b5f82ecbf35d354cef5eee141.png?resize=3200x2400" alt="Atrium | AI-Powered Property Management &amp; Approval Dashboard" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27812716-Atrium-AI-Powered-Property-Management-Approval-Dashboard" target="_blank" rel="noopener">Atrium | AI-Powered Property Management &amp; Approval Dashboard</a></h3>
+    <div class="author">by Ilias Miah</div>
+    <div class="cats">AI · dashboard</div>
+    <p class="comment">AI 审批流看板，信息密度高但层级清楚，审批卡片的状态设计值得借鉴。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27812716-Atrium-AI-Powered-Property-Management-Approval-Dashboard" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27173126-AI-Dashboard" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/47027409/file/still-85b8b13dfbe85696e4d46b66240a1aad.png?resize=1920x1440" alt="AI Dashboard" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27173126-AI-Dashboard" target="_blank" rel="noopener">AI Dashboard</a></h3>
+    <div class="author">by Geex Arts</div>
+    <div class="cats">AI · dashboard</div>
+    <p class="comment">深色 AI 数据看板，图表配色克制，信息层级可以抄。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27173126-AI-Dashboard" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27237804-SaaS-Landing-Page-Design-Product-Analytics-Platform-UI-UX" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/47244780/file/dbb6758fba322d388b906995b87c3ea2.png?resize=1600x1200" alt="SaaS Landing Page Design | Product Analytics Platform" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27237804-SaaS-Landing-Page-Design-Product-Analytics-Platform-UI-UX" target="_blank" rel="noopener">SaaS Landing Page Design | Product Analytics Platform</a></h3>
+    <div class="author">by Erik Padamans</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">产品分析平台落地页，首屏版式和留白干净。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27237804-SaaS-Landing-Page-Design-Product-Analytics-Platform-UI-UX" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="电商">
+  <a class="thumb" href="https://dribbble.com/shots/27813151-Ecommerce-Website-Homepage" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49330679/file/1912f6b6392d046ed11edcd41f8519a7.png?resize=1600x1200" alt="Ecommerce Website Homepage" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27813151-Ecommerce-Website-Homepage" target="_blank" rel="noopener">Ecommerce Website Homepage</a></h3>
+    <div class="author">by Awe Design Studio</div>
+    <div class="cats">电商</div>
+    <p class="comment">电商首页，商品陈列的节奏感好。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27813151-Ecommerce-Website-Homepage" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27809413-Bike-Rental-App-Map-Navigation" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49316683/file/d82fd2dba77d1cc777a5fb240f7ebc14.jpg?resize=1600x1200" alt="Bike Rental App - Map Navigation" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27809413-Bike-Rental-App-Map-Navigation" target="_blank" rel="noopener">Bike Rental App - Map Navigation</a></h3>
+    <div class="author">by Nixtio</div>
+    <div class="cats">移动App</div>
+    <p class="comment">地图导航 App，地图加底部卡片的交互组合顺滑。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27809413-Bike-Rental-App-Map-Navigation" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-14" data-edition="2026-10-14">
+  <div class="section-head"><h2>2026-10-14</h2><span class="sub">6 个作品 · <a href="editions/2026-10-14.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27776750-A-Smarter-Way-to-Hire-Top-Talent" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49192363/file/9d3279a782624b2da5129b2a73b63e88.jpg" alt="A Smarter Way to Hire Top Talent" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27776750-A-Smarter-Way-to-Hire-Top-Talent" target="_blank" rel="noopener">A Smarter Way to Hire Top Talent</a></h3>
+    <div class="author">by Techwitpro UI/UX</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">SaaS 招聘落地页：信息密度和 CTA 层级处理干净，hero+信任背书的排版值得参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27776750-A-Smarter-Way-to-Hire-Top-Talent" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27136565-ShipLens-SaaS-AI-Shipment-Management-Platform" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/46905941/file/e468834904624a6cf650c1c1c1e1ec0a.png" alt="ShipLens SaaS – AI Shipment Management Platform" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27136565-ShipLens-SaaS-AI-Shipment-Management-Platform" target="_blank" rel="noopener">ShipLens SaaS – AI Shipment Management Platform</a></h3>
+    <div class="author">by Jack R. for RonDesignLab ⭐️</div>
+    <div class="cats">AI · SaaS</div>
+    <p class="comment">AI 货运管理平台：地图+状态时间线的组合布局，复杂数据也塞得有条理。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27136565-ShipLens-SaaS-AI-Shipment-Management-Platform" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="电商">
+  <a class="thumb" href="https://dribbble.com/shots/27769483-Stylvane-Fashion-E-commerce-Landing-Page" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49165690/file/3fa41b16bc051df7b9e2e439e426810a.png" alt="Stylvane – Fashion E-commerce Landing Page" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27769483-Stylvane-Fashion-E-commerce-Landing-Page" target="_blank" rel="noopener">Stylvane – Fashion E-commerce Landing Page</a></h3>
+    <div class="author">by Roohi Web</div>
+    <div class="cats">电商</div>
+    <p class="comment">时尚电商落地页：大图留白+细线排版，品牌感拉得很满，DTC 站点可借鉴。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27769483-Stylvane-Fashion-E-commerce-Landing-Page" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27801144-DOMEXA-Real-Estate-Portfolio-Analytics-Dashboard" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49286498/file/6580b8f4116320baede89f3e411b8b9c.png" alt="DOMEXA - Real Estate Portfolio Analytics Dashboard" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27801144-DOMEXA-Real-Estate-Portfolio-Analytics-Dashboard" target="_blank" rel="noopener">DOMEXA - Real Estate Portfolio Analytics Dashboard</a></h3>
+    <div class="author">by BayFi UI/UX®</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">房地产投资组合看板：KPI 卡+多图表组合的密度控制做得好，深色方案干净。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27801144-DOMEXA-Real-Estate-Portfolio-Analytics-Dashboard" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27388009-AI-Dashboard-Design-for-Control-AI-Policy-Platform" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/47771394/file/517bb440ff05a4f5e8fdc5201ddeec62.png" alt="AI Dashboard Design for Control AI Policy Platform" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27388009-AI-Dashboard-Design-for-Control-AI-Policy-Platform" target="_blank" rel="noopener">AI Dashboard Design for Control AI Policy Platform</a></h3>
+    <div class="author">by George Railean</div>
+    <div class="cats">AI · dashboard</div>
+    <p class="comment">AI 策略管控平台看板：1165 赞的硬核作品，规则引擎+监控的交互信息架构很值得学。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27388009-AI-Dashboard-Design-for-Control-AI-Policy-Platform" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27788267-Mealio-Modern-Food-Delivery-App-UI-UX" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49236569/file/06ccf5eb29abe71a60e6d7d55855f8721.png" alt="Mealio – Modern Food Delivery App UI/UX" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27788267-Mealio-Modern-Food-Delivery-App-UI-UX" target="_blank" rel="noopener">Mealio – Modern Food Delivery App UI/UX</a></h3>
+    <div class="author">by BayFi UI/UX®</div>
+    <div class="cats">移动App</div>
+    <p class="comment">现代外卖 App UI：菜品卡片的图+价+加购三层布局顺手，移动端商品流的优秀模板。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27788267-Mealio-Modern-Food-Delivery-App-UI-UX" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-13" data-edition="2026-10-13">
+  <div class="section-head"><h2>2026-10-13</h2><span class="sub">5 个作品 · <a href="editions/2026-10-13.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27804383-Telecom-Network-Root-Cause-Analysis-Dashboard" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49298750/file/still-1770f4012214322cfba028c32e960c4c.png?resize=1600x1200" alt="Telecom Network Root Cause Analysis Dashboard" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27804383-Telecom-Network-Root-Cause-Analysis-Dashboard" target="_blank" rel="noopener">Telecom Network Root Cause Analysis Dashboard</a></h3>
+    <div class="author">by George Railean</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">电信级告警根因链路的可视化排布，复杂运维信息的分层呈现值得借鉴。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27804383-Telecom-Network-Root-Cause-Analysis-Dashboard" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI">
+  <a class="thumb" href="https://dribbble.com/shots/27806238-AI-Energy-Technology-Website" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49305196/file/still-b56276f041bc610ed476eb92d1f9d48b.png?resize=3200x2400" alt="AI Energy Technology Website" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27806238-AI-Energy-Technology-Website" target="_blank" rel="noopener">AI Energy Technology Website</a></h3>
+    <div class="author">by Zajno</div>
+    <div class="cats">AI</div>
+    <p class="comment">AI 能源科技公司官网，大气科技风的数据叙事，首屏节奏可参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27806238-AI-Energy-Technology-Website" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="电商">
+  <a class="thumb" href="https://dribbble.com/shots/27805801-Coffee-Shop-E-commerce-Website-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49303658/file/8484deca519e2d29a51b75e0dbedf543.jpg?resize=1600x1200" alt="Coffee Shop E-commerce Website Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27805801-Coffee-Shop-E-commerce-Website-Design" target="_blank" rel="noopener">Coffee Shop E-commerce Website Design</a></h3>
+    <div class="author">by Nixtio</div>
+    <div class="cats">电商</div>
+    <p class="comment">咖啡店电商站，温暖产品摄影加大留白，DTC 品牌&quot;氛围感卖货&quot;的版式参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27805801-Coffee-Shop-E-commerce-Website-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27805792-Real-Estate-Website" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49303632/file/1b81cb55c4f5bce1cb8ba0a435b3aed2.png?resize=1600x1200" alt="Real Estate Website" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27805792-Real-Estate-Website" target="_blank" rel="noopener">Real Estate Website</a></h3>
+    <div class="author">by Awe Design Studio</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">本期热度最高（232 赞 / 21.4k 浏览），房源列表的信息密度和排版干净利落。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27805792-Real-Estate-Website" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27804436-Profile-Page-Travel-Mobile-App-TravelMate" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49298930/file/0f8bcab5467a6679b218b78269c2fe31.jpg?resize=1600x1200" alt="Profile Page Travel Mobile App - TravelMate" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27804436-Profile-Page-Travel-Mobile-App-TravelMate" target="_blank" rel="noopener">Profile Page Travel Mobile App - TravelMate</a></h3>
+    <div class="author">by Phenomenon Product</div>
+    <div class="cats">移动App</div>
+    <p class="comment">旅行 App 个人主页，行程回顾与成就卡片的分层编排值得参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27804436-Profile-Page-Travel-Mobile-App-TravelMate" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-12" data-edition="2026-10-12">
+  <div class="section-head"><h2>2026-10-12</h2><span class="sub">6 个作品 · <a href="editions/2026-10-12.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="AI SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27789929-AI-SaaS-Landing-Page-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49243160/file/still-67e77ca2e651705aaa9adbca88c683bf.png?resize=3000x2250" alt="AI SaaS Landing Page Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27789929-AI-SaaS-Landing-Page-Design" target="_blank" rel="noopener">AI SaaS Landing Page Design</a></h3>
+    <div class="author">by Mahid</div>
+    <div class="cats">AI · SaaS</div>
+    <p class="comment">AI SaaS 落地页，hero 区产品截图的呈现方式和卖点排布，值得参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27789929-AI-SaaS-Landing-Page-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27803613-Cardova-Fintech-Corporate-Card-Landing-Page" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49295750/file/c43f97a2d1239e5aba7612617516d096.png?resize=1600x1200" alt="Cardova - Fintech Corporate Card Landing Page" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27803613-Cardova-Fintech-Corporate-Card-Landing-Page" target="_blank" rel="noopener">Cardova - Fintech Corporate Card Landing Page</a></h3>
+    <div class="author">by Korsa</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">fintech 企业卡落地页，深色商务质感，B2B 落地页的信任感营造可借鉴。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27803613-Cardova-Fintech-Corporate-Card-Landing-Page" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI 移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27779223-AI-Chatbot-Mobile-Assistant" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49201938/file/still-875f7dda3f1643fa720184fb25156ff1.png?resize=1600x1200" alt="AI Chatbot - Mobile Assistant" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27779223-AI-Chatbot-Mobile-Assistant" target="_blank" rel="noopener">AI Chatbot - Mobile Assistant</a></h3>
+    <div class="author">by Ronas IT | UI/UX Team</div>
+    <div class="cats">AI · 移动App</div>
+    <p class="comment">AI 聊天助手移动端，对话流加快捷操作的布局，AI 产品界面可参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27779223-AI-Chatbot-Mobile-Assistant" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27802914-Healthcare-Mobile-App-UI-Design" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49293392/file/5ede7f62e16f250f8d91a5686f870de9.png?resize=1600x1200" alt="Healthcare Mobile App UI Design" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27802914-Healthcare-Mobile-App-UI-Design" target="_blank" rel="noopener">Healthcare Mobile App UI Design</a></h3>
+    <div class="author">by Nixtio</div>
+    <div class="cats">移动App</div>
+    <p class="comment">医疗健康 App，信息层级干净，数据展示类 App 的排版可借鉴。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27802914-Healthcare-Mobile-App-UI-Design" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="电商">
+  <a class="thumb" href="https://dribbble.com/shots/27802827-Supplement-Ecommerce-Website-Design-DTC-product-store-UI-UX" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49293066/file/0fe449ca697e66bd9ceb8bf7f0319781.png?resize=1600x1200" alt="Supplement Ecommerce Website Design | DTC product store UI UX" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27802827-Supplement-Ecommerce-Website-Design-DTC-product-store-UI-UX" target="_blank" rel="noopener">Supplement Ecommerce Website Design | DTC product store UI UX</a></h3>
+    <div class="author">by Musemind</div>
+    <div class="cats">电商</div>
+    <p class="comment">补剂 DTC 电商站，产品页的转化动线处理得顺，DTC 品牌站可参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27802827-Supplement-Ecommerce-Website-Design-DTC-product-store-UI-UX" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27803580-Fintech-app" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49295621/file/still-fde294e69a7dbe95e8e1c58234d1e326.png?resize=3200x2400" alt="Fintech app" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27803580-Fintech-app" target="_blank" rel="noopener">Fintech app</a></h3>
+    <div class="author">by Taras Migulko</div>
+    <div class="cats">dashboard</div>
+    <p class="comment">金融 App 的数据看板，指标卡和图表的密度处理干净，你重构 dashboard 时可以直接抄作业。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27803580-Fintech-app" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+<section class="section" id="2026-10-11" data-edition="2026-10-11">
+  <div class="section-head"><h2>2026-10-11</h2><span class="sub">6 个作品 · <a href="editions/2026-10-11.html">当期页 →</a></span></div>
+  <div class="grid">
+<article class="work" data-cats="移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27792880-Mobile-App-for-an-Investment-Product-Univest" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49254459/file/7419535ba183c1303ffa17910d024d99.png?resize=1600x1200" alt="Mobile App for an Investment Product ✦ Univest" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27792880-Mobile-App-for-an-Investment-Product-Univest" target="_blank" rel="noopener">Mobile App for an Investment Product ✦ Univest</a></h3>
+    <div class="author">by Yasir Noori</div>
+    <div class="cats">移动App</div>
+    <p class="comment">深色金融质感，数据卡片层级干净，投资类 App 的信息密度和配色可直接参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27792880-Mobile-App-for-an-Investment-Product-Univest" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI 移动App">
+  <a class="thumb" href="https://dribbble.com/shots/27791781-AI-Fitness-App-UI-Personalized-Workout-Fitness-Tracking" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49249572/file/ea5871db30ad16ef65a8218740c06095.png?crop=0x0-3200x2400&amp;resize=1600x1200" alt="AI Fitness App UI – Personalized Workout &amp; Fitness Tracking" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27791781-AI-Fitness-App-UI-Personalized-Workout-Fitness-Tracking" target="_blank" rel="noopener">AI Fitness App UI – Personalized Workout &amp; Fitness Tracking</a></h3>
+    <div class="author">by SM Rubel ✦</div>
+    <div class="cats">AI · 移动App</div>
+    <p class="comment">训练计划卡片配进度环，AI 个性化推荐落到界面的方式值得借鉴。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27791781-AI-Fitness-App-UI-Personalized-Workout-Fitness-Tracking" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="AI dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27795465-Mandate-AI-Agent-Command-Center-Risk-Compliance" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49263632/file/still-11b42aff932837c62d5c6976f0fe09c4.png?resize=3200x2400" alt="Mandate — AI Agent Command Center | Risk &amp; Compliance" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27795465-Mandate-AI-Agent-Command-Center-Risk-Compliance" target="_blank" rel="noopener">Mandate — AI Agent Command Center | Risk &amp; Compliance</a></h3>
+    <div class="author">by Ilias Miah</div>
+    <div class="cats">AI · dashboard</div>
+    <p class="comment">AI Agent 指挥中心概念稿，风险/合规状态的可视化排布，agent 类产品后台可参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27795465-Mandate-AI-Agent-Command-Center-Risk-Compliance" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS">
+  <a class="thumb" href="https://dribbble.com/shots/27795844-Kova-Fintech-SaaS-Landing-Page" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49265555/file/e65127da26b20ec29fcd9f050.png?resize=1600x1200" alt="Kova - Fintech SaaS Landing Page" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27795844-Kova-Fintech-SaaS-Landing-Page" target="_blank" rel="noopener">Kova - Fintech SaaS Landing Page</a></h3>
+    <div class="author">by Korsa</div>
+    <div class="cats">SaaS</div>
+    <p class="comment">fintech 落地页，hero 区信息架构紧凑不乱，SaaS 落地页排版可借鉴。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27795844-Kova-Fintech-SaaS-Landing-Page" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="电商">
+  <a class="thumb" href="https://dribbble.com/shots/27793503-E-Commerce-Fashion-Website-Home-Page-Concept" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49256690/file/still-2c4a79d6aadda299a791abc8dd49cb8f.png?resize=3200x2400" alt="E-Commerce Fashion Website Home Page Concept" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27793503-E-Commerce-Fashion-Website-Home-Page-Concept" target="_blank" rel="noopener">E-Commerce Fashion Website Home Page Concept</a></h3>
+    <div class="author">by Bato UI/UX</div>
+    <div class="cats">电商</div>
+    <p class="comment">服装电商首页概念，大图与商品流的节奏感好，DTC 品牌站首页可参考。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27793503-E-Commerce-Fashion-Website-Home-Page-Concept" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+<article class="work" data-cats="SaaS dashboard">
+  <a class="thumb" href="https://dribbble.com/shots/27793102-SaaS-Revenue-Analytics-Dashboard" target="_blank" rel="noopener"><img src="https://cdn.dribbble.com/userupload/49255322/file/9e7b45a1b083b10f956e406f9ef2a93b.png?resize=1600x1200" alt="SaaS Revenue Analytics Dashboard" loading="lazy"></a>
+  <div class="meta2">
+    <h3><a href="https://dribbble.com/shots/27793102-SaaS-Revenue-Analytics-Dashboard" target="_blank" rel="noopener">SaaS Revenue Analytics Dashboard</a></h3>
+    <div class="author">by NexUX Product</div>
+    <div class="cats">SaaS · dashboard</div>
+    <p class="comment">收入分析看板，图表密度和筛选器布局处理得干净，你最近重构 dashboard，这个可以直接抄作业。</p>
+    <div class="goto"><a href="https://dribbble.com/shots/27793102-SaaS-Revenue-Analytics-Dashboard" target="_blank" rel="noopener">看原作品 →</a></div>
+  </div>
+</article>
+</div>
+</section>
+
   <footer>
     <p>设计拾集 · 每天从 Dribbble 精选。图片与作品归原作者所有，本站只做收录与点评，点击卡片前往原作品页。</p>
-    <p><a href="https://dribbble.com/shots/popular">Dribbble 热门</a> · <a href="index.html">回首页</a></p>
+    <p><a href="https://dribbble.com/shots/popular">Dribbble 热门</a></p>
   </footer>
 </div>
+<script src="assets/app.js"></script>
 </body>
 </html>

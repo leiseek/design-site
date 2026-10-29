@@ -1,97 +1,138 @@
-/* 设计拾集 — 纸面编辑式排版：细线、留白、衬线标题。
-   刻意不用渐变、玻璃、霓虹、大圆角和通用 AI 模板感。 */
+/* 设计拾集 v2 — Dribbble design token 1:1 落地（只用 token 值，不抄 Dribbble 的 logo 与文案）
+   颜色：粉 #ea4c89（只用于品牌点缀）· 墨 #0d0c22 · 深紫黑导航 #060318
+   烟灰 #6e6d7a · 雾灰 #9e9ea7 · 雾面 #f3f3f6 · 霜边 #e2e8f2 · 奶油 active pill #f8f7f4
+   字体：Mona Sans，fallback Inter / Helvetica / PingFang SC；标题 48px/700/1.08，体 16px
+   按钮：#0d0c22 填充、白字、8px 圆角、10px 18px 内边距、14px/600
+   网格：纯白画布、4 列缩略图、图片 8px 圆角、meta 间距 12px，无卡片背景、无阴影、无分隔线
+   段落间距 40px，meta 间距 8px */
 :root {
-  --paper: #f6f3ed;
-  --card: #fffdf8;
-  --ink: #171512;
-  --muted: #6b655a;
-  --line: #ddd7cc;
-  --accent: #b3401f;
-  --serif: "Songti SC", "Noto Serif SC", "STSong", Georgia, serif;
-  --sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+  --pink: #ea4c89;
+  --ink: #0d0c22;
+  --nav: #060318;
+  --plum: #3d3d4e;
+  --smoke: #6e6d7a;
+  --fog: #9e9ea7;
+  --mist: #f3f3f6;
+  --frost: #e2e8f2;
+  --cream: #f8f7f4;
+  --white: #ffffff;
+  --sans: "Mona Sans", Inter, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   --mono: ui-monospace, "SF Mono", Menlo, monospace;
 }
 * { box-sizing: border-box; }
-body {
-  margin: 0;
-  background: var(--paper);
-  color: var(--ink);
-  font-family: var(--sans);
-  font-size: 16px;
-  line-height: 1.65;
-  -webkit-font-smoothing: antialiased;
-}
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--white); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.31; -webkit-font-smoothing: antialiased; }
 a { color: inherit; }
-a:hover { color: var(--accent); }
-.wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px 80px; }
+img { display: block; }
 
-/* 顶栏与刊头 */
-.topbar {
-  display: flex; justify-content: space-between; gap: 16px;
-  padding: 14px 0; border-bottom: 1px solid var(--ink);
-  font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase;
+/* 导航：64px 深紫黑带，白字，无阴影无底边 */
+.nav {
+  position: sticky; top: 0; z-index: 50;
+  height: 64px; background: var(--nav); color: #fff;
+  display: flex; align-items: center; gap: 32px;
+  padding: 0 32px;
 }
-.topbar a { text-decoration: none; }
-.masthead { padding: 40px 0 28px; border-bottom: 3px solid var(--ink); }
-.masthead h1 {
-  margin: 0; font-family: var(--serif); font-size: 64px; line-height: 1.05;
-  font-weight: 600; letter-spacing: .02em;
+.nav .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; font-size: 18px; font-weight: 700; letter-spacing: .01em; white-space: nowrap; }
+.nav .logo .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--pink); flex: none; }
+.nav .links { display: flex; gap: 24px; font-size: 14px; font-weight: 500; }
+.nav .links a { color: #fff; text-decoration: none; opacity: .85; }
+.nav .links a:hover, .nav .links a.active { opacity: 1; text-decoration: underline; text-underline-offset: 6px; }
+.nav .spacer { flex: 1; }
+.nav .btn {
+  background: #fff; color: var(--ink); border: none; border-radius: 8px;
+  padding: 10px 18px; font-size: 14px; font-weight: 600; text-decoration: none; white-space: nowrap;
 }
-.masthead .en {
-  font-family: var(--mono); font-size: 12px; letter-spacing: .22em;
-  text-transform: uppercase; color: var(--muted); margin-top: 12px;
-}
-.masthead p { max-width: 640px; margin: 16px 0 0; color: #3d382f; }
-.meta { font-family: var(--mono); font-size: 12px; color: var(--muted); letter-spacing: .06em; }
+.nav .btn:hover { background: var(--mist); color: var(--ink); }
 
-/* 章节 */
-h2 {
-  font-family: var(--serif); font-size: 28px; line-height: 1.25;
-  margin: 48px 0 8px; font-weight: 600;
-}
-.rule { border: none; border-top: 1px solid var(--line); margin: 24px 0; }
-.section-note { color: var(--muted); margin: 0 0 24px; }
+.wrap { max-width: 1280px; margin: 0 auto; padding: 0 32px 80px; }
 
-/* 作品网格 */
-.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 24px; }
-.work {
-  background: var(--card); border: 1px solid var(--line);
-  padding: 0 0 18px; text-decoration: none; display: block;
+/* Hero：48px/700/1.08，粉只做一个小点缀 */
+.hero { padding: 40px 0; }
+.hero .badge {
+  display: inline-block; background: var(--pink); color: #fff; border-radius: 4px;
+  padding: 3px 8px; font-size: 12px; font-weight: 700; letter-spacing: .04em;
 }
-.work:hover { border-color: var(--ink); }
-.work .img { aspect-ratio: 4 / 3; background: #e8e2d6; overflow: hidden; border-bottom: 1px solid var(--line); }
-.work img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.hero h1 { margin: 16px 0 12px; font-size: 48px; line-height: 1.08; font-weight: 700; letter-spacing: -0.01em; }
+.hero p { margin: 0; color: var(--smoke); font-size: 16px; line-height: 1.5; max-width: 720px; }
+.hero .meta { margin-top: 12px; color: var(--fog); font-family: var(--mono); font-size: 12px; letter-spacing: .04em; }
+.breadcrumb { margin: 24px 0 0; font-size: 14px; color: var(--smoke); }
+.breadcrumb a { text-decoration: none; }
+.breadcrumb a:hover { color: var(--pink); }
+
+/* 筛选条：奶油 active pill，白底输入 */
+.toolbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; padding: 16px 0 24px; }
+.pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.pill {
+  border: 1px solid var(--frost); background: var(--white); color: var(--ink);
+  border-radius: 999px; padding: 8px 16px; font-size: 14px; font-weight: 500; cursor: pointer;
+}
+.pill.active { background: var(--cream); border-color: var(--ink); font-weight: 600; }
+.search {
+  margin-left: auto; background: var(--mist); border: 1px solid var(--frost); border-radius: 8px;
+  padding: 10px 14px; font-size: 14px; min-width: 220px; font-family: var(--sans); outline: none;
+}
+.search:focus { border-color: var(--ink); background: var(--white); }
+.count { font-size: 14px; color: var(--smoke); }
+
+/* 段落与 4 列网格 */
+.section { margin-top: 40px; }
+.section-head { display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline; justify-content: space-between; margin-bottom: 16px; }
+.section-head h2 { margin: 0; font-size: 24px; font-weight: 700; line-height: 1.2; }
+.section-head .sub { color: var(--smoke); font-size: 14px; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px 20px; }
+.work { min-width: 0; }
+.work .thumb { display: block; border-radius: 8px; overflow: hidden; background: var(--mist); aspect-ratio: 4 / 3; }
+.work .thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .2s ease; }
+.work .thumb:hover img { transform: scale(1.02); }
 .work .noimg {
   width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
-  padding: 24px; text-align: center; color: var(--muted); font-size: 14px;
+  padding: 16px; text-align: center; color: var(--smoke); font-size: 13px; line-height: 1.5;
 }
-.work .body { padding: 16px 18px 0; }
-.work .num { font-family: var(--mono); font-size: 12px; color: var(--accent); letter-spacing: .1em; }
-.work h3 { font-family: var(--serif); font-size: 21px; line-height: 1.35; margin: 6px 0 4px; font-weight: 600; }
-.work .author { font-size: 13px; color: var(--muted); }
-.work .tags { margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap; }
-.tag {
-  font-size: 12px; border: 1px solid var(--line); padding: 1px 8px;
-  font-family: var(--mono); letter-spacing: .04em;
+.work .meta2 { margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
+.work h3 { margin: 0; font-size: 14px; line-height: 1.43; font-weight: 600; }
+.work h3 a { text-decoration: none; }
+.work h3 a:hover { color: var(--pink); }
+.work .author { font-size: 13px; color: var(--smoke); }
+.work .cats { font-size: 12px; color: var(--fog); }
+.work .comment { margin: 0; font-size: 14px; line-height: 1.5; color: var(--plum); }
+.work .goto { font-size: 13px; font-weight: 600; }
+.work .goto a { text-decoration: none; }
+.work .goto a:hover { color: var(--pink); }
+.empty { display: none; padding: 32px 0; color: var(--smoke); }
+
+/* 归档跳转 pill 列表 */
+.jump { display: flex; flex-wrap: wrap; gap: 8px; padding: 16px 0 0; }
+.jump a {
+  border: 1px solid var(--frost); border-radius: 999px; padding: 6px 12px;
+  font-size: 13px; text-decoration: none; color: var(--ink);
 }
-.work .comment { margin: 12px 0 0; font-size: 15px; color: #3d382f; }
-.work .goto { margin-top: 12px; font-size: 13px; font-family: var(--mono); letter-spacing: .04em; }
+.jump a:hover { border-color: var(--ink); }
 
-/* 归档表 */
-.archive { width: 100%; border-collapse: collapse; font-size: 15px; }
-.archive th, .archive td { text-align: left; padding: 12px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
-.archive th { font-family: var(--mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
-.archive td.date { font-family: var(--mono); white-space: nowrap; }
-.archive a { text-decoration: none; }
+/* 二级页操作：深色 pill 按钮 */
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0 0; }
+.btn-dark {
+  display: inline-block; background: var(--ink); color: #fff; border-radius: 8px;
+  padding: 10px 18px; font-size: 14px; font-weight: 600; text-decoration: none;
+}
+.btn-dark:hover { color: #fff; opacity: .9; }
+.btn-ghost {
+  display: inline-block; background: var(--white); color: var(--ink); border: 1px solid var(--frost);
+  border-radius: 8px; padding: 10px 18px; font-size: 14px; font-weight: 600; text-decoration: none;
+}
+.pager { display: flex; justify-content: space-between; gap: 16px; margin-top: 40px; }
 
-/* 期次导航与页脚 */
-.pager { display: flex; justify-content: space-between; gap: 16px; margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--ink); font-size: 14px; }
-.pager a { text-decoration: none; }
-footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--ink); color: var(--muted); font-size: 13px; }
+footer { margin-top: 80px; padding-top: 24px; border-top: 1px solid var(--frost); color: var(--smoke); font-size: 13px; line-height: 1.6; }
 footer a { text-decoration: none; }
+footer a:hover { color: var(--pink); }
 
+@media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 720px) {
-  .masthead h1 { font-size: 44px; }
-  .grid { grid-template-columns: 1fr; }
-  .topbar { flex-direction: column; gap: 4px; }
+  .nav { padding: 0 16px; gap: 16px; }
+  .nav .links { gap: 12px; }
+  .nav .btn { display: none; }
+  .wrap { padding: 0 16px 64px; }
+  .hero h1 { font-size: 36px; }
+  .grid { grid-template-columns: repeat(2, 1fr); }
+  .search { margin-left: 0; width: 100%; }
 }
+@media (max-width: 480px) { .grid { grid-template-columns: 1fr; } }
