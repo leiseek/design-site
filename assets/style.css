@@ -1,0 +1,97 @@
+/* 设计拾集 — 纸面编辑式排版：细线、留白、衬线标题。
+   刻意不用渐变、玻璃、霓虹、大圆角和通用 AI 模板感。 */
+:root {
+  --paper: #f6f3ed;
+  --card: #fffdf8;
+  --ink: #171512;
+  --muted: #6b655a;
+  --line: #ddd7cc;
+  --accent: #b3401f;
+  --serif: "Songti SC", "Noto Serif SC", "STSong", Georgia, serif;
+  --sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, monospace;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+a:hover { color: var(--accent); }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px 80px; }
+
+/* 顶栏与刊头 */
+.topbar {
+  display: flex; justify-content: space-between; gap: 16px;
+  padding: 14px 0; border-bottom: 1px solid var(--ink);
+  font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase;
+}
+.topbar a { text-decoration: none; }
+.masthead { padding: 40px 0 28px; border-bottom: 3px solid var(--ink); }
+.masthead h1 {
+  margin: 0; font-family: var(--serif); font-size: 64px; line-height: 1.05;
+  font-weight: 600; letter-spacing: .02em;
+}
+.masthead .en {
+  font-family: var(--mono); font-size: 12px; letter-spacing: .22em;
+  text-transform: uppercase; color: var(--muted); margin-top: 12px;
+}
+.masthead p { max-width: 640px; margin: 16px 0 0; color: #3d382f; }
+.meta { font-family: var(--mono); font-size: 12px; color: var(--muted); letter-spacing: .06em; }
+
+/* 章节 */
+h2 {
+  font-family: var(--serif); font-size: 28px; line-height: 1.25;
+  margin: 48px 0 8px; font-weight: 600;
+}
+.rule { border: none; border-top: 1px solid var(--line); margin: 24px 0; }
+.section-note { color: var(--muted); margin: 0 0 24px; }
+
+/* 作品网格 */
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 24px; }
+.work {
+  background: var(--card); border: 1px solid var(--line);
+  padding: 0 0 18px; text-decoration: none; display: block;
+}
+.work:hover { border-color: var(--ink); }
+.work .img { aspect-ratio: 4 / 3; background: #e8e2d6; overflow: hidden; border-bottom: 1px solid var(--line); }
+.work img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.work .noimg {
+  width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+  padding: 24px; text-align: center; color: var(--muted); font-size: 14px;
+}
+.work .body { padding: 16px 18px 0; }
+.work .num { font-family: var(--mono); font-size: 12px; color: var(--accent); letter-spacing: .1em; }
+.work h3 { font-family: var(--serif); font-size: 21px; line-height: 1.35; margin: 6px 0 4px; font-weight: 600; }
+.work .author { font-size: 13px; color: var(--muted); }
+.work .tags { margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap; }
+.tag {
+  font-size: 12px; border: 1px solid var(--line); padding: 1px 8px;
+  font-family: var(--mono); letter-spacing: .04em;
+}
+.work .comment { margin: 12px 0 0; font-size: 15px; color: #3d382f; }
+.work .goto { margin-top: 12px; font-size: 13px; font-family: var(--mono); letter-spacing: .04em; }
+
+/* 归档表 */
+.archive { width: 100%; border-collapse: collapse; font-size: 15px; }
+.archive th, .archive td { text-align: left; padding: 12px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.archive th { font-family: var(--mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.archive td.date { font-family: var(--mono); white-space: nowrap; }
+.archive a { text-decoration: none; }
+
+/* 期次导航与页脚 */
+.pager { display: flex; justify-content: space-between; gap: 16px; margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--ink); font-size: 14px; }
+.pager a { text-decoration: none; }
+footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--ink); color: var(--muted); font-size: 13px; }
+footer a { text-decoration: none; }
+
+@media (max-width: 720px) {
+  .masthead h1 { font-size: 44px; }
+  .grid { grid-template-columns: 1fr; }
+  .topbar { flex-direction: column; gap: 4px; }
+}
