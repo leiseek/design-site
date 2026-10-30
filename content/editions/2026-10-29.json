@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-29",
+  "works": [
+    {
+      "author": "Ronan Flynn-Curran",
+      "categories": [
+        "AI"
+      ],
+      "comment": "把 AI 设计协作的「过程」画成一张决策地图，用线程式画布让每次 prompt、迭代与评审都有迹可循，值得借鉴的是为 agent 工作流设计专属的可视化语言，而不只是展示最终稿。",
+      "image": "https://cdn.dribbble.com/userupload/49437215/file/59c52430e7831de973bc8ff085324012.png",
+      "title": "Takes - a decision map for design agents",
+      "url": "https://dribbble.com/shots/27840848-Takes-a-decision-map-for-design-agents"
+    },
+    {
+      "author": "JOY - Product Designer",
+      "categories": [
+        "AI",
+        "移动App"
+      ],
+      "comment": "用自然语言搜索、AI 匹配分与 12 个月价格预测把找房变成「被 AI 陪着看房」，值得借鉴的是把 AI 能力包装成可感知的分数和行动建议，而非堆砌功能点。",
+      "image": "https://cdn.dribbble.com/userupload/49430194/file/441d368f4eef4b9b62386b9711d64fa1.png",
+      "title": "AI Real Estate App UI Design | Smart Home Finder Mobile App",
+      "url": "https://dribbble.com/shots/27839007-AI-Real-Estate-App-UI-Design-Smart-Home-Finder-Mobile-App"
+    },
+    {
+      "author": "10am Space",
+      "categories": [
+        "SaaS"
+      ],
+      "comment": "以「大标题＋真实家长证言＋FAQ」三段式结构直击家长的决策焦虑，值得借鉴的是用编辑杂志式的排版节奏和暖橙色建立信任感，让落地页像一本可信的育儿刊物。",
+      "image": "https://cdn.dribbble.com/userupload/49438461/file/d4528f814755b4632a2faa6b8699edf3.png",
+      "title": "Early Learning Landing Page",
+      "url": "https://dribbble.com/shots/27841087-Early-Learning-Landing-Page"
+    },
+    {
+      "author": "JOY - Product Designer",
+      "categories": [
+        "AI",
+        "移动App"
+      ],
+      "comment": "深海军蓝配紫橙渐变让金融数据有了高级感，更值得借鉴的是「可解释 AI」设计——把估值拆成地段、市场动量等可视化驱动因素，用透明度换取用户对 AI 定价的信任。",
+      "image": "https://cdn.dribbble.com/userupload/49430237/file/859cf02ca3f4f11bfca54d70523e46fd.png",
+      "title": "AI Property Valuation App UI | Dark Mode Real Estate Mobile App",
+      "url": "https://dribbble.com/shots/27839022-AI-Property-Valuation-App-UI-Dark-Mode-Real-Estate-Mobile-App"
+    },
+    {
+      "author": "Ronan Flynn-Curran",
+      "categories": [
+        "AI",
+        "dashboard"
+      ],
+      "comment": "为 AI agent 打造的「动态流式」工作日志：把各 agent 的产出聚合成一条可浏览的任务动态，值得借鉴的是用信息流的心智模型解决「agent 在干什么」的可观测性问题，简洁又有产品味。",
+      "image": "https://cdn.dribbble.com/userupload/49402703/file/be515f3931db587e3406425ba1d5cbb3.png",
+      "title": "fleeet.space",
+      "url": "https://dribbble.com/shots/27831744-fleeet-space"
+    }
+  ]
+}
