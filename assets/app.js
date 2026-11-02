@@ -4,14 +4,14 @@
   var input = document.getElementById('q');
   var countEl = document.getElementById('result-count');
   var sections = document.querySelectorAll('[data-edition]');
-  var current = '全部';
+  var current = 'all';
   function apply() {
     var q = (input ? input.value.trim().toLowerCase() : '');
     var shown = 0;
     document.querySelectorAll('.work').forEach(function (w) {
       var cats = (w.getAttribute('data-cats') || '').split(' ');
       var text = (w.textContent || '').toLowerCase();
-      var okCat = current === '全部' || cats.indexOf(current) !== -1;
+      var okCat = current === 'all' || cats.indexOf(current) !== -1;
       var okQ = !q || text.indexOf(q) !== -1;
       var show = okCat && okQ;
       w.style.display = show ? '' : 'none';
@@ -22,10 +22,13 @@
       s.querySelectorAll('.work').forEach(function (w) { if (w.style.display !== 'none') any = true; });
       s.style.display = any ? '' : 'none';
     });
-    if (countEl) countEl.textContent = '共 ' + shown + ' 个作品';
+    if (countEl) countEl.textContent = (window.dpFmtCount || function (n) { return n; })(shown);
     var empty = document.getElementById('empty');
     if (empty) empty.style.display = shown === 0 ? 'block' : 'none';
   }
+  // let i18n.js re-run filtering (for the locale-aware counter) on language switch
+  window.__dpRefresh = apply;
+  apply();
   pills.forEach(function (p) {
     p.addEventListener('click', function () {
       pills.forEach(function (x) { x.classList.remove('active'); });

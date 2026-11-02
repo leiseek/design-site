@@ -136,3 +136,34 @@ footer a:hover { color: var(--pink); }
   .search { margin-left: 0; width: 100%; }
 }
 @media (max-width: 480px) { .grid { grid-template-columns: 1fr; } }
+
+/* ---------- i18n: zh/en toggle (t-zh / t-en spans) ---------- */
+.t-en { display: none; }
+html[lang="en"] .t-zh { display: none; }
+html[lang="en"] .t-en { display: inline; }
+
+.langsw {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin-right: 14px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.langsw i { font-style: normal; opacity: .3; margin: 0 2px; }
+.langsw button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  color: #fff;
+  opacity: .55;
+  padding: 4px 6px;
+  border-radius: 6px;
+}
+.langsw button:hover { opacity: 1; }
+.langsw button.active { opacity: 1; font-weight: 700; color: var(--pink); }
+
+@media (max-width: 640px) {
+  .langsw { margin-right: 0; }
+}
