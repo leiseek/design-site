@@ -1,1 +1,83 @@
-{"date":"2026-11-02","works":[{"author":"Daniel Ross Luft for Heyo","categories":["移动App"],"comment":"高尔夫挥杆分析软件 Arc 的移动端落地页：深色界面配手持手机样机，挥杆数据 162.9 直接钉在首屏，\"Drop It / Own It / Swing It\" 三步流程把产品价值讲清了，工具类 App 的营销页可借鉴。","comment_en":"Landing page for Arc, a golf-swing analysis app: dark UI with a hand-held phone mockup, swing stat 162.9 pinned front and center — the \"Drop It / Own It / Swing It\" three-step flow nails product value, worth studying for tool-app marketing pages.","image":"https://cdn.dribbble.com/userupload/49499794/file/d9e2169b0ff8f7f73a3f932038fd756e.png?format=webp&resize=400x300&vertical=center","title":"Arc Mobile Screens","url":"https://dribbble.com/shots/27857688-Arc-Mobile-Screens"},{"author":"Nixtio","categories":["移动App"],"comment":"单车租赁 App：3D 城市地图上叠放附近车辆与站点卡片，\"Nearby now\"、37 辆车、\"#45 Riverside Walk\" 站点信息一屏读完，地图类 App 的信息叠加层值得学。","comment_en":"Bike-rental app with a 3D city map layered with nearby-vehicle and station cards — \"Nearby now,\" 37 bikes, and the \"#45 Riverside Walk\" stop all readable at a glance; a lesson in map-overlay layering.","image":"https://cdn.dribbble.com/userupload/49497183/file/2f6f7b9676e2239fa47507ea72dbcced.jpg?format=webp&resize=400x300&vertical=center","title":"Bike Rental & Navigation App UI Design","url":"https://dribbble.com/shots/27856939-Bike-Rental-Navigation-App-UI-Design"},{"author":"Mahid","categories":["dashboard"],"comment":"深色财务运营仪表盘 \"Vantage\"（视频）：现金流图表、资金跑道与预算面板同屏排布，金融后台的数据密度与留白平衡得不错。","comment_en":"Dark finance-ops dashboard \"Vantage\" (video): cash-flow charts, runway, and budget panels share one screen — a good balance of data density and breathing room for finance back offices.","image":"https://cdn.dribbble.com/userupload/49243680/file/19ab9fabcddd821a0757a19dc9f3c0e7.jpg?format=webp&resize=400x300&vertical=center","title":"Dashboard UI Design","url":"https://dribbble.com/shots/27790082-Dashboard-UI-Design"},{"author":"Halo UI/UX for HALO LAB","categories":["SaaS"],"comment":"医疗公司 \"Satelia\" 官网（视频）：\"Remote patient support\" 主视觉配心脏监测板块与医生形象图，医疗类站点建立信任感的叙事节奏可参考。","comment_en":"Healthcare company site \"Satelia\" (video): \"Remote patient support\" hero with a heart-monitoring section and clinician imagery — a trust-building narrative rhythm worth borrowing for healthcare sites.","image":"https://cdn.dribbble.com/userupload/49498335/file/126254ba5cdc61cab42b707bc9efa239.png?format=webp&resize=400x300&vertical=center","title":"Website for a Healthcare Company ✦ Satelia","url":"https://dribbble.com/shots/27857307-Website-for-a-Healthcare-Company-Satelia"},{"author":"Zakariya Buhari","categories":["dashboard","SaaS"],"comment":"小企业现金流仪表盘 \"Ledra\"：现金健康分 74、资金跑道 14.2 个月，余额/消耗/待收卡片配预测图表与待办提醒，SaaS 仪表盘把\"钱还剩多久\"讲得一目了然。","comment_en":"Small-business cash-flow dashboard \"Ledra\": health score 74, 14.2 months of runway, balance/burn/receivables cards with forecast charts and reminders — answers \"how long will the money last\" at a glance.","image":"https://cdn.dribbble.com/userupload/49490025/file/ca25b604c09c14524e2ae2c778aac45b.png?format=webp&resize=400x300&vertical=center","title":"Ledra: Cash-Flow Dashboard for Small Businesses","url":"https://dribbble.com/shots/27854999-Ledra-Cash-Flow-Dashboard-for-Small-Businesses"},{"author":"Jahid Hasan","categories":["移动App"],"comment":"旅行徒步 App 三屏动画流程（视频）：欢迎页→发现页→目的地详情与预订按钮，一镜到底的动效把\"想走就走\"的情绪拉满，出行类 App 的转场设计范例。","comment_en":"Travel/trekking app in a three-screen animated flow (video): welcome → discover → destination detail with a book button, one continuous take — the transitions sell the \"just go\" feeling, a reference for travel-app motion.","image":"https://cdn.dribbble.com/userupload/49482451/file/still-f5793d29b7902df3e28c78b61cf1fe2a.png?format=webp&resize=400x300&vertical=center","title":"Travel & Trekking Mobile App UI/UX – Animated Flow","url":"https://dribbble.com/shots/27853017-Travel-Trekking-Mobile-App-UI-UX-Animated-Flow"},{"author":"JK Mahbub","categories":["AI"],"comment":"AI 平台网站动效设计（视频）：深色 DevOps/云基础设施风，\"For Growing Tech Teams\" 开场，AI 工具类站点的深色质感与动效叙事可借鉴。","comment_en":"AI platform site motion design (video): dark DevOps/cloud-infra aesthetic opening on \"For Growing Tech Teams\" — dark-mode texture and motion storytelling worth borrowing for AI tool sites.","image":"https://cdn.dribbble.com/userupload/49475297/file/still-21615a755ee6d5c03d893e16cd81f445.png?format=webp&resize=400x300&vertical=center","title":"AI Website | Motion","url":"https://dribbble.com/shots/27851112-AI-Website-Motion"}]}
+{
+ "date": "2026-11-02",
+ "works": [
+  {
+   "author": "Daniel Ross Luft for Heyo",
+   "categories": [
+    "移动App"
+   ],
+   "comment": "高尔夫挥杆分析软件 Arc 的移动端落地页：深色界面配手持手机样机，挥杆数据 162.9 直接钉在首屏，\"Drop It / Own It / Swing It\" 三步流程把产品价值讲清了，工具类 App 的营销页可借鉴。",
+   "comment_en": "Landing page for Arc, a golf-swing analysis app: dark UI with a hand-held phone mockup, swing stat 162.9 pinned front and center — the \"Drop It / Own It / Swing It\" three-step flow nails product value, worth studying for tool-app marketing pages.",
+   "image": "assets/shots/2026-11-02/27857688.jpg",
+   "title": "Arc Mobile Screens",
+   "url": "https://dribbble.com/shots/27857688-Arc-Mobile-Screens"
+  },
+  {
+   "author": "Nixtio",
+   "categories": [
+    "移动App"
+   ],
+   "comment": "单车租赁 App：3D 城市地图上叠放附近车辆与站点卡片，\"Nearby now\"、37 辆车、\"#45 Riverside Walk\" 站点信息一屏读完，地图类 App 的信息叠加层值得学。",
+   "comment_en": "Bike-rental app with a 3D city map layered with nearby-vehicle and station cards — \"Nearby now,\" 37 bikes, and the \"#45 Riverside Walk\" stop all readable at a glance; a lesson in map-overlay layering.",
+   "image": "assets/shots/2026-11-02/27856939.jpg",
+   "title": "Bike Rental & Navigation App UI Design",
+   "url": "https://dribbble.com/shots/27856939-Bike-Rental-Navigation-App-UI-Design"
+  },
+  {
+   "author": "Mahid",
+   "categories": [
+    "dashboard"
+   ],
+   "comment": "深色财务运营仪表盘 \"Vantage\"（视频）：现金流图表、资金跑道与预算面板同屏排布，金融后台的数据密度与留白平衡得不错。",
+   "comment_en": "Dark finance-ops dashboard \"Vantage\" (video): cash-flow charts, runway, and budget panels share one screen — a good balance of data density and breathing room for finance back offices.",
+   "image": "assets/shots/2026-11-02/27790082.jpg",
+   "title": "Dashboard UI Design",
+   "url": "https://dribbble.com/shots/27790082-Dashboard-UI-Design"
+  },
+  {
+   "author": "Halo UI/UX for HALO LAB",
+   "categories": [
+    "SaaS"
+   ],
+   "comment": "医疗公司 \"Satelia\" 官网（视频）：\"Remote patient support\" 主视觉配心脏监测板块与医生形象图，医疗类站点建立信任感的叙事节奏可参考。",
+   "comment_en": "Healthcare company site \"Satelia\" (video): \"Remote patient support\" hero with a heart-monitoring section and clinician imagery — a trust-building narrative rhythm worth borrowing for healthcare sites.",
+   "image": "assets/shots/2026-11-02/27857307.jpg",
+   "title": "Website for a Healthcare Company ✦ Satelia",
+   "url": "https://dribbble.com/shots/27857307-Website-for-a-Healthcare-Company-Satelia"
+  },
+  {
+   "author": "Zakariya Buhari",
+   "categories": [
+    "dashboard",
+    "SaaS"
+   ],
+   "comment": "小企业现金流仪表盘 \"Ledra\"：现金健康分 74、资金跑道 14.2 个月，余额/消耗/待收卡片配预测图表与待办提醒，SaaS 仪表盘把\"钱还剩多久\"讲得一目了然。",
+   "comment_en": "Small-business cash-flow dashboard \"Ledra\": health score 74, 14.2 months of runway, balance/burn/receivables cards with forecast charts and reminders — answers \"how long will the money last\" at a glance.",
+   "image": "assets/shots/2026-11-02/27854999.jpg",
+   "title": "Ledra: Cash-Flow Dashboard for Small Businesses",
+   "url": "https://dribbble.com/shots/27854999-Ledra-Cash-Flow-Dashboard-for-Small-Businesses"
+  },
+  {
+   "author": "Jahid Hasan",
+   "categories": [
+    "移动App"
+   ],
+   "comment": "旅行徒步 App 三屏动画流程（视频）：欢迎页→发现页→目的地详情与预订按钮，一镜到底的动效把\"想走就走\"的情绪拉满，出行类 App 的转场设计范例。",
+   "comment_en": "Travel/trekking app in a three-screen animated flow (video): welcome → discover → destination detail with a book button, one continuous take — the transitions sell the \"just go\" feeling, a reference for travel-app motion.",
+   "image": "assets/shots/2026-11-02/27853017.jpg",
+   "title": "Travel & Trekking Mobile App UI/UX – Animated Flow",
+   "url": "https://dribbble.com/shots/27853017-Travel-Trekking-Mobile-App-UI-UX-Animated-Flow"
+  },
+  {
+   "author": "JK Mahbub",
+   "categories": [
+    "AI"
+   ],
+   "comment": "AI 平台网站动效设计（视频）：深色 DevOps/云基础设施风，\"For Growing Tech Teams\" 开场，AI 工具类站点的深色质感与动效叙事可借鉴。",
+   "comment_en": "AI platform site motion design (video): dark DevOps/cloud-infra aesthetic opening on \"For Growing Tech Teams\" — dark-mode texture and motion storytelling worth borrowing for AI tool sites.",
+   "image": "assets/shots/2026-11-02/27851112.jpg",
+   "title": "AI Website | Motion",
+   "url": "https://dribbble.com/shots/27851112-AI-Website-Motion"
+  }
+ ]
+}

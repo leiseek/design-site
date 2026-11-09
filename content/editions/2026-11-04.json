@@ -1,1 +1,72 @@
-{"date":"2026-11-04","works":[{"author":"Phenomenon Labs for Phenomenon Studio","categories":["SaaS"],"comment":"金融资讯产品 MarketSnack 落地页：居中式首屏、大标题配双按钮，浅蓝白底加亮蓝点缀、流光线条背景，下方还给了定价与移动端适配展示；金融类落地页的首屏信息层级与多端展示组合值得参考。","comment_en":"Fintech landing page for MarketSnack: a centered hero with a big headline and dual CTAs, light blue-white surfaces with bright-blue accents over a flowing-line backdrop, plus pricing and mobile-adaptation sections below — a solid reference for hero hierarchy and multi-device presentation on finance landing pages.","image":"https://cdn.dribbble.com/userupload/49519928/file/d2afdb4f8fe37f0a97a3a0ca3d99dc8.png?format=webp&resize=400x300&vertical=center","title":"Fintech Landing Page Design – MarketSnack","url":"https://dribbble.com/shots/27863358-Fintech-Landing-Page-Design-MarketSnack"},{"author":"Permadi Satria Dewanto for Plainthing Studio","categories":["AI"],"comment":"AI 工作流自动化平台 Orvyn：深色多屏落地页拼贴，黑底配荧光绿点缀，中央节点式工作流图把自动化流程讲得很直观；AI 产品想讲清复杂流程时，这种“图示即卖点”的 Hero 值得借鉴。","comment_en":"Orvyn, an AI workflow automation platform: a dark multi-screen landing collage in black with neon-green accents, where a central node-based workflow diagram makes the automation flow instantly legible — a good model for AI products that need the diagram itself to sell a complex process.","image":"https://cdn.dribbble.com/userupload/49526009/file/bdcff6ff0c9a1f8e3d5f7a1d0e6e6e6.png?format=webp&resize=400x300&vertical=center","title":"Orvyn — AI Workflow Automation Platform","url":"https://dribbble.com/shots/27864885-Orvyn-AI-Workflow-Automation-Platform"},{"author":"Fahema Yesmin","categories":["电商"],"comment":"B2B 电商网站首页：白底配深绿与玫红点缀，顶部导航加搜索，浅蓝首屏下方是蓝紫绿三色品类卡片与商品网格；B2B 电商首页“搜索入口 + 品类卡 + 商品流”的标准骨架做得很干净。","comment_en":"B2B e-commerce homepage: a white layout with dark-green and magenta accents, top navigation plus search, a light-blue hero followed by blue, purple and green category cards and a product grid — a clean take on the standard B2B homepage skeleton of search entry, category cards and product flow.","image":"https://cdn.dribbble.com/userupload/49522237/file/c9c2e0d2d8e7f1f0d3f1e5b7c8a9f0a.jpg?format=webp&resize=400x300&vertical=center","title":"B2B Ecommerce Website","url":"https://dribbble.com/shots/27864077-B2B-Ecommerce-Website"},{"author":"Nixtio","categories":["dashboard","移动App"],"comment":"智能银行 App 与网页仪表盘：浅薄荷绿底的手持手机展示图，手机内是个人资料与总支出点状图表，两侧浮动交易卡片、绿色金额；“主界面 + 浮动交易卡”的展示构图，金融产品展示页可以直接抄。","comment_en":"Smart banking app plus web dashboard: a mint-background phone showcase where the handset shows a profile and a total-spending dotted chart, flanked by floating transaction cards with green amounts — the main-screen-plus-floating-cards composition is directly reusable for fintech showcase pages.","image":"https://cdn.dribbble.com/userupload/49520992/file/dd2bebb1efaf41fc93ba306e3b7ee5da.jpg?format=webp&resize=400x300&vertical=center","title":"Smart Banking App & Web Dashboard","url":"https://dribbble.com/shots/27863341-Smart-Banking-App-Web-Dashboard"},{"author":"Imran Hossen","categories":["dashboard"],"comment":"带 AI 的诊所管理 SaaS 仪表盘：浅暖灰底、黑白为主辅以柔和粉绿，顶部指标卡与折线图，前台看板与新建预约弹窗是亮点；医疗后台“指标 + 看板 + 快速新建”的三段式布局很值得抄。","comment_en":"Clinic-management SaaS dashboard with AI: a light warm-gray layout in black and white with soft pink and green accents, metric cards and a line chart on top, and a front-desk board plus a new-appointment modal as highlights — the metrics-plus-board-plus-quick-create trio is a pattern worth stealing for healthcare back offices.","image":"https://cdn.dribbble.com/userupload/49517053/file/8d6142f58914fc08f2125f58ecf0e206.png?format=webp&resize=400x300&vertical=center","title":"Healthcare Admin Dashboard – Clinic Management SaaS with AI","url":"https://dribbble.com/shots/27862166-Healthcare-Admin-Dashboard-Clinic-Management-SaaS-with-AI"},{"author":"Awe Mobile App for Awe Design Studio","categories":["移动App"],"comment":"医生预约 App：淡紫渐变底、亮紫点缀、白色卡片，左侧是即将到来的预约卡片与专科图标网格，右侧是医生搜索、筛选与含评分价格的医生列表；预约类 App 从“我的预约”到“找医生”的双屏流程很完整。","comment_en":"Doctor appointment app: a light-purple gradient backdrop with vivid purple accents and white cards — upcoming-appointment cards and a specialty icon grid on one screen, doctor search, filters and a rated, priced doctor list on the other; the two-screen flow from my appointments to finding a doctor feels complete.","image":"https://cdn.dribbble.com/userupload/49523409/file/3904fafaac32743df1bbda69532a1a25.png?format=webp&resize=400x300&vertical=center","title":"Doctor Appointment App","url":"https://dribbble.com/shots/27863969-Doctor-Appointment-App"}]}
+{
+ "date": "2026-11-04",
+ "works": [
+  {
+   "author": "Phenomenon Labs for Phenomenon Studio",
+   "categories": [
+    "SaaS"
+   ],
+   "comment": "金融资讯产品 MarketSnack 落地页：居中式首屏、大标题配双按钮，浅蓝白底加亮蓝点缀、流光线条背景，下方还给了定价与移动端适配展示；金融类落地页的首屏信息层级与多端展示组合值得参考。",
+   "comment_en": "Fintech landing page for MarketSnack: a centered hero with a big headline and dual CTAs, light blue-white surfaces with bright-blue accents over a flowing-line backdrop, plus pricing and mobile-adaptation sections below — a solid reference for hero hierarchy and multi-device presentation on finance landing pages.",
+   "image": "assets/shots/2026-11-04/27863358.jpg",
+   "title": "Fintech Landing Page Design – MarketSnack",
+   "url": "https://dribbble.com/shots/27863358-Fintech-Landing-Page-Design-MarketSnack"
+  },
+  {
+   "author": "Permadi Satria Dewanto for Plainthing Studio",
+   "categories": [
+    "AI"
+   ],
+   "comment": "AI 工作流自动化平台 Orvyn：深色多屏落地页拼贴，黑底配荧光绿点缀，中央节点式工作流图把自动化流程讲得很直观；AI 产品想讲清复杂流程时，这种“图示即卖点”的 Hero 值得借鉴。",
+   "comment_en": "Orvyn, an AI workflow automation platform: a dark multi-screen landing collage in black with neon-green accents, where a central node-based workflow diagram makes the automation flow instantly legible — a good model for AI products that need the diagram itself to sell a complex process.",
+   "image": "assets/shots/2026-11-04/27864885.jpg",
+   "title": "Orvyn — AI Workflow Automation Platform",
+   "url": "https://dribbble.com/shots/27864885-Orvyn-AI-Workflow-Automation-Platform"
+  },
+  {
+   "author": "Fahema Yesmin",
+   "categories": [
+    "电商"
+   ],
+   "comment": "B2B 电商网站首页：白底配深绿与玫红点缀，顶部导航加搜索，浅蓝首屏下方是蓝紫绿三色品类卡片与商品网格；B2B 电商首页“搜索入口 + 品类卡 + 商品流”的标准骨架做得很干净。",
+   "comment_en": "B2B e-commerce homepage: a white layout with dark-green and magenta accents, top navigation plus search, a light-blue hero followed by blue, purple and green category cards and a product grid — a clean take on the standard B2B homepage skeleton of search entry, category cards and product flow.",
+   "image": "assets/shots/2026-11-04/27864077.jpg",
+   "title": "B2B Ecommerce Website",
+   "url": "https://dribbble.com/shots/27864077-B2B-Ecommerce-Website"
+  },
+  {
+   "author": "Nixtio",
+   "categories": [
+    "dashboard",
+    "移动App"
+   ],
+   "comment": "智能银行 App 与网页仪表盘：浅薄荷绿底的手持手机展示图，手机内是个人资料与总支出点状图表，两侧浮动交易卡片、绿色金额；“主界面 + 浮动交易卡”的展示构图，金融产品展示页可以直接抄。",
+   "comment_en": "Smart banking app plus web dashboard: a mint-background phone showcase where the handset shows a profile and a total-spending dotted chart, flanked by floating transaction cards with green amounts — the main-screen-plus-floating-cards composition is directly reusable for fintech showcase pages.",
+   "image": "assets/shots/2026-11-04/27863341.jpg",
+   "title": "Smart Banking App & Web Dashboard",
+   "url": "https://dribbble.com/shots/27863341-Smart-Banking-App-Web-Dashboard"
+  },
+  {
+   "author": "Imran Hossen",
+   "categories": [
+    "dashboard"
+   ],
+   "comment": "带 AI 的诊所管理 SaaS 仪表盘：浅暖灰底、黑白为主辅以柔和粉绿，顶部指标卡与折线图，前台看板与新建预约弹窗是亮点；医疗后台“指标 + 看板 + 快速新建”的三段式布局很值得抄。",
+   "comment_en": "Clinic-management SaaS dashboard with AI: a light warm-gray layout in black and white with soft pink and green accents, metric cards and a line chart on top, and a front-desk board plus a new-appointment modal as highlights — the metrics-plus-board-plus-quick-create trio is a pattern worth stealing for healthcare back offices.",
+   "image": "assets/shots/2026-11-04/27862166.jpg",
+   "title": "Healthcare Admin Dashboard – Clinic Management SaaS with AI",
+   "url": "https://dribbble.com/shots/27862166-Healthcare-Admin-Dashboard-Clinic-Management-SaaS-with-AI"
+  },
+  {
+   "author": "Awe Mobile App for Awe Design Studio",
+   "categories": [
+    "移动App"
+   ],
+   "comment": "医生预约 App：淡紫渐变底、亮紫点缀、白色卡片，左侧是即将到来的预约卡片与专科图标网格，右侧是医生搜索、筛选与含评分价格的医生列表；预约类 App 从“我的预约”到“找医生”的双屏流程很完整。",
+   "comment_en": "Doctor appointment app: a light-purple gradient backdrop with vivid purple accents and white cards — upcoming-appointment cards and a specialty icon grid on one screen, doctor search, filters and a rated, priced doctor list on the other; the two-screen flow from my appointments to finding a doctor feels complete.",
+   "image": "assets/shots/2026-11-04/27863969.jpg",
+   "title": "Doctor Appointment App",
+   "url": "https://dribbble.com/shots/27863969-Doctor-Appointment-App"
+  }
+ ]
+}

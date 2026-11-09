@@ -85,14 +85,20 @@ def load_editions():
     return sorted(by_date.values(), key=lambda e: e["date"], reverse=True)
 
 
-def work_card(w, i):
+def work_card(w, i, img_prefix=""):
     keys = [CAT_KEY.get(c, "all") for c in w.get("categories", [])]
     cats = " ".join(keys)
     cat_zh = " · ".join(CAT_ZH.get(k, k) for k in keys)
     cat_en = " · ".join(CAT_EN.get(k, k) for k in keys)
     comment_en = w.get("comment_en") or w.get("comment") or ""
     if w.get("image"):
-        img = f'<img src="{esc(w["image"])}" alt="{esc(w["title"])}" loading="lazy">'
+        # Images are self-hosted under assets/shots/ (repo-root-relative).
+        # Edition pages live one level deeper, so they need a "../" prefix;
+        # absolute http(s) URLs are used as-is.
+        src = w["image"]
+        if not src.startswith(("http://", "https://", "/")):
+            src = img_prefix + src
+        img = f'<img src="{esc(src)}" alt="{esc(w["title"])}" loading="lazy">'
     else:
         img = f'<div class="noimg">{t2r("视频作品，无静态图<br>细节请看原作品页", "Video shot, no still image<br>see the original page for details")}</div>'
     return f"""<article class="work" data-cats="{esc(cats)}">
@@ -187,8 +193,8 @@ def meta_line(n_ed, n_works, d1, d2):
     return t2(zh, en)
 
 
-def grid(works):
-    return '<div class="grid">\n' + "\n".join(work_card(w, i + 1) for i, w in enumerate(works)) + "\n</div>"
+def grid(works, img_prefix=""):
+    return '<div class="grid">\n' + "\n".join(work_card(w, i + 1, img_prefix) for i, w in enumerate(works)) + "\n</div>"
 
 
 def main():
@@ -264,7 +270,7 @@ def main():
 </div>
 {toolbar()}
 <section class="section" data-edition="{esc(e['date'])}">
-  {grid(e['works'])}
+  {grid(e['works'], img_prefix="../")}
 </section>
 <div class="pager"><span>{prev_link}</span><span>{next_link}</span></div>"""
         (outdir / f"{e['date']}.html").write_text(

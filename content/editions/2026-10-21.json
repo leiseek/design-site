@@ -1,1 +1,72 @@
-{"date":"2026-10-21","works":[{"author":"Artspire","categories":["AI","移动App"],"comment":"AI 健康助手的产品形态和信息架构值得参考。顺手提一句，这个是视频作品，没有静态图，细节看原站。","comment_en":"The AI health assistant's product form and IA are worth referencing. Heads-up: this one is a video piece with no static shots — check the original site for details.","image":null,"title":"AI Health Assistant Mobile App Design","url":"https://dribbble.com/shots/27827186-AI-Health-Assistant-Mobile-App-Design"},{"author":"Awe Design Studio","categories":["电商"],"comment":"电商站的整体版式和商品陈列节奏。","comment_en":"Overall e-commerce layout and product-display rhythm.","image":"https://cdn.dribbble.com/userupload/49390150/file/fb7ee2c8580175c0e3c3fc3f6ae9fc37.png?resize=752x&vertical=center","title":"E-commerce Website","url":"https://dribbble.com/shots/27828372-E-commerce-Website"},{"author":"Jack R. for RonDesignLab","categories":["dashboard"],"comment":"财务类 dashboard 的图表组合和信息层级。","comment_en":"Chart combos and information hierarchy for finance dashboards.","image":"https://cdn.dribbble.com/userupload/49384431/file/f34b99f885fd1b76fe1c4e83dfb8868f.jpg?resize=752x&vertical=center","title":"Eilo - Finance managment Dashboard UI","url":"https://dribbble.com/shots/27826935-Eilo-Finance-managment-Dashboard-UI"},{"author":"Samuel Oktavianus","categories":["移动App"],"comment":"平板端科研系统这类功能型 UI 的骨架。","comment_en":"The skeleton of functional tablet UIs like this research system.","image":"https://cdn.dribbble.com/userupload/49354301/file/483e853bfbcd4379f2be4e0ff7e462a3.png?resize=752x&vertical=center","title":"ordivalabs: Automated Biotech Laboratory Systems - Tablet UI","url":"https://dribbble.com/shots/27819536-ordivalabs-Automated-Biotech-Laboratory-Systems-Tablet-UI"},{"author":"Kris Anfalova","categories":["SaaS"],"comment":"B2B SaaS 落地页的叙事结构。","comment_en":"Narrative structure for B2B SaaS landing pages.","image":"https://cdn.dribbble.com/userupload/49390941/file/a3a7fe075eea9b81ffc2ce1c240685ec.png?resize=752x&vertical=center","title":"Website Design — B2B Data Engineering Consultancy","url":"https://dribbble.com/shots/27828553-Website-Design-B2B-Data-Engineering-Consultancy"},{"author":"Purrweb UI/UX Agency","categories":["移动App"],"comment":"金融类 App 的视觉体系和组件密度。","comment_en":"Visual system and component density for fintech apps.","image":"https://cdn.dribbble.com/userupload/49385498/file/68d541ca8a552e81315c49c96d1270bd.png?resize=752x&vertical=center","title":"Gold Trading Mobile iOS App Design","url":"https://dribbble.com/shots/27827227-Gold-Trading-Mobile-iOS-App-Design"}]}
+{
+ "date": "2026-10-21",
+ "works": [
+  {
+   "author": "Artspire",
+   "categories": [
+    "AI",
+    "移动App"
+   ],
+   "comment": "AI 健康助手的产品形态和信息架构值得参考。顺手提一句，这个是视频作品，没有静态图，细节看原站。",
+   "comment_en": "The AI health assistant's product form and IA are worth referencing. Heads-up: this one is a video piece with no static shots — check the original site for details.",
+   "image": null,
+   "title": "AI Health Assistant Mobile App Design",
+   "url": "https://dribbble.com/shots/27827186-AI-Health-Assistant-Mobile-App-Design"
+  },
+  {
+   "author": "Awe Design Studio",
+   "categories": [
+    "电商"
+   ],
+   "comment": "电商站的整体版式和商品陈列节奏。",
+   "comment_en": "Overall e-commerce layout and product-display rhythm.",
+   "image": "assets/shots/2026-10-21/27828372.jpg",
+   "title": "E-commerce Website",
+   "url": "https://dribbble.com/shots/27828372-E-commerce-Website"
+  },
+  {
+   "author": "Jack R. for RonDesignLab",
+   "categories": [
+    "dashboard"
+   ],
+   "comment": "财务类 dashboard 的图表组合和信息层级。",
+   "comment_en": "Chart combos and information hierarchy for finance dashboards.",
+   "image": "assets/shots/2026-10-21/27826935.jpg",
+   "title": "Eilo - Finance managment Dashboard UI",
+   "url": "https://dribbble.com/shots/27826935-Eilo-Finance-managment-Dashboard-UI"
+  },
+  {
+   "author": "Samuel Oktavianus",
+   "categories": [
+    "移动App"
+   ],
+   "comment": "平板端科研系统这类功能型 UI 的骨架。",
+   "comment_en": "The skeleton of functional tablet UIs like this research system.",
+   "image": "assets/shots/2026-10-21/27819536.jpg",
+   "title": "ordivalabs: Automated Biotech Laboratory Systems - Tablet UI",
+   "url": "https://dribbble.com/shots/27819536-ordivalabs-Automated-Biotech-Laboratory-Systems-Tablet-UI"
+  },
+  {
+   "author": "Kris Anfalova",
+   "categories": [
+    "SaaS"
+   ],
+   "comment": "B2B SaaS 落地页的叙事结构。",
+   "comment_en": "Narrative structure for B2B SaaS landing pages.",
+   "image": "assets/shots/2026-10-21/27828553.jpg",
+   "title": "Website Design — B2B Data Engineering Consultancy",
+   "url": "https://dribbble.com/shots/27828553-Website-Design-B2B-Data-Engineering-Consultancy"
+  },
+  {
+   "author": "Purrweb UI/UX Agency",
+   "categories": [
+    "移动App"
+   ],
+   "comment": "金融类 App 的视觉体系和组件密度。",
+   "comment_en": "Visual system and component density for fintech apps.",
+   "image": "assets/shots/2026-10-21/27827227.jpg",
+   "title": "Gold Trading Mobile iOS App Design",
+   "url": "https://dribbble.com/shots/27827227-Gold-Trading-Mobile-iOS-App-Design"
+  }
+ ]
+}

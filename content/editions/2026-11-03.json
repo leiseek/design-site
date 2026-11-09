@@ -1,1 +1,72 @@
-{"date":"2026-11-03","works":[{"author":"Nixtio","categories":["电商","移动App"],"comment":"深色高端咖啡电商 App：商品页用\"Roasted the day you order\"讲烘焙故事、购物车里内嵌优惠码行、结账按钮常驻不消失；内容型电商可以借鉴这种把编辑感商品 Hero 嵌进购买流的做法。","comment_en":"Dark, premium coffee-commerce app: \"Roasted the day you order\" product storytelling, a promo-code row inside the cart, and a persistent checkout CTA — a case for embedding editorial product heroes into the purchase flow.","image":"https://cdn.dribbble.com/userupload/49501884/file/4fa4e4a874bd6a01e1f514d86b26a79e.jpg?format=webp&resize=400x300&vertical=center","title":"Coffee Shop eCommerce Mobile App UI Design","url":"https://dribbble.com/shots/27858230-Coffee-Shop-eCommerce-Mobile-App-UI-Design"},{"author":"Ronas IT | UI/UX Team","categories":["移动App"],"comment":"医疗预约 App：开屏\"Better care. Less waiting.\"配日历式预约流程，时段选择与单次价格明示，健康总览还带了微型趋势图；预约类 App 的日期/时段选择器模式值得抄。","comment_en":"Health booking app: \"Better care. Less waiting.\" onboarding plus a calendar booking flow with time slots and per-visit pricing, health-overview sparklines on top — the date/time-slot picker is a pattern worth stealing for booking apps.","image":"https://cdn.dribbble.com/userupload/49444181/file/still-eae0c24457783e3972df3008c06866c6.png?format=webp&resize=400x300&vertical=center","title":"Health App - Doctor Appointment Booking","url":"https://dribbble.com/shots/27842782-Health-App-Doctor-Appointment-Booking"},{"author":"Mako Tsereteli","categories":["移动App"],"comment":"记账预算 App 的 3D 拆解展示：玻璃拟态界面以爆炸视角呈现手机内部层级，用景深讲 App 的信息架构；把复杂金融流程做得可触摸，作品集或产品展示页可借鉴。","comment_en":"A budget app rendered in exploded 3D: glassmorphism UI with phone layers pulled apart to visualize information architecture — depth and layering make complex fintech flows feel tangible; worth borrowing for portfolio showcases.","image":"https://cdn.dribbble.com/userupload/49505852/file/90324355f7d643a0442f04a9b15a8f59.png?format=webp&resize=400x300&vertical=center","title":"3D App Design","url":"https://dribbble.com/shots/27859246-3D-App-Design"},{"author":"Xopher Molitor for Heyo","categories":["移动App"],"comment":"Govee 智能家居 App 重设计概念：深色设备网格，每个灯具都是一块发光的方块，用明暗与色彩而非文字表达开/关与亮度状态；IoT 产品表达设备状态的强模式。","comment_en":"A Govee smart-home app redesign concept: a dark device grid where each lamp is a glowing tile — on/off and brightness communicated through luminosity and color rather than text; a strong IoT pattern for expressing device state.","image":"https://cdn.dribbble.com/userupload/49504745/file/still-d77d522e49afc10b32261a6f6345c8d2.png?format=webp&resize=400x300&vertical=center","title":"Govee App Redesign Concept","url":"https://dribbble.com/shots/27858913-Govee-App-Redesign-Concept"},{"author":"Bayu Aji Sadewa for Korsa","categories":["SaaS"],"comment":"康养品牌 Velora 落地页：满屏自然意象、超大衬线标题配悬浮玻璃拟态卡片；编辑感排版加悬浮 UI 卡的 Hero 组合，把产品深度传达出来了，落地页设计可参考。","comment_en":"Wellness landing page for Velora: full-bleed nature imagery, an oversized serif headline, and floating glassmorphic cards — the editorial-typography-plus-floating-UI hero composition conveys product depth; worth studying for landing pages.","image":"https://cdn.dribbble.com/userupload/49515438/file/fe5e992ddbd32fa8fdb1947ff91e5883.png?format=webp&resize=400x300&vertical=center","title":"Velora - Wellness Landing Page","url":"https://dribbble.com/shots/27861668-Velora-Wellness-Landing-Page"},{"author":"Permadi Satria Dewanto for Plainthing Studio","categories":["AI"],"comment":"AI 心理健康平台 Solma（动效展示）：柔和的天空蓝配色、\"Completely anonymous\"的信任优先文案、Hero 里悬浮的对话卡片；敏感型 AI 产品的配色系统与文案调性可参考。","comment_en":"AI mental-health platform Solma (animated showcase): a soft sky-blue palette, trust-first \"Completely anonymous\" positioning, and floating conversational cards in the hero — a color system and copy tone worth borrowing for sensitive AI products.","image":"https://cdn.dribbble.com/userupload/49515230/file/still-2ab40b65faf14e8abf5948a7f5318fd7.png?format=webp&resize=400x300&vertical=center","title":"Solma Web Animation - Your mental-health friend","url":"https://dribbble.com/shots/27861611-Solma-Web-Animation-Your-mental-health-friend"}]}
+{
+ "date": "2026-11-03",
+ "works": [
+  {
+   "author": "Nixtio",
+   "categories": [
+    "电商",
+    "移动App"
+   ],
+   "comment": "深色高端咖啡电商 App：商品页用\"Roasted the day you order\"讲烘焙故事、购物车里内嵌优惠码行、结账按钮常驻不消失；内容型电商可以借鉴这种把编辑感商品 Hero 嵌进购买流的做法。",
+   "comment_en": "Dark, premium coffee-commerce app: \"Roasted the day you order\" product storytelling, a promo-code row inside the cart, and a persistent checkout CTA — a case for embedding editorial product heroes into the purchase flow.",
+   "image": "assets/shots/2026-11-03/27858230.jpg",
+   "title": "Coffee Shop eCommerce Mobile App UI Design",
+   "url": "https://dribbble.com/shots/27858230-Coffee-Shop-eCommerce-Mobile-App-UI-Design"
+  },
+  {
+   "author": "Ronas IT | UI/UX Team",
+   "categories": [
+    "移动App"
+   ],
+   "comment": "医疗预约 App：开屏\"Better care. Less waiting.\"配日历式预约流程，时段选择与单次价格明示，健康总览还带了微型趋势图；预约类 App 的日期/时段选择器模式值得抄。",
+   "comment_en": "Health booking app: \"Better care. Less waiting.\" onboarding plus a calendar booking flow with time slots and per-visit pricing, health-overview sparklines on top — the date/time-slot picker is a pattern worth stealing for booking apps.",
+   "image": "assets/shots/2026-11-03/27842782.jpg",
+   "title": "Health App - Doctor Appointment Booking",
+   "url": "https://dribbble.com/shots/27842782-Health-App-Doctor-Appointment-Booking"
+  },
+  {
+   "author": "Mako Tsereteli",
+   "categories": [
+    "移动App"
+   ],
+   "comment": "记账预算 App 的 3D 拆解展示：玻璃拟态界面以爆炸视角呈现手机内部层级，用景深讲 App 的信息架构；把复杂金融流程做得可触摸，作品集或产品展示页可借鉴。",
+   "comment_en": "A budget app rendered in exploded 3D: glassmorphism UI with phone layers pulled apart to visualize information architecture — depth and layering make complex fintech flows feel tangible; worth borrowing for portfolio showcases.",
+   "image": "assets/shots/2026-11-03/27859246.jpg",
+   "title": "3D App Design",
+   "url": "https://dribbble.com/shots/27859246-3D-App-Design"
+  },
+  {
+   "author": "Xopher Molitor for Heyo",
+   "categories": [
+    "移动App"
+   ],
+   "comment": "Govee 智能家居 App 重设计概念：深色设备网格，每个灯具都是一块发光的方块，用明暗与色彩而非文字表达开/关与亮度状态；IoT 产品表达设备状态的强模式。",
+   "comment_en": "A Govee smart-home app redesign concept: a dark device grid where each lamp is a glowing tile — on/off and brightness communicated through luminosity and color rather than text; a strong IoT pattern for expressing device state.",
+   "image": "assets/shots/2026-11-03/27858913.jpg",
+   "title": "Govee App Redesign Concept",
+   "url": "https://dribbble.com/shots/27858913-Govee-App-Redesign-Concept"
+  },
+  {
+   "author": "Bayu Aji Sadewa for Korsa",
+   "categories": [
+    "SaaS"
+   ],
+   "comment": "康养品牌 Velora 落地页：满屏自然意象、超大衬线标题配悬浮玻璃拟态卡片；编辑感排版加悬浮 UI 卡的 Hero 组合，把产品深度传达出来了，落地页设计可参考。",
+   "comment_en": "Wellness landing page for Velora: full-bleed nature imagery, an oversized serif headline, and floating glassmorphic cards — the editorial-typography-plus-floating-UI hero composition conveys product depth; worth studying for landing pages.",
+   "image": "assets/shots/2026-11-03/27861668.jpg",
+   "title": "Velora - Wellness Landing Page",
+   "url": "https://dribbble.com/shots/27861668-Velora-Wellness-Landing-Page"
+  },
+  {
+   "author": "Permadi Satria Dewanto for Plainthing Studio",
+   "categories": [
+    "AI"
+   ],
+   "comment": "AI 心理健康平台 Solma（动效展示）：柔和的天空蓝配色、\"Completely anonymous\"的信任优先文案、Hero 里悬浮的对话卡片；敏感型 AI 产品的配色系统与文案调性可参考。",
+   "comment_en": "AI mental-health platform Solma (animated showcase): a soft sky-blue palette, trust-first \"Completely anonymous\" positioning, and floating conversational cards in the hero — a color system and copy tone worth borrowing for sensitive AI products.",
+   "image": "assets/shots/2026-11-03/27861611.jpg",
+   "title": "Solma Web Animation - Your mental-health friend",
+   "url": "https://dribbble.com/shots/27861611-Solma-Web-Animation-Your-mental-health-friend"
+  }
+ ]
+}

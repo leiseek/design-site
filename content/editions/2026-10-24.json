@@ -1,1 +1,73 @@
-{"date":"2026-10-24","works":[{"author":"Nixtio","categories":["dashboard"],"comment":"卫星地图 + 附近站点卡 + 骑行记录，地图类产品的三段式布局很干净。","comment_en":"Satellite map plus nearby-station cards plus ride history — a clean three-part layout for map products.","image":"https://cdn.dribbble.com/userupload/49416639/file/e79b70e448176ed1e9225cd04779f040.jpg","title":"Bike Rental Web App Dashboard Design","url":"https://dribbble.com/shots/27835520-Bike-Rental-Web-App-Dashboard-Design"},{"author":"Phenomenon Labs for Phenomenon Studio","categories":["SaaS"],"comment":"紫色双色调统一图片与图标，硬核基建题材也能做得克制干净。","comment_en":"A purple duotone unifies imagery and icons — proof that hardcore infrastructure topics can stay restrained and clean.","image":"https://cdn.dribbble.com/userupload/49417410/file/87e46323a8ca748695b486e145d153c8.png","title":"Website Design for Infrastructure Company – Krios","url":"https://dribbble.com/shots/27835756-Website-Design-for-Infrastructure-Company-Krios"},{"author":"AmazingUI","categories":["AI","移动App"],"comment":"生鲜按斤称重的步进器设计很细，底部悬浮购物车收尾干净。","comment_en":"The by-weight stepper for fresh produce is finely detailed, and the floating bottom cart wraps it up cleanly.","image":"https://cdn.dribbble.com/userupload/49412141/file/2b3610676f39670e9760a98e41d2d5be.png","title":"Agentic AI App - Ordering Groceries","url":"https://dribbble.com/shots/27834262-Agentic-AI-App-Ordering-Groceries-by-AmazingUI"},{"author":"Visumind Creative","categories":["电商"],"comment":"植物护肤 DTC：大字衬线标题 + 功效数据卡，优雅又带转化。","comment_en":"Botanical skincare DTC: big serif headlines plus benefit data cards — elegant and conversion-minded.","image":"https://cdn.dribbble.com/userupload/49416503/file/8135e7816dc6d57f7cd2ae7c9e70d9d0.jpg","title":"Skincare E-commerce Website","url":"https://dribbble.com/shots/27835463-Skincare-E-commerce-Website-UI-UX-Responsive-Design"},{"author":"Alamin Hossen","categories":["AI","SaaS"],"comment":"雾林视觉 + 柔和绿调的 Tiimo 规划工具落地页，氛围感做法值得抄。","comment_en":"Tiimo planner landing page in misty-forest visuals and soft greens — the atmosphere craft is worth stealing.","image":"https://cdn.dribbble.com/userupload/49414356/file/3b286de802defeea94814a7b1cb12ba5.png","title":"AI Planner Website UI/UX Design","url":"https://dribbble.com/shots/27834815-AI-Planner-Website-UI-UX-Design"},{"author":"Purrweb UI/UX Agency","categories":["移动App"],"comment":"暗黑钓鱼预报 App：峰值时段仪表盘 + 钓点评分，小众垂直类 App 的数据可视化参考。","comment_en":"Dark fishing-forecast app: peak-hour dashboard plus spot ratings — a data-viz reference for niche vertical apps.","image":"https://cdn.dribbble.com/userupload/49414607/file/still-79e2e4a9772b625917b47d4d789d07b1.png","title":"Fishing Forecast Mobile iOS App Design","url":"https://dribbble.com/shots/27834898-Fishing-Forecast-Mobile-iOS-App-Design"}]}
+{
+ "date": "2026-10-24",
+ "works": [
+  {
+   "author": "Nixtio",
+   "categories": [
+    "dashboard"
+   ],
+   "comment": "卫星地图 + 附近站点卡 + 骑行记录，地图类产品的三段式布局很干净。",
+   "comment_en": "Satellite map plus nearby-station cards plus ride history — a clean three-part layout for map products.",
+   "image": "assets/shots/2026-10-24/27835520.jpg",
+   "title": "Bike Rental Web App Dashboard Design",
+   "url": "https://dribbble.com/shots/27835520-Bike-Rental-Web-App-Dashboard-Design"
+  },
+  {
+   "author": "Phenomenon Labs for Phenomenon Studio",
+   "categories": [
+    "SaaS"
+   ],
+   "comment": "紫色双色调统一图片与图标，硬核基建题材也能做得克制干净。",
+   "comment_en": "A purple duotone unifies imagery and icons — proof that hardcore infrastructure topics can stay restrained and clean.",
+   "image": "assets/shots/2026-10-24/27835756.jpg",
+   "title": "Website Design for Infrastructure Company – Krios",
+   "url": "https://dribbble.com/shots/27835756-Website-Design-for-Infrastructure-Company-Krios"
+  },
+  {
+   "author": "AmazingUI",
+   "categories": [
+    "AI",
+    "移动App"
+   ],
+   "comment": "生鲜按斤称重的步进器设计很细，底部悬浮购物车收尾干净。",
+   "comment_en": "The by-weight stepper for fresh produce is finely detailed, and the floating bottom cart wraps it up cleanly.",
+   "image": "assets/shots/2026-10-24/27834262.jpg",
+   "title": "Agentic AI App - Ordering Groceries",
+   "url": "https://dribbble.com/shots/27834262-Agentic-AI-App-Ordering-Groceries-by-AmazingUI"
+  },
+  {
+   "author": "Visumind Creative",
+   "categories": [
+    "电商"
+   ],
+   "comment": "植物护肤 DTC：大字衬线标题 + 功效数据卡，优雅又带转化。",
+   "comment_en": "Botanical skincare DTC: big serif headlines plus benefit data cards — elegant and conversion-minded.",
+   "image": "assets/shots/2026-10-24/27835463.jpg",
+   "title": "Skincare E-commerce Website",
+   "url": "https://dribbble.com/shots/27835463-Skincare-E-commerce-Website-UI-UX-Responsive-Design"
+  },
+  {
+   "author": "Alamin Hossen",
+   "categories": [
+    "AI",
+    "SaaS"
+   ],
+   "comment": "雾林视觉 + 柔和绿调的 Tiimo 规划工具落地页，氛围感做法值得抄。",
+   "comment_en": "Tiimo planner landing page in misty-forest visuals and soft greens — the atmosphere craft is worth stealing.",
+   "image": "assets/shots/2026-10-24/27834815.jpg",
+   "title": "AI Planner Website UI/UX Design",
+   "url": "https://dribbble.com/shots/27834815-AI-Planner-Website-UI-UX-Design"
+  },
+  {
+   "author": "Purrweb UI/UX Agency",
+   "categories": [
+    "移动App"
+   ],
+   "comment": "暗黑钓鱼预报 App：峰值时段仪表盘 + 钓点评分，小众垂直类 App 的数据可视化参考。",
+   "comment_en": "Dark fishing-forecast app: peak-hour dashboard plus spot ratings — a data-viz reference for niche vertical apps.",
+   "image": "assets/shots/2026-10-24/27834898.jpg",
+   "title": "Fishing Forecast Mobile iOS App Design",
+   "url": "https://dribbble.com/shots/27834898-Fishing-Forecast-Mobile-iOS-App-Design"
+  }
+ ]
+}

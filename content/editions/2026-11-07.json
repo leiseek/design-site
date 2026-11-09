@@ -1,1 +1,72 @@
-{"date":"2026-11-07","works":[{"author":"Nixtio","categories":["移动App"],"comment":"加密钱包质押 App：暖金橄榄渐变底上斜放多部手机，中央屏余额 $17,340、Send/Request 按钮与折线图一目了然；左侧质押数字键盘配“Swipe to Trade”，右侧再叠一层面积图；金融 App 用“斜放多屏、一屏一功能”的拼贴，把余额、质押、交易三件事一次讲清。","comment_en":"Crypto wallet and staking app: several phone screens float at an angle over a warm gold-olive gradient — the center screen shows a $17,340 balance with Send/Request buttons and a line chart, the left one a staking keypad with \"Swipe to Trade\", the right one an area chart — a \"one screen, one job\" collage that tells balance, staking and trading in a single glance.","image":"https://cdn.dribbble.com/userupload/49543327/file/55958bf24772ddc8e75866a1ab932a3a.jpg?resize=752x&vertical=center","title":"Crypto Wallet & Staking Mobile App UI Design","url":"https://dribbble.com/shots/27869110-Crypto-Wallet-Staking-Mobile-App-UI-Design"},{"author":"Tanvir for Yscale Studio","categories":["SaaS"],"comment":"数字银行官网 Sprig：深森林绿底，大标题“Banking that works as hard as you do”，4.20% 利率与 $250,000 存款数字直接当卖点；生活方式照片配浅绿卡片，金融官网用深绿做信任感、再用真实照片拉近距离的组合很稳。","comment_en":"Sprig digital banking site: a deep forest-green page headlined \"Banking that works as hard as you do\", leading with a 4.20% rate and a $250,000 deposit figure; lifestyle photos and pale-green cards soften the finance — dark green for trust, real photography for warmth, a steady fintech homepage pairing.","image":"https://cdn.dribbble.com/userupload/49554071/file/8b3c85e1fe64821ea874e32d4802eb1b.png?resize=752x&vertical=center","title":"Sprig — Modern Digital Banking Website Design","url":"https://dribbble.com/shots/27871810-Sprig-Modern-Digital-Banking-Website-Design"},{"author":"Alamin Hossen","categories":["SaaS","AI"],"comment":"AI 语音转文字 SaaS 定价页：浅灰底上 Starter / Pro / Team 三档并列，Pro 卡用黑色“Go Pro Plan”按钮高亮，$0、$14.99、$29.99 三档价格一目了然；SaaS 定价页“中间档加粗、切换入口放顶部”的经典排布，干净利落。","comment_en":"AI voice-to-text SaaS pricing page: Starter, Pro and Team tiers sit side by side on a light gray page, the Pro card highlighted with a black \"Go Pro Plan\" button and prices of $0, $14.99 and $29.99; the classic \"spotlight the middle tier, put the toggle up top\" pricing layout, cleanly executed.","image":"https://cdn.dribbble.com/userupload/49551627/file/da0efca5f9d8dcd3ad4b1aa30e2e1a5a.png?resize=752x&vertical=center","title":"SaaS Pricing Page UI/UX — AI Voice to Text Platform","url":"https://dribbble.com/shots/27870815-SaaS-Pricing-Page-UI-UX-AI-Voice-to-Text-Platform"},{"author":"Husain","categories":["AI"],"comment":"AI 植被管理网站：黑白技术插画风配一枚红色太阳圆点，大标题“SEE EVERY TREE NEAR YOUR POWER LINES”，输电塔与树木线稿、2,936 / 48 / 63% 三组数据；冷门工业题材用插画风讲 AI 巡检，比堆仪表盘截图有记忆点得多。","comment_en":"AI vegetation-management website: a black-and-white technical-illustration style with a single red sun, headlined \"SEE EVERY TREE NEAR YOUR POWER LINES\", power-line towers and tree linework beside figures like 2,936 / 48 / 63%; an unglamorous industrial topic made memorable by illustration instead of dashboard screenshots.","image":"https://cdn.dribbble.com/userupload/49553010/file/1ee6c5e94d9ab4f3c1f3f8eebaf0c54f.jpg?resize=752x&vertical=center","title":"AI-Powered Vegetation Management Website","url":"https://dribbble.com/shots/27871396-AI-Powered-Vegetation-Management-Website"},{"author":"Uzzal (AI Product Designer)","categories":["移动App"],"comment":"活动发现 App：奶油底色上三部手机并排，“Discover Amazing Events Near You”配“AI Global Leadership Summit”活动卡片，橙色 CTA 与圆角图片点出主操作；票务类 App 用暖底色加一枚高饱和 CTA 的组合，浏览感很轻。","comment_en":"Event-discovery app: three phones on a cream backdrop — \"Discover Amazing Events Near You\" with an \"AI Global Leadership Summit\" event card, orange CTAs and rounded imagery; a warm base with one high-saturation accent makes browsing for tickets feel light.","image":"https://cdn.dribbble.com/userupload/49550882/file/3e6e2b3e3c39acde9acbd8de6b0ca58d.jpg?resize=752x&vertical=center","title":"Event Discovery App UI – Explore Events & Book Tickets Mobile","url":"https://dribbble.com/shots/27870748-Event-Discovery-App-UI-Explore-Events-Book-Tickets-Mobile"},{"author":"Habibur Rahman (AI Product Designer)","categories":["移动App"],"comment":"网络安全学习 App HackLab：深红黑底三部手机，登录页“Welcome Back! Master Ethical Hacking”，课程页按 Networking / Linux 分类、配 Learning Hours 柱状图，末屏 IBM 证书与成就徽章；学习类 App 把“证书”当作视觉终点，激励链路很完整。","comment_en":"HackLab cybersecurity-learning app: three phones on a deep red-black backdrop — a \"Welcome Back! Master Ethical Hacking\" login, a course page split by Networking and Linux with a Learning Hours bar chart, and an IBM certificate page with achievement badges; ending the flow on the certificate makes the motivation loop feel complete.","image":"https://cdn.dribbble.com/userupload/49550043/file/834196dcb1ffda951a2e412b0fcef2f4.png?resize=752x&vertical=center","title":"HackLab Mobile App Design Explore Cybersecurity, Network Defense","url":"https://dribbble.com/shots/27870722-HackLab-Cybersecurity-Learning-Mobile-App-UI"}]}
+{
+ "date": "2026-11-07",
+ "works": [
+  {
+   "author": "Nixtio",
+   "categories": [
+    "移动App"
+   ],
+   "comment": "加密钱包质押 App：暖金橄榄渐变底上斜放多部手机，中央屏余额 $17,340、Send/Request 按钮与折线图一目了然；左侧质押数字键盘配“Swipe to Trade”，右侧再叠一层面积图；金融 App 用“斜放多屏、一屏一功能”的拼贴，把余额、质押、交易三件事一次讲清。",
+   "comment_en": "Crypto wallet and staking app: several phone screens float at an angle over a warm gold-olive gradient — the center screen shows a $17,340 balance with Send/Request buttons and a line chart, the left one a staking keypad with \"Swipe to Trade\", the right one an area chart — a \"one screen, one job\" collage that tells balance, staking and trading in a single glance.",
+   "image": "assets/shots/2026-11-07/27869110.jpg",
+   "title": "Crypto Wallet & Staking Mobile App UI Design",
+   "url": "https://dribbble.com/shots/27869110-Crypto-Wallet-Staking-Mobile-App-UI-Design"
+  },
+  {
+   "author": "Tanvir for Yscale Studio",
+   "categories": [
+    "SaaS"
+   ],
+   "comment": "数字银行官网 Sprig：深森林绿底，大标题“Banking that works as hard as you do”，4.20% 利率与 $250,000 存款数字直接当卖点；生活方式照片配浅绿卡片，金融官网用深绿做信任感、再用真实照片拉近距离的组合很稳。",
+   "comment_en": "Sprig digital banking site: a deep forest-green page headlined \"Banking that works as hard as you do\", leading with a 4.20% rate and a $250,000 deposit figure; lifestyle photos and pale-green cards soften the finance — dark green for trust, real photography for warmth, a steady fintech homepage pairing.",
+   "image": "assets/shots/2026-11-07/27871810.jpg",
+   "title": "Sprig — Modern Digital Banking Website Design",
+   "url": "https://dribbble.com/shots/27871810-Sprig-Modern-Digital-Banking-Website-Design"
+  },
+  {
+   "author": "Alamin Hossen",
+   "categories": [
+    "SaaS",
+    "AI"
+   ],
+   "comment": "AI 语音转文字 SaaS 定价页：浅灰底上 Starter / Pro / Team 三档并列，Pro 卡用黑色“Go Pro Plan”按钮高亮，$0、$14.99、$29.99 三档价格一目了然；SaaS 定价页“中间档加粗、切换入口放顶部”的经典排布，干净利落。",
+   "comment_en": "AI voice-to-text SaaS pricing page: Starter, Pro and Team tiers sit side by side on a light gray page, the Pro card highlighted with a black \"Go Pro Plan\" button and prices of $0, $14.99 and $29.99; the classic \"spotlight the middle tier, put the toggle up top\" pricing layout, cleanly executed.",
+   "image": "assets/shots/2026-11-07/27870815.jpg",
+   "title": "SaaS Pricing Page UI/UX — AI Voice to Text Platform",
+   "url": "https://dribbble.com/shots/27870815-SaaS-Pricing-Page-UI-UX-AI-Voice-to-Text-Platform"
+  },
+  {
+   "author": "Husain",
+   "categories": [
+    "AI"
+   ],
+   "comment": "AI 植被管理网站：黑白技术插画风配一枚红色太阳圆点，大标题“SEE EVERY TREE NEAR YOUR POWER LINES”，输电塔与树木线稿、2,936 / 48 / 63% 三组数据；冷门工业题材用插画风讲 AI 巡检，比堆仪表盘截图有记忆点得多。",
+   "comment_en": "AI vegetation-management website: a black-and-white technical-illustration style with a single red sun, headlined \"SEE EVERY TREE NEAR YOUR POWER LINES\", power-line towers and tree linework beside figures like 2,936 / 48 / 63%; an unglamorous industrial topic made memorable by illustration instead of dashboard screenshots.",
+   "image": "assets/shots/2026-11-07/27871396.jpg",
+   "title": "AI-Powered Vegetation Management Website",
+   "url": "https://dribbble.com/shots/27871396-AI-Powered-Vegetation-Management-Website"
+  },
+  {
+   "author": "Uzzal (AI Product Designer)",
+   "categories": [
+    "移动App"
+   ],
+   "comment": "活动发现 App：奶油底色上三部手机并排，“Discover Amazing Events Near You”配“AI Global Leadership Summit”活动卡片，橙色 CTA 与圆角图片点出主操作；票务类 App 用暖底色加一枚高饱和 CTA 的组合，浏览感很轻。",
+   "comment_en": "Event-discovery app: three phones on a cream backdrop — \"Discover Amazing Events Near You\" with an \"AI Global Leadership Summit\" event card, orange CTAs and rounded imagery; a warm base with one high-saturation accent makes browsing for tickets feel light.",
+   "image": "assets/shots/2026-11-07/27870748.jpg",
+   "title": "Event Discovery App UI – Explore Events & Book Tickets Mobile",
+   "url": "https://dribbble.com/shots/27870748-Event-Discovery-App-UI-Explore-Events-Book-Tickets-Mobile"
+  },
+  {
+   "author": "Habibur Rahman (AI Product Designer)",
+   "categories": [
+    "移动App"
+   ],
+   "comment": "网络安全学习 App HackLab：深红黑底三部手机，登录页“Welcome Back! Master Ethical Hacking”，课程页按 Networking / Linux 分类、配 Learning Hours 柱状图，末屏 IBM 证书与成就徽章；学习类 App 把“证书”当作视觉终点，激励链路很完整。",
+   "comment_en": "HackLab cybersecurity-learning app: three phones on a deep red-black backdrop — a \"Welcome Back! Master Ethical Hacking\" login, a course page split by Networking and Linux with a Learning Hours bar chart, and an IBM certificate page with achievement badges; ending the flow on the certificate makes the motivation loop feel complete.",
+   "image": "assets/shots/2026-11-07/27870722.jpg",
+   "title": "HackLab Mobile App Design Explore Cybersecurity, Network Defense",
+   "url": "https://dribbble.com/shots/27870722-HackLab-Cybersecurity-Learning-Mobile-App-UI"
+  }
+ ]
+}
